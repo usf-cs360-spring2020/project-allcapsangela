@@ -1,0 +1,40 @@
+Considering the 2014 Wals dataset https://wals.info/download
+
+But this has 190 language features, 2680 languages, and the values excel file has 76k rows.
+Probably not feasible to work with -- would require too much data filtering.
+
+https://www.kaggle.com/rtatman/world-atlas-of-language-structures Looks like an alternate link thereto.
+
+Endangered languages -- around 2500 languages
+https://medium.com/storythings-ltd/how-we-made-our-disappearing-languages-data-visualization-d9f22e0580c
+https://interactive.howwegettonext.com/endangeredlanguages/
+https://www.theguardian.com/news/datablog/2011/apr/15/language-extinct-endangered#data
+https://docs.google.com/spreadsheets/d/1mUYwl5ZUTp2OHDr0hsco89YY5J8Qx2GWzTLFETzVnB4/edit?hl=en&hl=en#gid=2
+http://www.unesco.org/languages-atlas/index.php
+http://www.unesco.org/new/en/culture/themes/endangered-languages/faq-on-endangered-languages/
+http://www.unesco.org/new/en/culture/themes/endangered-languages/language-vitality/
+https://unesdoc.unesco.org/ark:/48223/pf0000183699
+
+
+Or, alternatively but somewhat boringly,
+https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i/data
+
+
+
+3 interactive visualizations
+
+One on maps, obviously -- plotting location
+
+No hierarchy strictly present
+Number of speakers -- ?/
+Countries with the most endangered languages
+
+https://glottolog.org/glottolog/language
+JSON DOWNLOAD???? has info about language families and child dialects which looks promising
+
+alternatively, https://glottolog.org/meta/downloads
+
+
+
+
+http://jonathansoma.com/open-source-language-map/ this one was quite pretty
