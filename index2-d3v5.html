@@ -57,14 +57,27 @@
 
   .tooltip {
 
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: auto;
     padding: 5px;
     background: #ddd;
     pointer-events: none;
     border: 1px solid #eee;
     border-radius: 10px;
     opacity:1
+    position:static
+  }
+
+  #infobar {
+    width: 450px;
+    height: auto;
+    padding: 5px;
+    background: #ddd;
+    pointer-events: none;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    opacity:1
+    position:static
   }
 
   text, .tooltip {
@@ -81,7 +94,7 @@
   <h3>text</h3>
   <h3>text</h3>
   <h3>text</h3>
-  <div id="bigsvg">
+  <table><tr><td><div id="bigsvg">
     <div id="map">
 
     <div class="btn-group-vertical" role="group" aria-label="..." id="float-button-group">
@@ -90,7 +103,7 @@
       <button type="button" class="btn btn-default" id="reset" name="reset"><span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
     </div><svg id="svgmap"><g id="legendlayer"></g></svg></div>
     <!--input type="range" value="1" min="1" max="8" orient="vertical" id="map-zoomer"/-->
-  </div>
+  </div></td><td><div ></div></td></tr></table>
   <div class="btn-group-horizontal" role="group"><table><tr>
   <td><input type="checkbox" class="checkbox" value="Vulnerable" checked id="checkV"><label><font color="#8ad08a">Vulnerable</font></label></td>
     <td><input type="checkbox" class="checkbox" value="Definitely endangered" checked id="checkDE"><label><font color="#c5b7d9">Definitely endangered</font></label></td>
@@ -98,8 +111,8 @@
     <td><input type="checkbox" class="checkbox" value="Critically endangered" checked id="checkCE"><label><font color="#f2020e">Critically endangered</font></label></td>
     <td><input type="checkbox" class="checkbox" value="Extinct" checked id="checkE"><label><font color="#000000">Extinct</font></label></td>
     <td>  <label for="nVel">
-      Max # of Speakers = <span id="goal-value">8000000</span></td><td>
-      <input style="width: 200px;" type="range" min="0" max="8000000" id="goal" value="8000000" step='100'>
+      Max # Speakers = <span id="goal-value">8000000</span></td><td>
+      <input style="width: 180px;" type="range" min="0" max="8000000" id="goal" value="8000000" step='100'>
     </label></td>
   </tr></table>
   </div>
@@ -166,7 +179,8 @@
 
     bubbles
     .attr("cx", function(d) {
-      d.IsUnderMax = (d.IsUnderMax =="true");
+      d.IsUnderMax = true;
+      d.IsChecked = true;
       d.Opacity = 1;
       return projection([parseFloat(d.Longitude), parseFloat(d.Latitude)])[0];})
     .attr("cy", function(d) {
@@ -201,7 +215,7 @@
   });
 
   circles.on("mouseout.brush1", function(d) {
-    circles.filter(d=>(d.Opacity=1)).transition().style("opacity", d.Opacity);
+    circles.filter(d=>(d.Opacity==1)).transition().style("opacity", 1);
     //circles.transition().style("fill", d.transition().style("opacity", d.Opacity));
   });
 
@@ -219,8 +233,6 @@
     div.style("visibility", "visible");
     div.html(generateTooltip(d));
 
-    // copied over
-
   });
 
   circles.on("mousemove.hover2", function(d) {
@@ -229,11 +241,11 @@
     // get height of tooltip
     let bbox = div.node().getBoundingClientRect();
 
-    //div.style("left", (d3.event.pageX + "px"));
-    //div.style("bottom",  (d3.event.pageY + "px"));
 
     div.style("left", d3.event.clientX + "px");
-    div.style("top",  (d3.event.clientY - bbox.height) + "px");
+    div.style("top",  (d3.event.pageY - bbox.height) + "px");
+    //div.style("left", "0px");
+    //div.style("top",  "0px");
     div.style("opacity", 1);
 
     console.log("pageX: " + d3.event.pageX + "pageY: " + d3.event.pageY)
@@ -302,7 +314,10 @@
           if (d.IsChecked) {
             this.style.opacity = d.NumSpeakers < goal ? 1 : 0;
             d.Opacity = this.style.opacity;
+            //d.Opacity = this.style.opacity;
           }
+          //this.style.opacity = d.NumSpeakers < goal ? 1 : 0;
+          //d.Opacity = this.style.opacity;
           d.IsUnderMax = d.NumSpeakers < goal ? 1 : 0;
         });
       });
@@ -327,14 +342,14 @@
 
           // If the box is check, I show the group
           if(cb.property("checked")){
-            console.log("BOX CHEKCED")
+            console.log("BOX CHECKED", cb.property("value"))
             svg.selectAll("circle").each(function(e) {
-              e.IsChecked = true;
+              if (e.DegreeEndangerment == grp) {
+                  e.IsChecked = true;
+              }
               if (e.IsUnderMax && e.DegreeEndangerment == grp) {
                 this.style.opacity = 1;
                 e.Opacity = 1;
-                console.log(e.DegreeEndangerment);
-                console.log(color(e.DegreeEndangerment));
               }
 
               //this.style.opacity = e.DegreeEndangerment == grp ? 1 : 0;
@@ -346,15 +361,15 @@
             //circles.filter(e=>d.DegreeEndangerment == cb.property("value")).style("opacity", 1)
             // Otherwise I hide it
           }else{ // if unchecked
-console.log("BOX UNCHECKED")
+            console.log("BOX UNCHECKED", cb.property("value"))
             svg.selectAll("circle").each(function(e) {
 
-              e.IsChecked=false;
-              if (e.IsUnderMax && e.DegreeEndangerment == grp) {
+
+              //if (e.IsUnderMax && e.DegreeEndangerment == grp) {
+              if (e.DegreeEndangerment == grp) {
+                e.IsChecked=false;
                 this.style.opacity = 0;
                 e.Opacity = 0;
-                console.log(e.DegreeEndangerment);
-                console.log(color(e.DegreeEndangerment));
               }
             });
             //circles.filter(e=>d.DegreeEndangerment == cb.property("value")).style("opacity", 0)
@@ -413,31 +428,36 @@ function generateTooltip(d) {
   <td>${d.EngName}</td>
   </tr>
   <tr>
-  <th>Name in French: </th>
-  <td>${d.FrenchName}</td>
-  </tr>
-  <tr>
-  <th>Name in Spanish: </th>
-  <td>${d.SpanishName}</td>
-  </tr>
-  <tr>
-  <th>Countries: </th>
-  <td>${d.Countries} min</td>
-  </tr>
-  <tr>
-  <th>Degree of Endangerment: </th>
-  <td>${d.DegreeEndangerment}</td>
+  <th>Name in Language: </th>
+  <td>${d.NameInLanguage}</td>
   </tr>
   <tr>
   <th>Alternate Names: </th>
   <td>${d.AlternateNames}</td>
   </tr>
   <tr>
-  <th>Name In Language: </th>
-  <td>${d.NameInLanguage}</td>
+  <th>Top-Level Family: </th>
+  <td>${d.TopLevelFamily}</td>
   </tr>
   <tr>
-  <th>Number of Speakers: </th>
+  <th>ISO 639-3 Code: </th>
+  <td>${d.ISO6393Code}</td>
+  </tr>
+  <tr>
+  <th>Countries: </th>
+  <td>${d.Countries} min</td>
+  </tr>
+  <tr>
+  <th>Location Description: </th>
+  <td>${d.LocationDescription}</td>
+  </tr>
+  <tr>
+  <tr>
+  <th>Degree of Endangerment: </th>
+  <td>${d.DegreeEndangerment}</td>
+  </tr>
+  <tr>
+  <th>Speakers: </th>
   <td>${d.NumSpeakers}</td>
   </tr>
   <tr>
@@ -445,12 +465,8 @@ function generateTooltip(d) {
   <td>${d.Sources}</td>
   </tr>
   <tr>
-  <th>Location Description: </th>
-  <td>${d.LocationDescription}</td>
-  </tr>
-  <tr>
-  <th>Top-Level Family: </th>
-  <td>${d.TopLevelFamily}</td>
+  <th>Glottolog Link: </th>
+  <td><a href="https://www.glottolog.org?iso=${d.ISO6393Code}">Here</a></td>
   </tr>
   </tbody>
   </table>

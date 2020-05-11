@@ -1,4 +1,4 @@
-﻿ID,EngName,FrenchName,SpanishName,Countries,Country codes alpha 3,ISO639-3Code,DegreeEndangerment,AlternateNames,NameInLanguage,NumSpeakers,Sources,Latitude,Longitude,LocationDescription,TopLevelFamily
+﻿ID,EngName,FrenchName,SpanishName,Countries,Country codes alpha 3,ISO6393Code,DegreeEndangerment,AlternateNames,NameInLanguage,NumSpeakers,Sources,Latitude,Longitude,LocationDescription,TopLevelFamily
 1023,Sicilian,sicilien,siciliano,Italy,ITA,scn,Vulnerable,,,5000000,,37.4399,14.5019,"Sicily (Sicilia), southern and central Calabria and southern Apulia (Puglia); a large number of émigré communities",Indo-European,1,true,true
 383,Low Saxon,bas-saxon,bajo sajón,"Germany, Denmark, Netherlands, Poland, Russian Federation","DEU, DNK, NLD, POL, RUS","act, drt, frs, gos, nds, sdz, stl, twd, vel, wep",Vulnerable,"Low German, Niedersächsisch, Nedersaksisch, Niederdeutsch, Plattdeutsch ",Neddersassisch,4800000,,53.4029,10.3601,"northern Germany, the north-eastern part of the Netherlands, border regions of Denmark and Poland; émigré communities in the Russian Federation and elsewhere",Indo-European,1,true,true
 335,Belarusian,biélorusse,bielorruso,"Belarus, Latvia, Lithuania, Poland, Russian Federation, Ukraine","BRB, LVA, LTU, POL, RUS, UKR",bel,Vulnerable,,,4000000,"Hienadź Cychun: Weißrussisch. — Lexikon der Sprachen des europäischen Ostens. Herausgegeben von Miloš Okuka unter Mitwirkung von Gerald Krenn. Wieser Enzyklopädie des europäischen Ostens 10; Klagenfurt: Wieser, 2002. 563–579.",53.956,27.5756,Belarus except the Polesian-speaking south-west as well as adjacent regions of neighbouring countries,Indo-European,1,true,true
@@ -62,7 +62,7 @@ ethnologue.com""",27.6981,85.3198,Kathmandu valley,Sino-Tibetan,1,true,true
 2222,Mon,môn,mon,"Myanmar, Thailand","MMR, THA",mnw,Vulnerable,Talaing,,800000,,16.4666,97.7833,,Austroasiatic,1,true,true
 1523,Polesian,polésien,polesio,"Belarus, Poland, Ukraine","BRB, POL, UKR",,Vulnerable,,,800000,"Aleksandr D. Duličenko: Westpolesisch. — Lexikon der Sprachen des europäischen Ostens. Herausgegeben von Miloš Okuka unter Mitwirkung von Gerald Krenn. Wieser Enzyklopädie des europäischen Ostens 10; Klagenfurt: Wieser, 2002. 581–587.",51.8629,23.9501,"the south-west of Belarus, the north-west of the Ukraine and adjacent Poland; a regional language not recognized by the SIL",,1,true,true
 701,Tamaceq,tamaceq,tamacheq tahoua,Mali,MLI,taq,Definitely endangered,"Tamacheq, Tamasheq",,800000,"""Official population figures, Local and international organisations
-Numerous publications on background""",16.7992,-3.0102,"""Central, and northeast Mali, Kidal, Tombouctou areas. 
+Numerous publications on background""",16.7992,-3.0102,"""Central, and northeast Mali, Kidal, Tombouctou areas.
 Also spoken in Algeria, Burkina Faso
 """,Afro-Asiatic,1,true,true
 1069,Avar,avar,avar,Russian Federation,RUS,ava,Vulnerable,,,784840,,42.4801,46.8017,parts of the Republic of Daghestan,Nakh-Daghestanian,1,true,true
@@ -124,7 +124,7 @@ Bantawa Rai that migrated to Sikkim, India, can be mainly found in the West Dist
 """,Sino-Tibetan,1,true,true
 1424,Santa,dongxiang,santa,China,CHN,sce,Vulnerable,Dongxiang,,360000,"Stephen S. Kim: Santa. — The Mongolic languages. Edited by Juha Janhunen. London and New York: Routledge, 2003. 346–363.",35.5411,102.7935,"Dongxiang Autonomous County of Linxia Hui Autonomous Prefecture, Gansu Province; also émigré communities elsewhere in Gansu and in Sinkiang (Xinjiang)",Mongolic-Khitan,1,true,true
 1057,Mingrelian,mingrélien,mingrelio,Georgia,GEO,xmf,Definitely endangered,Megrel,,350000,"Г. А. Климов: Мегрельский язык. — Языки Российской Федерации и соседних государств: энциклопедия II. Москва: Наука, 2001.",42.4599,41.7205,western lowlands of Georgia,Kartvelian,1,true,true
-426,West Frisian,frison occidental,frisón occidental,Netherlands,NLD,fry,Vulnerable,,,350000,"""Pieter Meijes Tiersma, 1985. Frisian Reference Grammar. Foris Publications, Dordrecht-Holland/Cinnaminson – USA. 
+426,West Frisian,frison occidental,frisón occidental,Netherlands,NLD,fry,Vulnerable,,,350000,"""Pieter Meijes Tiersma, 1985. Frisian Reference Grammar. Foris Publications, Dordrecht-Holland/Cinnaminson – USA.
 Streektaal.net http://taal.phileon.nl/index.php""",53.1006,5.6579,the province of Friesland and the western parts of the province of Groningen,Indo-European,1,true,true
 1113,Gurung,gurung,gurung,Nepal,NPL,"ggn, gvr",Definitely endangered,गुरुङ; गुरुङ्ग; Tamu,,338925,"""Driem, George van. 2001. Languages of the Himalayas. Volumes 1 and 2. Hand-book of Oriental Studies. Section Two: India. Leiden/Boston/Köln: Brill.
 
@@ -140,7 +140,7 @@ Mosonyi and Mosonyi, 'Manual de lenguas indígnas de Venezuela' (2000)
 469,Buryat (Trans-Baikal),bouriate (Transbaïkalie),buriato (transbaikálico),Russian Federation,RUS,"bxm, bxr, bxu",Definitely endangered,,,300000,"Elena Skribnik: Buryat. — The Mongolic languages. Edited by Juha Janhunen. London and New York: Routledge, 2003. 102–128.",50.8336,109.5117,the Republic of Buryatia and Aga (Aginskiy) Buryat Autonomous District and elsewhere in Chita Province,Mongolic-Khitan,1,true,true
 1574,Kurru,kurru,yerukala,India,IND,yeu,Definitely endangered,"""Yerulula; Yerukala;  Yerkula; Kurru Bhasha;  Yerukla; Erukla; Kurutha
 """,,300000,,16.6151,81.6284,"Tamil Nadu, Andhra Pradesh and Karnataka",Dravidian,1,true,true
-1578,Kuvi,kouvi,kuvi,India,IND,kxv,Definitely endangered,"""Kuwi; Kuvinga; Kond; Kuvi-Kond; Khondi; Khondh; Jatapu 
+1578,Kuvi,kouvi,kuvi,India,IND,kxv,Definitely endangered,"""Kuwi; Kuvinga; Kond; Kuvi-Kond; Khondi; Khondh; Jatapu
 """,,300000,,18.9478,83.5839,"Orissa (Koraput, Kalahandi, Ganjam, and Phulbani) and Andhra Pradesh",Dravidian,1,true,true
 1028,Limbu,limbu,limbu,"India, Nepal","IND, NPL",lif,Definitely endangered,लिम्बू; Yakthungba,,300000,"""Driem, George van. 2001. Languages of the Himalayas. Volumes 1 and 2. Hand-book of Oriental Studies. Section Two: India. Leiden/Boston/Köln: Brill.
 
@@ -171,7 +171,7 @@ ISBN 978-2-911210-91-3.""",48.2246,-3.9331,western Brittany; many émigré commu
 1970,Nafusi,nefousi,jabal nafusah,Libyan Arab Jamahiriya,LBY,jbn,Severely endangered,"Nefusi, Tamazight of Jabal Nafusi, Jebel Nefusi, Jbel Nafusi, Adrar Nufusi",,240000,"""ُEthnologue
 Libyan sources""",32.6393,13.4252,"Language spoken in the regions of Tripolitania, western Libya, isolated area around the towns of Nalut and Yafran, Jabal Nafusah Region, coastal area around Zuara, west of Tripoli.",Afro-Asiatic,1,true,true
 2232,Suret,soureth,neo-arameo oriental,"Armenia, Iran (Islamic Republic of), Iraq, Syrian Arab Republic, Turkey","ARM, IRN, IRQ, SYR, TUR","aii, cld",Definitely endangered,"Suryaya Swadaya, Lishana Aturaya, Lishana Kaldaya, Suryani, Assyrian Neo-Aramaic, Chaldean Neo-Aramaic, Neo-Syriac, Christian Northeastern Neo-Aramaic",,240000,"""B.Poizat, J.Sibille (p.c., 2008)
-S. E. Fox, The Relationships of the Eastern Neo-Aramaic Dialects, 
+S. E. Fox, The Relationships of the Eastern Neo-Aramaic Dialects,
 J of the American Oriental Society, 114:2, Apr.-Jun.1994, pp. 154-
 162.
 """,36.4477,43.2971,"Iraqi Kurdistan, western Iranian Azerbaijan and Kurdistan, northeast Syria near the Turkish border.  Extinct in Turkey.  A large number of speakers are in diaspora in Europe, North and South America, and Australia.",Afro-Asiatic,1,true,true
@@ -268,7 +268,7 @@ Contributor:  Claudine Chamoreau has estimated the endangerment in the different
 356,Gallurese,gallurien,sardo galurés,Italy,ITA,sdn,Definitely endangered,Gallurese Sardinian,,100000,,40.8802,9.4482,northeastern Sardinia; an outlying dialect of Corsican,Indo-European,1,true,true
 1754,Mapuche (Argentina),mapuche (Argentine),mapuche (Argentina),Argentina,ARG,arn,Severely endangered,"Mapuche, Araucano, Maputongo, Mapudungu",,100000,"Gordon, Raymond G., Jr. (ed.), 2005. Ethnologue: Languages of the World, Fifteenth edition. Dallas, Tex.: SIL International. Online version: http://www.ethnologue.com/Ethnologue 2005",-40.0791,-71.0156,"Provinces of Neuquen, Rio Negro, Chubut, Buenos Aires, La Pampa",Araucanian,1,true,true
 1620,Mehri,mehri,mahri,"Oman, Yemen","OMN, YEM",gdq,Definitely endangered,"Mahri, Mehriyet, Mehriyot, Mehriye",,100000,"""Johnstone essentially for Mehri spoken in Oman.
-Simeone-Senelle for Mehri spoken inYemen (Mehriyyet and Mehriyyot varieties)   """,16.5993,52.8057,"""The language is spoken by the Mahra tribes in the south-eastern province of Mahra in Yemen, and in the Dhofar in Oman. It is the most prestigious and the best known language within the Modern  South Arabian group, because of the history of the region and of its rich literature (tales, poetry) 
+Simeone-Senelle for Mehri spoken inYemen (Mehriyyet and Mehriyyot varieties)   """,16.5993,52.8057,"""The language is spoken by the Mahra tribes in the south-eastern province of Mahra in Yemen, and in the Dhofar in Oman. It is the most prestigious and the best known language within the Modern  South Arabian group, because of the history of the region and of its rich literature (tales, poetry)
   On the coast, The Mehri area extends from the Omani border to the eastern bank of Wadi Masilah in Yemen: Salalah, Jadib, Damqawt, al-Ghaydha, Nishtawn, Saqr, Qishn, Itab, Sayhut) . In the North it is spoken as far as the border of the Rub‘ al-Khali (Thamud, Sanaw, Haberut and beyond). More precise Location for Dhofar is lacking
 The Mahra inhabitants in the desert steppe of Yemen and in the mountains of Dhofar in Oman are semi-nomads livstock breeders. Some of them cultivate palm-trees. Those who are owners of four-wheel-drive cars trade with other countries of the Peninsula and provide supplies for numerous shops in the coastal towns and villages. On the coast the activities are sea-oriented: fishing, fish drying and freezing. Some people are employees in public services in the main coastal villages. Before 1990 many Mahra were traders or shopkeepers in Koweit,  presently many migrated and settled in Saudi Arabia. A Mehri speaking community is settled in Tanzania and comes back regularly to Mahra. """,Afro-Asiatic,1,true,true
 1891,Miskito (Nicaragua),miskito (Nicaragua),misquito (Nicaragua),Nicaragua,NIC,,Vulnerable,,,100000,Recent article by Constenla,12.4001,-83.7332,"Caribbean coast to Pearl Lagoon, communities of Kakabila and Raitipura",,1,true,true
@@ -281,7 +281,7 @@ Rodríguez en González, 'Lenguas indígenas de Colombia' (2000)
 Brenzinger, 'Language Diversity Endangered' (2007)
 Jorge Gómez Rendón (pers. comm.)""",6.1624,-76.8383,"The Emberá occupy large parts of western, southern and northern Colombia (departments of Antioquia, Bolívar, Caldas, Caquetá, Cauca, Chocó, Córdoba, Nariño, Putumayo, Quindío, Risaralda, Valle del Cauca). Eastern Panamá (Pacific side and interior). Ecuador (Carchi province). The ethnic group tends to expand and occupy new territories.",Chocoan,1,true,true
 1162,Kabui,kabui,kabui,India,IND,nkf,Vulnerable,"Koboi, Kubai, Kuki-Kabui, Inpui",,95000,,24.7218,93.6584,"Manipur, Senapati, Tamenglong and Imphal districts; Nagaland, around Dimapur; Assam.",Bookkeeping,1,true,true
-760,Shughni,shughni,chugní,"Tajikistan, Afghanistan","TJK, AFG",sgh,Vulnerable,"šughnī, šughnanī, шуғнони",,95000,"""Government sources 
+760,Shughni,shughni,chugní,"Tajikistan, Afghanistan","TJK, AFG",sgh,Vulnerable,"šughnī, šughnanī, шуғнони",,95000,"""Government sources
 personal research""",37.4879,71.5374,"""Shughnan district, Roshkala district and Khorog city, Gorno Badakhshan Autonomous Region of Tajikistan;
 Shughnan district, Badakhshan Province of Afghanistan""",Indo-European,1,true,true
 397,Permyak,permiak,permiaco,Russian Federation,RUS,koi,Definitely endangered,“Komi-Permyak” (calque from Russian); коми-пермяцкий,,94328,"Anu-Reet Hausenberg: Komi. — The Uralic languages. Edited by Daniel Abondolo. London & New York: Routledge, 1998. 305–326. | Paula Kokkonen: Syrjänisch. — Lexikon der Sprachen des europäischen Ostens. Herausgegeben von Miloš Okuka unter Mitwirkung von Gerald Krenn. Wieser Enzyklopädie des europäischen Ostens 10; Klagenfurt: Wieser, 2002. 709–718.",59.204,54.5361,the former Permyak Komi Autonomous District and the adjacent parts of Kirov (Vyatka) and Perm’ provinces,Uralic,1,true,true
@@ -317,7 +317,7 @@ Jung, 'Gramática del páez o nasa yuwe' (2008)""",2.8237,-76.3117,"In the Tierr
 1058,Svan,svane,svan,Georgia,GEO,sva,Definitely endangered,,,80000,"А. Л. Ониани: Сванский язык. — Языки Российской Федерации и соседних государств: энциклопедия III. Москва: Наука, 2005.",43.0207,42.3193,"area known as Svanetia, mainly within Mestiya and Lentekhi counties in Georgia",Kartvelian,1,true,true
 2236,Tai Daeng,tai daeng,taidaén,"Lao People's Democratic Republic, Viet Nam","LAO, VNM",tyr,Vulnerable,Red Thai,,80000,,19.8833,104.6166,,Tai-Kadai,1,true,true
 2163,Taznatit,taznatit,taznatit,Algeria,DZA,grr,Severely endangered,"Tamazight du Gourara, Tamazight du Touat",,80000,"Official Population figures, Bellil, Guillermou",29.3413,0.3955,"Several oasis around Timimoune, Adrar, Tamentit",Afro-Asiatic,1,true,true
-2179,Razihi,razihi,razihi,Yemen,YEM,,Definitely endangered,"Samrit Razih, Razihit, رازحي",,75000,"""Personal fieldwork conducted in Razih in 1979 and in 2005-2006  in London.  Watson, Stalls, al-Razihi, Weir. The Language of Jabal RāziH:  
+2179,Razihi,razihi,razihi,Yemen,YEM,,Definitely endangered,"Samrit Razih, Razihit, رازحي",,75000,"""Personal fieldwork conducted in Razih in 1979 and in 2005-2006  in London.  Watson, Stalls, al-Razihi, Weir. The Language of Jabal RāziH:
 Arabic or something else?  Arabian Studies Seminar, 2006.
 P. Behnstedt.  Die Dialekte der Gegend von Sa‘ dah (Nord-Jemen), 1987.
 
@@ -366,10 +366,10 @@ Personal communication""",9.9916,-83.0316,Mostly in the Province of Limón,,1,tr
 - www.ethnologue.com
 - Haboud, Marleen. 2007. Proyecto Oralidad y Modernidad. Vitalidad del Kichwa en Otavalo y Peguche (internal report) (unpublished)""",0.1757,-78.2006,"Northern Highlands, Imbabura Province: towns of Cotacachi, Atuntaqui, Ibarra and Otavalo (157 communities)",Quechuan,1,true,true
 1949,Soqotri,soqotri,soqotrí,Yemen,YEM,sqt,Severely endangered,"sk'ot'ri, sk'ot'riyyet, suqutri",,50000,"""Personal investigations during numerous fieldworks on the island of Soqotra between 1985 and 2004. Data crossed with those in Naumkin (1993) ""Island of the Phoenix. An ethnographic Study of the People of Socotra"" (for Abd-al-Kuri and Samha).
- Simeone-Senelle - (1997) Proceeedings of the 16th ICL. Pergamon, Oxford, Paper No.0449. 
+ Simeone-Senelle - (1997) Proceeedings of the 16th ICL. Pergamon, Oxford, Paper No.0449.
 Simeone-Senelle  (2004) Soqotri dialectology, and the evaluation of the language endangerment . on line  <http://halshs.archives-ouvertes.fr/halshs-00338711/fr/.>
-""",12.5331,53.767,"""Spoken only in Yemen, on the islands of Soqotra, Abd-al-Kuri and  Samha (Gulf of Aden). Belonging to the Modern South Arabian group but very distinct from the Mehri sub-group or from Jibbali.   
-Some fishermen,  Soqotri native speakers, from Abd-al-Kuri are settled for many months in the year on the mainland coast of Hadramawt, others in the Mahra. A  Soqotry community (speaking Soqotri) is living in the emirate of 'Ajman. Capital of Soqotra is Hadibo (Tamarida on old maps). 
+""",12.5331,53.767,"""Spoken only in Yemen, on the islands of Soqotra, Abd-al-Kuri and  Samha (Gulf of Aden). Belonging to the Modern South Arabian group but very distinct from the Mehri sub-group or from Jibbali.
+Some fishermen,  Soqotri native speakers, from Abd-al-Kuri are settled for many months in the year on the mainland coast of Hadramawt, others in the Mahra. A  Soqotry community (speaking Soqotri) is living in the emirate of 'Ajman. Capital of Soqotra is Hadibo (Tamarida on old maps).
 Four groups of dialects are distinguished among the surveyed dialects (from 1985 until 2004) : northern coastal villages :such as  Qadhub, Hadibo, Hawlef), the southern coast (Noged area), , the beduin varieties spoken in the Hagher Mountains,  far west dialects in the area of Qalansiya. The dialect of 'Abd-al-Kuri is apart whereas that of Samha is close to the western dialects of Soqotra (Naumkin 1988, 343-344). Soqotri have a rich oral literature (essentially poetry).""",Afro-Asiatic,1,true,true
 462,Southern Altay,altaï méridional,altái meridional,Russian Federation,RUS,alt,Definitely endangered,"dialects: Altay, Teleut (Telengut), Telengit; алтайский диалект, телеутский диалект, теленгитский диалект",,50000,"Н. А. Баскаков: Алтайский язык. — Языки мира: Тюркские языки. Москва: Индрик, 1997. 179–187.",51.069,86.5942,"the Republic of Altay in the Russian Federation, except that Teleut is mainly spoken in the Bachat region in Belovo, Gur’yevsk and Novokuznetsk counties in the western part of Kemerovo Province and the Chumysh region in Tselinnoye County in the eastern part of Altay Region in the Russian Federation as well as, at least until recently, in Altai District of northern Sinkiang, China",Turkic,1,true,true
 1475,Transylvanian Saxon,saxon transylvanien,sajón de Transilvania,Romania,ROU,,Severely endangered,,,50000,"Elmar Seebold: Deutsch. — Lexikon der Sprachen des europäischen Ostens. Herausgegeben von Miloš Okuka unter Mitwirkung von Gerald Krenn. Wieser Enzyklopädie des europäischen Ostens 10; Klagenfurt: Wieser, 2002. 167–170.",46.214,24.2413,Bistriţa (Bistritz) and Sibiu (Hermannstadt) regions in Transylvania; many now settled in Germany; an outlying dialect of Moselle Franconian (Luxemburgian) incorrectly subsumed under “Standard German” [deu] by the SIL,,1,true,true
@@ -433,7 +433,7 @@ ethnologue.com""",21.7748,92.2741,Chittagong hills,Sino-Tibetan,1,true,true
 - www.google earth.com, 2008""",-0.6371,-77.1459,"Eastern jungle along the Napo, Aguarico, and Putumayo rivers. The former Province of Napo, main location for the Quichua Napo dialect, was divided into three provinces: Napo whose capital is Tena (0:58'47.40""S; 77:48'42.39""W); Sucumbíos whose capital is Nueva Loja (0:06'00.05""N; 76:52'00.59""W), and Orellana whose capital is Coca (0:27'50.66""S; 76:59'01.51""W)",Quechuan,1,true,true
 1104,Tangsa,tangsa,tangsa,India,IND,nst,Vulnerable,Tase,,40000,,27.4059,96.427,"Arunachal Pradesh, Changlang and Tirap districts.  Also spoken in Burma",Sino-Tibetan,1,true,true
 2210,Tetserret,tetserret,tetserret,Niger,NER,,Severely endangered,"""
-""",,40000,"""Abdoulmohamine Khamed Attayoub 
+""",,40000,"""Abdoulmohamine Khamed Attayoub
 Saskia Walentowitz and A.K. Attayoub""",15.4907,6.2072,Spoken around Abalak (near Tahoua),,1,true,true
 734,Awajun,awajun,aguaruna,Peru,PER,agr,Vulnerable,Aguaruna,,39000,"S.E. Overall (2007), 'A Grammar of Aguaruna' (diss. La Trobe, Melbourne)",-4.3464,-77.8271,"Depto. de  Amazonas, Prov. de  Condorcanqui. También en el Depto. de  Loreto, provincia de  Daten. El centro del territorio está en la  ciudad  de  Nieva y sus alrededores.",Chicham,1,true,true
 1134,Khiamngan,khiamngan,khiamngan,India,IND,nky,Vulnerable,"Khiamnuungan, Khiemngan",,38000,,26.0518,95.1031,"Nagaland, Tuensang District. ",Bookkeeping,1,true,true
@@ -578,7 +578,7 @@ ethnologue.com
 885,Sioux,sioux,dacota / siu,United States of America,USA,dak,Vulnerable,"Sioux covers several dialects: Santee-Sisston (Dakota), Yankton-Yanttonai, and Teton (Lakota).",,25000,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge. ",43.0588,-102.5244,"The Santee-Sisseton (Dakota) dialect is spoken in at least 15  dispersed reservation communities in Minnesota, Manitoba, and Saskatchewan, and in the eastern parts of Nebraska and the Dakotas.  The Yankton-Yanktonai dialect is primarily spoken on the Yankton and Crow Creek Reservations in South Dakota, and on the northern part of the Standing Rock Reservation in North Dakota, with speakers on the Devils Lake and Fort Peck Reservations in North Dakota and on a few reserves in Saskatchewan.  Teton (Lakota) is the dialect of the Cheyenne River, Lower Brule, Pine Ridge, Rosebud, and Sisseton Reservations of South Dakota,  the southern part of the Standing Rock Reservation in South Dakota, and  Wood Mountain Reserve in Saskatchewan.  There are numerous off-reservation Sioux speakers, in Rapid City, Minneapolis, and other cities in the upper Midwest.",Siouan,1,true,true
 699,Tamazight (Beni Iznassen),tamazight (Beni Iznassen),tamazight (Beni Iznassen),Morocco,MAR,rif,Definitely endangered,Berber; Tachelhiyt; Tashelhit; Chelha; Yeznasniyya; Tayeznasniyt; Tmazight nayt Izznassen,,25000,"""Estimates based on field investigation.
 
-""",34.7506,-2.1917,"""North-Eastern  Morocco.  At urban centre of Berkane and surrounding  villages.  The main locations are: Aklim,  Madagh, Aghbal, Tafoughalt, Chouihiyya, Sidi Bouhouriyya, Aghbal, Fezouane. Subdivisions are Ayt Atiq, Ayt Khaled, Ayt Ouriemmech and Ayt Mengouch. 
+""",34.7506,-2.1917,"""North-Eastern  Morocco.  At urban centre of Berkane and surrounding  villages.  The main locations are: Aklim,  Madagh, Aghbal, Tafoughalt, Chouihiyya, Sidi Bouhouriyya, Aghbal, Fezouane. Subdivisions are Ayt Atiq, Ayt Khaled, Ayt Ouriemmech and Ayt Mengouch.
 Though close to Tarifit (Riffi) with characteristics in common,Beni Iznassen TamazighT is not a variety of Tarifit.""",Afro-Asiatic,1,true,true
 1061,Tsakhur,tsakhour,tsajur,"Azerbaijan, Russian Federation","AZE, RUS",tkr,Definitely endangered,,,25000,"Б. Б. Талибов: Цахурский язык. — Языки Российской Федерации и соседних государств: энциклопедия III. Москва: Наука, 2005.",41.6523,46.9775,"sixteen villages in Zakatala (Zaqatala) and Kakh (Qax) counties, Azerbaijan; thirteen villages in Rutul County in the Republic of Daghestan, the Russian Federation",Nakh-Daghestanian,1,true,true
 1964,Warao,warao,warao,"Guyana, Venezuela (Bolivarian Republic of)","GUY, VEN",wba,Definitely endangered,,,25000,"Mosonyi and Mosonyi (2000), 'Manual de lenguas indígenas de Venezuela'",8.6027,-61.3806,The delta of the Orinoco (Amacuro territory) with extensions in Monagas and Sucre. Additional communities in Guyana.,,1,true,true
@@ -589,7 +589,7 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 ethnologue.com""",27.9208,83.5082,Several districts along the rivers Nāraāyaṇī and Saptagaṇḍakī,Indo-European,1,true,true
 1501,Jone,choni,choni,China,CHN,cda,Definitely endangered,Joni; Choni; Jone Tibetan; Joni Tibetan,,24000,,34.5947,103.5653,Jonê County of Gansu Province,Sino-Tibetan,1,true,true
 1037,Andi,andi,andi,Russian Federation,RUS,ani,Definitely endangered,,,23729,"М. Е. Алексеев: Андийский язык. — Языки Российской Федерации и соседних государств: энциклопедия I. Москва: Наука, 1997.",42.7308,46.2963,"nine villages, including Andi, Muni (Munib), and Kvankhidatl’, in Botlikh County in the Republic of Daghestan",Nakh-Daghestanian,1,true,true
-599,Guambiano,guambiano,guambiano,Colombia,COL,gum,Definitely endangered,Misag,,23462,"""CRIC - Base de Datos Sociolingüística - Análisis preliminar - 2008 
+599,Guambiano,guambiano,guambiano,Colombia,COL,gum,Definitely endangered,Misag,,23462,"""CRIC - Base de Datos Sociolingüística - Análisis preliminar - 2008
 Arango and Sánchez, 'Los pueblos indígenas de Colombia' (2004)
 Rodríguez en González, 'Lenguas indígenas de Colombia' (2000)
 """,2.6138,-76.3906,"Mainly municipality of Silvia; other municipalities: Totoró, Caldono, Jambaló, Morales (department of Cauca). La Plata (department of Huila).",Barbacoan,1,true,true
@@ -635,7 +635,7 @@ Driem, George van. 2001. Languages of the Himalayas. Volumes 1 and 2. Hand-book 
 Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.""",26.6192,87.4635,Jhāpā and Moraṅ districts.,Sino-Tibetan,1,true,true
 1614,Griko (Salento),griko (Salento),griko salentino,Italy,ITA,ell,Severely endangered,,,20000,,40.1578,18.2208,the Salento peninsula in Lecce Province in southern Apulia; an outlying dialect of Greek not listed separately by the SIL,Indo-European,1,true,true
 1878,Kaiowá Guarani,guarani-kaiowá,guaraní kaiowá,Brazil,BRA,"kgk, pta",Vulnerable,"Kaiova, Paï-Tavyterã, Tembekuára",,20000,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-21.5812,-55.0759,,Tupian,1,true,true
 327,Karelian (Karelia),carélien (Carélie),carelio (Carelia),"Finland, Russian Federation","FIN, RUS",krl,Definitely endangered,,,20000,"Eberhard Winkler: Karelisch. — Lexikon der Sprachen des europäischen Ostens. Herausgegeben von Miloš Okuka unter Mitwirkung von Gerald Krenn. Wieser Enzyklopädie des europäischen Ostens 10; Klagenfurt: Wieser, 2002. 667–672.",63.0474,33.4616,"Loukhi, Kem’, Kalevala and Muyezerskiy counties, the western parts of Belomorsk, Segezha and Medvezh’yegorsk counties, the southwestern part of Kondopoga County and the Porosozero region of Suoyarvi (Suojärvi) County of the Republic of Karelia, the Russian Federation; in Finland, Karelian is spoken by people evacuated in 1940 and 1944 from former Finnish territories including Suojärvi, Suistamo and Korpiselkä counties, currently the central parts of Suoyarvi (Suojärvi) County in the Republic of Karelia, and in two border villages in Suomussalmi County in Oulu Province",Uralic,1,true,true
@@ -648,8 +648,8 @@ Queixalós and Renault-Lescure (2000), 'As línguas amazônicas hoje'""",5.1347,
 1995,Tacenwit,tacenwit,tacenwit,Algeria,DZA,cnu,Vulnerable,"Tachenuit, Chenoui, Chenoua, Haqbaylit, Taqbaylit",,20000,"Laoust, Chaker, ",36.5703,2.2892,"Mont Chenoua, Tipaza, Nador, Bou Ismail, Tenes, Cherchell, Hamadia, Gouraya, Damous, Oued Damous, Larhat, Marceau, Sidi Amar, Nador, Tipaza, Sidi Mousa, Ain Tagourirt",Afro-Asiatic,1,true,true
 1502,Tangwang,tangwang,tangwang,China,CHN,,Definitely endangered,,,20000,"Mei W. Lee-Smith: The Tangwang language. — Atlas of languages of intercultural communication in the Pacific, Asia, and the Americas. Edited by Stephen A. Wurm & Peter Mühlhäusler & Darrell T. Tryon. Volume II, 2. Trends in Linguistics, Documentation 13, 2; Berlin: Mouton de Gruyter, 1996. 875–822.",35.7643,102.8979,"the northeastern corner of Dongxiang Autonomous County in Linxia Hui Autonomous Prefecture, Gansu Province",,1,true,true
 2090,Western Neo-Aramaic,araméen occidental,neo-arameo sirio,Syrian Arab Republic,SYR,amw,Definitely endangered,"""Ma'lula,  Siryoon, Aroomay
-""",,20000,"""W. Arnold (2008, p.c.).  
-W. Arnold, Lehrbuch des Neuwestaramäischen. Semitica Viva: Series Didactica; Band 1, Wiesbaden 1989. 
+""",,20000,"""W. Arnold (2008, p.c.).
+W. Arnold, Lehrbuch des Neuwestaramäischen. Semitica Viva: Series Didactica; Band 1, Wiesbaden 1989.
 Recordings of the language can be found in the Semitic Sound Archive of the University of Heidelberg: http://www.semarch.uni-hd.de/index.php4?〈=en""",33.8339,36.5405,"3 villages in Syria, in the mountains 50km northeast of Damascus (Ma'luula,  Bax'a, Jubb'adiin)",Afro-Asiatic,1,true,true
 1438,Yaghnobi,yaghnobi,yagnobí,Tajikistan,TJK,yai,Definitely endangered,яғноби,,20000,"Studies in Languages of Tajikistan' edited by John M.Clifton, 2005",38.5632,68.4475,"Zafarobod district, adminitrative regions of Hisor and Varzob, Tajikistan",Indo-European,1,true,true
 2224,Yaw,yaw,yos,Myanmar,MMR,,Definitely endangered,,,20000,,21.6,94.8333,,,1,true,true
@@ -659,7 +659,7 @@ Recordings of the language can be found in the Semitic Sound Archive of the Univ
 1187,Biete,biete,biete,India,IND,biu,Definitely endangered,"Baite, Bete, Biate",,19000,"See van Driem Languages of the Himalayas, 2001, p. 589",25.6514,93.2409,Karbi Anglong Dt.,Sino-Tibetan,1,true,true
 1189,Hrangkhol,hrangkhol,rancol,India,IND,hra,Vulnerable,,,19000,"see van Driem, Languages of the Himalayas, 2001, p. 589",24.1467,92.3071,"Tripura, mostly in Dhalai Dt.",Sino-Tibetan,1,true,true
 1959,Terena,terêna,tereno,Brazil,BRA,ter,Severely endangered,"Terêna, Tereno",,19000,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-20.2841,-55.4638,"Brazil, States of Mato Grosso do Sul, Mato Grosso and São Paulo",Arawakan,1,true,true
 1595,Kati,kati,katí,"Pakistan, Afghanistan","PAK, AFG","bsh, xvi",Definitely endangered,"Bashgali, kâmk'ata, mumkSt'a viri, Kativiri, Nuristani, Kamkata-viri; Kamviri (dialect)",,18700,"""Richard F. Strand , http://users.sedona.net/~strand/
@@ -676,7 +676,7 @@ Kulung Rai that migrated to Sikkim, India, can be mainly found in the West Distr
 """,Sino-Tibetan,1,true,true
 617,Kaingang,kaingang,kaingán,Brazil,BRA,kgp,Definitely endangered,"Caingangue, Kanhgág",,18500,"""Wilma D’Angelis in UNESCO survey: linguistic vitality and diversity - 2008
 www.socioambiental.org
- 
+
 """,-28.1495,-52.4707,"The group lives in the southern region of Brazil in the states of São Paulo, Paraná, Santa Catarina and Rio Grande do Sul. ",Nuclear-Macro-Je,1,true,true
 1278,Lowland Mazatec,mazatèque des basses terres,mazateco del este bajo,Mexico,MEX,maj,Vulnerable,"ntaxjo, Mazateco de Jalapa de Díaz",,18389,Census 2000 and information provided by INALI,18.0801,-96.5236,"Municipalities of San Felipe Jalapa de Díaz and San Pedro Teutila, state of Oaxaca",Otomanguean,1,true,true
 1797,Vafsi,vafsi,vafsí,Iran (Islamic Republic of),IRN,vaf,Definitely endangered,,,18000,,34.0867,49.8861,"Vafs, Arak District, Markazi Province, Iran",Indo-European,1,true,true
@@ -730,7 +730,7 @@ ethnologue.com""",27.6831,87.8256,"Tāplejuṅ district, near the headwaters of 
 2428,Rao,rao,rao,China,CHN,tct,Definitely endangered,"Ten, T'en, Yanghuang",,15000,Bradley 2007,25.871,107.0476,,Tai-Kadai,1,true,true
 2294,Semai,semai,semái,Malaysia,MYS,sca,Severely endangered,,,15000,Bradley 2007,4.3039,101.445,,Bookkeeping,1,true,true
 1719,Shatt,shatt,shatt,Sudan,SDN,shj,Severely endangered,Caning,,15000,"C. Stevenson, Ethnologue",10.8117,29.7235,"Shatt Hills, southwest of Kadugli",Dajuic,1,true,true
-6,Siwi,siwi,siví,Egypt,EGY,siz,Definitely endangered,"Siwa, Tsiwit, Tasiwit, Zenati, Tamazight (generic)",,15000,"""No official statistics. Several recent visits by specialists of Tamazight linguistics and minority studies produced rough estimates. 
+6,Siwi,siwi,siví,Egypt,EGY,siz,Definitely endangered,"Siwa, Tsiwit, Tasiwit, Zenati, Tamazight (generic)",,15000,"""No official statistics. Several recent visits by specialists of Tamazight linguistics and minority studies produced rough estimates.
  """,29.1905,25.5322,"Siwi is spoken in the Oasis of Siwa located in western  of Egypt,  70 kms from the Lybian  border and  560 km away from Cairo. ",Afro-Asiatic,1,true,true
 1289,Tagargrent,tagargrent,wargla,Algeria,DZA,oua,Severely endangered,"Tamazight, Berbere de Ouargla",,15000,"""Jean Delheure in Agerraw n iwalen teggargrent-tarumit -Dictionnaire Ouargli-Francais, SELA 1987
 Chaker, local sources (informal interviews).""",30.9587,4.0209,"Ouargla, Ngouça",Afro-Asiatic,1,true,true
@@ -844,7 +844,7 @@ Colombia: Putumayo (rivers Caquetá, Putumayo, Cará-Paraná and Igará-Paraná.
 1055,Kryz,kriz,kryts,Azerbaijan,AZE,kry,Severely endangered,Kryts; Jek,,10000,"Б. Б. Талибов: Крызский язык. — Языки Российской Федерации и соседних государств: энциклопедия II. Москва: Наука, 2001.",41.1455,48.164,"the villages of Kryz, Jek, Khaput, Yergyuj and Alyk in Kuba (Quba) County and in expatriate communities elsewhere in Azerbaijan",Nakh-Daghestanian,1,true,true
 300,"Kurripako (Colombia, Venezuela)","kurripako (Colombie, République bolivarienne du Venezuela)","curripaco (Colombia, Venezuela)","Colombia, Venezuela (Bolivarian Republic of)","COL, VEN",kpc,Definitely endangered,Curripaco. Baniwa do Içana (Brazil).,,10000,"""Arango and Sánchez, 'Los pueblos indígenas de Colombia' (2004)
 González and Rodríguez, 'Lenguas indígenas de Colombia' (2000)
-Brenzinger, 'Language Diversity Endangered' (2007)""",2.3723,-67.5659,"""Colombia: departments of Guanía, Vichada and Vaupés. 
+Brenzinger, 'Language Diversity Endangered' (2007)""",2.3723,-67.5659,"""Colombia: departments of Guanía, Vichada and Vaupés.
 Venezuela: states of Amazonas and Bolívar.
 Brazil: state of Amazonas.
 Upper Río Negro and Vaupés rivers area.""",Arawakan,1,true,true
@@ -859,13 +859,13 @@ ethnologue.com
 """,27.7127,90.9667,"Lhüntsi district, up to Tibetan border, west of Kurichu river",Sino-Tibetan,1,true,true
 535,Lamgang,lamgang,lamkang,India,IND,lmk,Critically endangered,Lamkang,,10000,Ethnologue,24.2569,94.0759,,Sino-Tibetan,1,true,true
 2447,Miqie,yi de miqie,michal miqie,China,CHN,yiq,Definitely endangered,"Micha, Mielang, Minqi",,10000,Bradley 2007,26.9053,100.8506,,Sino-Tibetan,1,true,true
-1956,Mojo,moxo,mojo,Bolivia (Plurinational State of),BOL,"ign, trn",Definitely endangered,,,10000,"""Crevels et alii (2000), 'Current Studies on South American Languages'     
+1956,Mojo,moxo,mojo,Bolivia (Plurinational State of),BOL,"ign, trn",Definitely endangered,,,10000,"""Crevels et alii (2000), 'Current Studies on South American Languages'
 Ott, Willis and Rebecca B. Ott. 1983. Diccionario ignaciano y castellano, con apuntes gramáticales.‭  Cochabamba: Instituto Lingüístico de Verano. 644 p.
 """,-14.966,-65.1708,,Arawakan,1,true,true
 1198,Muot,muot,nicobarés central,India,IND,ncb,Critically endangered,"Nancowry, Camorta",,10000,Prof. Udaya Narayana Singh (personal communication),8.0932,93.4963,"on the islands of Nancowry (Muot), Kamorta (Camorta, Kalat or Kinlaha), Trinket (Laful) and Katchal (Tinhnyu)",Austroasiatic,1,true,true
 1589,Naiki,naiki,naiquí,India,IND,nit,Critically endangered,South-Eastern Kolami; Melta-Kinwat;,,10000,,19.8287,78.2281,Maharashtra (Chandrapur and Nanded) and Andhra Pradesh (Adilabad),Dravidian,1,true,true
 1948,Ñandeva Guarani,guarani-ñandeva,guaraní ñandeva,Brazil,BRA,nhd,Vulnerable,"Chiripá, Avá-Chiripá, Avá-Guaraní",,10000,"""www.sociombiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-22.0652,-54.7558,"Brazil, States of Paraná and Mato Grosso do Sul",Tupian,1,true,true
 27,Ngwaba,ngwaba,enguaba,Nigeria,NGA,ngw,Severely endangered,,,10000,"Roger Blench, Ethnologue",9.9904,12.81,,Afro-Asiatic,1,true,true
@@ -885,9 +885,9 @@ ethnologue.com""",27.4595,90.4119,Mangde river valley,Sino-Tibetan,1,true,true
 2440,Southern Tujia,tujia du sud,tujia meridional,China,CHN,tjs,Severely endangered,Mozi,,10000,Bradley 2007,28.258,109.9398,,Sino-Tibetan,1,true,true
 2331,Taba,taba,taba,Indonesia,IDN,mky,Vulnerable,"East Makian, Makian Dalam",,10000,Grimes 2000,0.0659,127.4084,Maluku,Austronesian,1,true,true
 2410,Talu,talu,talu,China,CHN,yta,Vulnerable,Taliu,,10000,Bradley 2007,26.5623,102.8506,,Sino-Tibetan,1,true,true
-718,Tamazight (Tunisia),tamazight (Tunisie),tamazight (Túnez),Tunisia,TUN,rif,Severely endangered,"""Currently referred to with generic term Tamazight. Locally often called Chilha (Shilha) or Chaouia. 
+718,Tamazight (Tunisia),tamazight (Tunisie),tamazight (Túnez),Tunisia,TUN,rif,Severely endangered,"""Currently referred to with generic term Tamazight. Locally often called Chilha (Shilha) or Chaouia.
 Also called Tamezret or Djerbi or Ghadamsi Berber (Tamazight)
-Referred to as Nafusi by Ethnologue owing to its geographic proximity and lignuistic""",,10000,"""Published references on the language (see Pencheon, 1968, Daoud, 1991a, Battenburg, 1996, 1997; Baccouche, 1998, Battenburg, 1999, etc) are often cited. 
+Referred to as Nafusi by Ethnologue owing to its geographic proximity and lignuistic""",,10000,"""Published references on the language (see Pencheon, 1968, Daoud, 1991a, Battenburg, 1996, 1997; Baccouche, 1998, Battenburg, 1999, etc) are often cited.
 Current local sources (many published on the internet) include both linguists and members of the speech community.
 """,36.0313,9.8767,"""The language is spoken on the island of Djerba (Adjin Guellala, Sadouikech, Elmal, Mahboubine, Sedghiane)  and in a few southern villages between Gafsa and the Libyan border. including Matmata (Zraoua, Taoujjout, Tamezret), Tataouine (Chouini, Douiret), Médenine, Kebili, Tozeur.
 These villages numbered 13 in the 1950s and 1960s (Basset, Penchoen) but the data was even then inaccurate.
@@ -976,8 +976,8 @@ ethnologue.com""",27.5898,90.3735,’Wangdi Phodr’a district,Sino-Tibetan,1,tr
 1675,Mundurukú,mundurukú,mundurucú,Brazil,BRA,myu,Vulnerable,Mundurucu,,8000,"Moore, 2008.",-8.1027,-57.3486,,Tupian,1,true,true
 767,Ojibwe,ojibwe,oyibua,United States of America,USA,ciw,Severely endangered,"Anishinaabemowin, Ojibwa, Chippewa",,8000,"""Golla et al. ms.
 U.S. Census 2000 (http://www.mla.org/map_data_results&mode=lang_tops&SRVY_YEAR=2000&lang_id=819)""",46.0706,-93.6677,"Spoken in the states of Minnesota, Wisconsin, and Michigan.",Algic,1,true,true
-586,Quichua (Salasaca),quichua (Salasaca),quichua (Salasaca),Ecuador,ECU,"qxr, qug, qvi, qvj, qvo, qvz, qxl",Definitely endangered,"Kichwa, Runashimi, Runa simi, Salasaca Quichua, Quichua Salasaca Highland (Ethnologue)",,8000,"""- Consejo Nacional de Planificación de los Indios y Negros del Ecuador, CONPLADEIN, Ayuda Memoria del Taller de Nacionalidades y Pueblos, julio 1998. 
-- Ministerio del Ambiente, Sistema de Áreas Protegidas, SNAP, 2001. 
+586,Quichua (Salasaca),quichua (Salasaca),quichua (Salasaca),Ecuador,ECU,"qxr, qug, qvi, qvj, qvo, qvz, qxl",Definitely endangered,"Kichwa, Runashimi, Runa simi, Salasaca Quichua, Quichua Salasaca Highland (Ethnologue)",,8000,"""- Consejo Nacional de Planificación de los Indios y Negros del Ecuador, CONPLADEIN, Ayuda Memoria del Taller de Nacionalidades y Pueblos, julio 1998.
+- Ministerio del Ambiente, Sistema de Áreas Protegidas, SNAP, 2001.
 - CODENPE - SIDENPE - SIISE, 2002
 - http://www.codenpe.gov.ec/salasaka.htm""",-1.3511,-78.6511,"Province of Tungurahua (Central Highlands), San Pedro de Pelileo county, García Moreno and  Salasaca Parishes",Quechuan,1,true,true
 1182,Rongpo,rongpo,rangpo,India,IND,rnp,Vulnerable,,,8000,,30.7229,79.7387,"Uttarakhand, Chamoli dt. ",Sino-Tibetan,1,true,true
@@ -994,7 +994,7 @@ Complementary information provided by contributor H. Antonio García Zúñiga"""
 1983,Macushi (Guyana),macushi (Guyane),macusí (Guyana),Guyana,GUY,mbc,Vulnerable,"Makuxí, Makushi",,7750,"J. Forte, in Queixalós and Renault-Lescure (2000), 'As línguas amazônicas hoje'",3.6888,-59.4799,Rupununi savannahs in the southwestern part of Guyana. More in Roraima (Brazil).,Cariban,1,true,true
 466,Chukchi,tchouktche,chukoto,Russian Federation,RUS,ckt,Severely endangered,Luoravetlan,,7742,А. А. Бурыкин: Чукотский язык http://lingsib.unesco.ru/ru/languages/chukchi.shtml.htm,67.6248,176.1767,most parts of Chukchi Autonomous District and adjacent regions in Koryak Autonomous District and Lower Kolyma (Nizhnekolymskiy) County in the Republic of Sakha (Yakutia),Chukotko-Kamchatkan,1,true,true
 1875,Cabécar,cabecar,cabécar,Costa Rica,CRI,,Vulnerable,,,7622,Census 2000 and Constenla article,9.9012,-83.6844,Atlantic watershed and southern Pacific slopes of the Talamanca range in southern Costa Rica according to Constenla,,1,true,true
-593,Awa Cuaiquer,awa-cuaiquer,cuaiquer,Colombia,COL,kwi,Critically endangered,"Kwaiker, Awa Pit (language), Awa (people)",,7500,"""Plan de Vida Awa - 
+593,Awa Cuaiquer,awa-cuaiquer,cuaiquer,Colombia,COL,kwi,Critically endangered,"Kwaiker, Awa Pit (language), Awa (people)",,7500,"""Plan de Vida Awa -
 Arango and Sánchez, 'Los pueblos indígenas de Colombia' (2004)
 Rodríguez en González, 'Lenguas indígenas de Colombia' (2000)
 T. Curnow, 'A grammar of Awa Pit' (ms.)""",1.4939,-78.5742,"Mainly in the department of Nariño, adjacent to Ecuador, between Pasto and the  Pacific ocean",Barbacoan,1,true,true
@@ -1076,8 +1076,8 @@ In the state of Mato Grosso, Brazil. The most active speakers are in the Lomerí
 Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.
 
 ethnologue.com""",28.7146,83.6478,Kālī Gaṇḍakī river valley,Sino-Tibetan,1,true,true
-74,Dongotono,dongotono,dongotono,Sudan,SDN,ddd,Vulnerable,,,6219,Ethnologue,4.965,35.321,"""Southern Sudan, 
-Eastern Equatoria Province, 
+74,Dongotono,dongotono,dongotono,Sudan,SDN,ddd,Vulnerable,,,6219,Ethnologue,4.965,35.321,"""Southern Sudan,
+Eastern Equatoria Province,
 Dongotono Hills southeast of Torit.""",Nilotic,1,true,true
 1763,Mawé,mawé,mawé-sateré,Brazil,BRA,mav,Vulnerable,Sateré-Mawé,,6219,"Databank Moore, 2008. Survey de 2003 coordinated by Pery Teixeira is on link http://www.unicef.org/brazil/pt/resources_9478.htm",-3.8642,-56.7773,,Tupian,1,true,true
 498,Shor,chor,sorio,Russian Federation,RUS,cjs,Severely endangered,,,6210,"И. В. Шенцова & Д. М. Насилов: Шорский язык. — Языки народов России: Красная книга. Москва: Academia, 2002. 256–267. | Г. И. Донидзе: Шорский язык. — Языки мира: Тюркские языки. Москва: Индрик, 1997. 497–506.",53.0544,87.7478,the southern parts of Kemerovo Province and adjacent regions,Turkic,1,true,true
@@ -1095,7 +1095,7 @@ Peru: villages Balta, Colombiana and San Martin
 Brazil: Mucuripe
 """,Pano-Tacanan,1,true,true
 32,Geji cluster,groupe geji,grupo geji,Nigeria,NGA,gji,Severely endangered,,,6000,"Roger Blench, Ethnologue",10.196,9.5581,,Afro-Asiatic,1,true,true
-1879,Mbya Guarani (Brazil),mbyá guarani (Brésil),guaraní mbyá (Brasil),Brazil,BRA,gun,Vulnerable,Guarani M'byá,,6000,"""Moore, 2008, IBGE databank 
+1879,Mbya Guarani (Brazil),mbyá guarani (Brésil),guaraní mbyá (Brasil),Brazil,BRA,gun,Vulnerable,Guarani M'byá,,6000,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-30.1451,-50.625,,Tupian,1,true,true
 1010,Moklen,moklen,moklen,"Myanmar, Thailand","MMR, THA",mwt,Definitely endangered,"Moken, Saloun, Chao Thalee, Thai Mai",,6000,,8.1953,98.3036,,Austronesian,1,true,true
@@ -1174,7 +1174,7 @@ Gómez-Imbert, Elsa. 2000. ""Lenguas aborígenes de la amazonía septentrional d
 1597,Gutnish,gutnisk,gotlandiano,Sweden,SWE,swe,Definitely endangered,,,5000,,57.3027,18.5284,"the south-east coast from Alskog till Burs of the main island of Gotland and, at least until recently, some parts of Fårö island off the main island; a regional language not recognized by the SIL",Indo-European,1,true,true
 870,Hopi,hopi,hopí,United States of America,USA,hop,Vulnerable,,,5000,Golla et al. ms.,35.8721,-110.6205,"Spoken in the villages of First Mesa, Second Mesa, and Third Mesa.",Uto-Aztecan,1,true,true
 30,Ilue,ilue,ilue,Nigeria,NGA,ilv,Critically endangered,Idua,,5000,"Roger Blench, Ethnologue",4.9185,8.2397,,Atlantic-Congo,1,true,true
-1962,Jibbali,jibbali,yibalí,Oman,OMN,shv,Severely endangered,"Shehri, Shahri,  Shehret, Geblet, Shxawri, Ehkhili, Qarawi",,5000,"Johnstone (1981, Jibbali Lexicon;  1982 Language and society in Dhofar)",18.0623,52.4267,"""within the Modern South Arabian group Jibbali is apart. Johnstone (1981) makes a distinction between the central, eastern and western dialects. 
+1962,Jibbali,jibbali,yibalí,Oman,OMN,shv,Severely endangered,"Shehri, Shahri,  Shehret, Geblet, Shxawri, Ehkhili, Qarawi",,5000,"Johnstone (1981, Jibbali Lexicon;  1982 Language and society in Dhofar)",18.0623,52.4267,"""within the Modern South Arabian group Jibbali is apart. Johnstone (1981) makes a distinction between the central, eastern and western dialects.
 Jibbali is spokeny ‘by a number of communities of different social status and tribal origin (Johnstone 1981). Location : Dhofar and coastal towns or villages of hte region :  Raysut, Salalah, Mirbat, Sidh. The islanders of Kuria Muria speak a dialect of Jibbali.""",Afro-Asiatic,1,true,true
 1602,Kalasha,kalasha,calasa,Pakistan,PAK,kls,Severely endangered,"Kalashamon, Kalash, Kalasha-mun",,5000,"""Decker, Kendall D. 1992. Languages of Chitral. Sociolinguistic Survey of Northern Pakistan, 5. Islamabad: National Institute of Pakistan Studies, Quaid-i-Azam University and Summer Institute of Linguistics. xxii, 257 p.
 Available at http://www.sil.org/sociolx/pubs/abstract.asp?id=32850
@@ -1262,7 +1262,7 @@ UNESCO Atlas 2nd edition (Wurm (2001))
 Ethnologue: Languages of the World (Gordon, (2005))
 http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",50.587,-73.6365,Spread over 4 communities in Canada,Algic,1,true,true
-1673,Arbore,arbore,arbore,Ethiopia,ETH,arv,Definitely endangered,,,4441,"""Census, Ethnologue, ongoing research by Eshi Gabbert, Anni Peller, Ayalew Gebre, Yukio Miyawaki, Tadesse Wolde 
+1673,Arbore,arbore,arbore,Ethiopia,ETH,arv,Definitely endangered,,,4441,"""Census, Ethnologue, ongoing research by Eshi Gabbert, Anni Peller, Ayalew Gebre, Yukio Miyawaki, Tadesse Wolde
 """,5.069,36.892,,Afro-Asiatic,1,true,true
 58,Ebang,ebang,heibano,Sudan,SDN,hbn,Severely endangered,"Heiban, Abul",,4412,Ethnologue,11.313,30.5886,,Heibanic,1,true,true
 1327,Tafi,tafi,tafi,Ghana,GHA,tcd,Vulnerable,Tegbo,,4400,Ethnologue,6.73,0.4421,,Atlantic-Congo,1,true,true
@@ -1291,13 +1291,13 @@ http://en.wikipedia.org/wiki/Portal:Contents""",47.2104,-74.3827,Spread over 3 c
 1044,Botlikh,botlikh,botlij,Russian Federation,RUS,bph,Definitely endangered,,,4000,"П. А. Саидова: Ботлихский язык. — Языки Российской Федерации и соседних государств: энциклопедия I. Москва: Наука, 1997.",42.6602,46.2222,the villages of Botlikh and Miarsu in Botlikh County in the Republic of Daghestan,Nakh-Daghestanian,1,true,true
 1181,Bunan,bunan,bunán,India,IND,bfu,Definitely endangered,"Gahri, Punan, Boonan",,4000,,32.7503,76.2451,,Sino-Tibetan,1,true,true
 749,Cashinahua (Peru),cashinahua (Pérou),cashinahua (Perú),Peru,PER,cbs,Definitely endangered,"Kaxinawá, Kashinawa",,4000,"I. Pozzi-Escot (1998), 'el Multilingüismo en el Perú' ",-10.3581,-71.5869,"Departamento de Ucayali, Provincia de Purús; cuenca de los río Curanja y Purús. Aldea de Puerto Rey, entre otras.",Pano-Tacanan,1,true,true
-581,Cha'palaa,chapalaa,cayapa,Ecuador,ECU,cbi,Definitely endangered,"""Cha'fiki 
+581,Cha'palaa,chapalaa,cayapa,Ecuador,ECU,cbi,Definitely endangered,"""Cha'fiki
 Cayapa. Chachi.""",,4000,,0.9386,-79.0055,"""Northwestern coastal jungle of Ecuador in the province of Esmeraldas along the Cayapas River and its tributaries (Onzole, Canandé, Sucio, Cojimíes, and others), in the counties of San Lorenzo, Eloy
 Alfaro, Río Verde and Muisne.""",Barbacoan,1,true,true
 459,Evenki (Manchuria),évenki (Mandchourie),evenki (Manchuria),China,CHN,"evn, orh",Severely endangered,"dialects: Orochen, Kumarchen (Manegir), Selpechen, Birarchen (Birar), Manchurian Reindeer Tungus, Khamnigan Evenki",,4000,"В. И. Цинциус: Эвенкийский язык. — Языки мира: Монгольские языки; Тунгусо-маньчжурские языки; Японский язык; Корейский язык. Москва: Индрик, 1997. 267–283. | Viktor Atknine: The Evenki language from the Yenisei to Sakhalin. — Northern minority languages: problems of survival. Edited by Hiroshi Shoji and Juha Janhunen. Senri Ethnological Studies 44; Osaka: National Museum of Ethnology. 109–121.",50.34,123.43,"in China, four dialects of Evenki are officially classified under ‘Orochen’ (Oroqen) nationality: speakers of Orochen proper live scattered around Oroqen Autonomous Banner in Hulun Buir League in northeastern Inner Mongolia; the speakers of the other dialects live along the Amur basin in northwestern Heilongjiang Province: Kumarchen (or Manegir) in the Kumara basin on the upper Amur, Selpechen in the Fa and Selpe basins on the middle Amur, and Birarchen (or Birar) in the Xun and Zhan basins; two recent immigrant groups of Evenki speakers from Russia belong to the official ‘Evenki’ (Ewenke) nationality: the Manchurian Reindeer Tungus (‘Yakut Ewenke’) in Chen Barag Banner in Hulun Buir League in Inner Mongolia, and the Khamnigan (Tungus Ewenke) in Chen Baerhu Banner in Hulun Buir League",Tungusic,1,true,true
 523,Gazhuo,gazhuo,kaduo,China,CHN,kaf,Definitely endangered,,,4000,Bradley 2008,24.0959,102.5463,,Sino-Tibetan,1,true,true
 1047,Godoberi,godoberi,godoberí,Russian Federation,RUS,gdo,Definitely endangered,Ghodoberi,,4000,"П. А. Саидова: Годоберинский язык. — Языки Российской Федерации и соседних государств: энциклопедия I. Москва: Наука, 1997.",42.643,46.1027,the large village of Godoberi and two small villages Zibirkhali and Beledi in Botlikh County in the Republic of Daghestan,Nakh-Daghestanian,1,true,true
-670,"Kari'ña (Guyana, Suriname)","galibi (Guyane, Suriname)","galibi (Guyana, Surinam)","Guyana, Suriname","GUY, SUR","car, ciy",Severely endangered,"Galibi, Kari'ña, Carib, Galibi do Oiapoque in Brazil",,4000,"""J. Forte, in F. Queixalós and O. Renault-Lescure, 'As línguas amazônicas hoje' (2000) 
+670,"Kari'ña (Guyana, Suriname)","galibi (Guyane, Suriname)","galibi (Guyana, Surinam)","Guyana, Suriname","GUY, SUR","car, ciy",Severely endangered,"Galibi, Kari'ña, Carib, Galibi do Oiapoque in Brazil",,4000,"""J. Forte, in F. Queixalós and O. Renault-Lescure, 'As línguas amazônicas hoje' (2000)
 E.Carlin and J. Arends, 'Atlas of the Languages of Suriname' (2002)
 D. Moore, in M. Brenzinger (ed.), 'Language Diversity Threatened' (2007)""",6.8828,-60.2929,"Guyana Northwest District. Coastal area of Suriname, on the Coppename, Saramacca, Suriname, and Marowijne rivers. ",Cariban,1,true,true
 2174,Lishan Didan (Israel),lishan didan (Israël),lishanán (Israel),Israel,ISR,trg,Severely endangered,"Lishanan, Lishanid Nash Didan,  Lakhlokh, Galligallokh, Judeo-Aramaic, Jewish Northeastern Neo-Aramaic",,4000,H.Mutzafi (personal communication),32.0383,34.7827,"All over the country, especially areas of Tel Aviv and Jerusalem",Afro-Asiatic,1,true,true
@@ -1318,7 +1318,7 @@ ethnologue.com""",27.7163,87.4731,Sankhuvā Sabhā district as far as the Tibeta
 1981,Yanomami (Venezuela),yanomami (République bolivarienne du Venezuela),yanomamö (Venezuela),Venezuela (Bolivarian Republic of),VEN,wck,Vulnerable,Guaharibo. Guaica.,,4000,"""Mosonyi and Mosonyi (2000), 'Manuals de lenguas indígenas de Venezuela'.
 González Ñáñez, in Queixalós and Renault-Lescure (2000), 'As línguas amazônicas hoje' """,2.5918,-64.7314,"Southeastern part of the state of Amazonas (sources of the Orinoco, Sierra de Parima), straddling the border with Brazil. Many more Yanomami live in Brazil.",,1,true,true
 2404,Younuo Bunu,bunu younuo,bunú yunuo,China,CHN,buh,Definitely endangered,,,4000,Bradley 2007,25.1463,106.5405,,Hmong-Mien,1,true,true
-717,Zenaga (Mauritania),zenaga (Mauritanie),zenaga  (Mauritania),Mauritania,MRT,zen,Severely endangered,"ًZenaga.As a member of the Berber group, it is currently referred to under the generic term Tamazight, mainly by Tamazight speakers outside the country.",,4000,"""No reliable figures are available and estimates are hard to establish. The level of endangerment is based on published studies and  local sources. 
+717,Zenaga (Mauritania),zenaga (Mauritanie),zenaga  (Mauritania),Mauritania,MRT,zen,Severely endangered,"ًZenaga.As a member of the Berber group, it is currently referred to under the generic term Tamazight, mainly by Tamazight speakers outside the country.",,4000,"""No reliable figures are available and estimates are hard to establish. The level of endangerment is based on published studies and  local sources.
 The location  is based on recent data by Mauritanian and other linguists.
 (Kamal Naït-Zerrad, Catherine Taine-Cheikh))""",17.3086,-13.0078,"Berber is spoken in the Trarza region, mainly in the vicinity of Rkiz but also Boutilimit  and Mederdra and near the border with Senegal.",Afro-Asiatic,1,true,true
 1551,Baghati,baghati,baghati,India,IND,bfz,Critically endangered,,,3976,,31.194,77.0471,"Himachal Pradesh, northwest of Nahan and the Sirmauri area",Indo-European,1,true,true
@@ -1349,8 +1349,8 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 
 ethnologue.com""",27.4144,86.7521,Khoṭāṅ district,Sino-Tibetan,1,true,true
 1269,Eastern Popoloc,popoloc oriental,popoloca oriental,Mexico,MEX,poe,Vulnerable,"ngiwa, ngiba, Popoloca de Coyotepec, Popoloca de San Juan Atzingo, Popoloca de Mezontla",,3544,Census 2000 and information provided by INALI,18.3322,-97.3471,"Seven municipalities in the state of Puebla, among them: San Gabriel Chilac, San Vicente Coyotepec, , Tepexi de Rodríguez, Zapotitlán Salinas, and San José Tepanco",Otomanguean,1,true,true
-1716,Nding,nding,nding,Sudan,SDN,eli,Critically endangered,Eliri,,3513,"""Census, 
-Ethnologue, 
+1716,Nding,nding,nding,Sudan,SDN,eli,Critically endangered,Eliri,,3513,"""Census,
+Ethnologue,
 Abdel Rahim Mugaddam & Gerrit Dimmendaal 2005""",10.4121,30.6024,,Narrow Talodi,1,true,true
 2218,Anung (Myanmar),anong (Myanmar),anung (Myanmar),Myanmar,MMR,nun,Severely endangered,"Anong, Nung",,3500,,27.2,98.6333,,Sino-Tibetan,1,true,true
 578,Camsá,camsá,camsá,Colombia,COL,kbh,Definitely endangered,"Kamsá, Kamëntsá, Sebundoy, Sibundoy, Coche",,3500,"""José Narciso Jamioy - Gobernador indígena 2007
@@ -1473,16 +1473,16 @@ ethnologue.com""",27.3607,86.8661,"Khoṭāṅ district, spoken in one village o
 559,Sila,sila,sila,"Lao People's Democratic Republic, Viet Nam","LAO, VNM",slt,Definitely endangered,Sida,,2600,,22.3094,102.041,,Sino-Tibetan,1,true,true
 922,Pisaflores Tepehua,tepehua de Pisaflores,tepehuano de Pisa Flores,Mexico,MEX,tpp,Vulnerable,,,2578,Contributors:  Carolyn MacKay and Frank Treschel; their sources: Census 2005 and INALI information,20.6883,-98.0125,"Pisaflores, El Tepetate, San Pedro Tzitzacualpan in the municipalitiy of Ixhuatlán de Madero, state of Veracruz",Totonacan,1,true,true
 1870,Xerente,xerente,xerénte,Brazil,BRA,xer,Severely endangered,"Acuen, Akwen",,2569,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-9.3356,-48.2227,,Nuclear-Macro-Je,1,true,true
 1903,Bribri (Panama),bribri (Panama),talamanca (Panamá),Panama,PAN,bzd,Severely endangered,,,2521,"Census 2000, recent article by Ana Montalván",9.4813,-82.6174,Region of Yorkin on the Panama side of the River Sixaola; they travel from one country to the other,Chibchan,1,true,true
 566,Achuar,achuar chicham,achuar chicham,"Ecuador, Peru","ECU, PER",acu,Definitely endangered,Achual,,2500,"- Juncosa, José. 1999.  Mapa lingüístico de la Amazonia ecuatoriana. Quito: Abya-Yala.\n- CODENPE. www.codenpe.gov.ec",-2.8991,-77.4316,"- Ecuador: Provinces of Pastaza and Morona Santiago. There are about 30 communities, eleven of which are settled along the Ecuadorian-peruvian border.\n- Peru: Departamento de  Loreto, provincias de  Alto Amazonas y Loreto, en la cuenca de  los ríos Pastaza, Huasaga, Morona  (Cálculo de los propios achuar, 2007)",Chicham,1,true,true
-1691,Bai,bai,bai,Sudan,SDN,bdj,Definitely endangered,Bari,,2500,"""Welmers, 
+1691,Bai,bai,bai,Sudan,SDN,bdj,Definitely endangered,Bari,,2500,"""Welmers,
 Ethnologue""",8.0592,25.5102,""" Southern Sudan,
- Western District, on Wau-Deim Zubeir road, west of Sere. 
+ Western District, on Wau-Deim Zubeir road, west of Sere.
 A few north of Tembura. 2 villages""",Atlantic-Congo,1,true,true
-1477,Banka,banka,banka,Mali,MLI,bxw,Definitely endangered,Bankagooma,,2500,"""Ethnologue, 
+1477,Banka,banka,banka,Mali,MLI,bxw,Definitely endangered,Bankagooma,,2500,"""Ethnologue,
 Roger Blench""",11.4261,-5.6744,,Mande,1,true,true
 744,Culina (Peru),culina (Pérou),culina (Perú),Peru,PER,cul,Definitely endangered,"Mádija, Madiha",,2500,"D. Moore, in Brenzinger (2007), 'Language Diversity Endangered'",-9.6224,-70.7958,"Departamento de  Ucayali, provincia de Purús, cuenca de los río Purús y Santa Rosa",Arawan,1,true,true
 1636,Gadang,gadang,gadango,Chad,TCD,gdk,Definitely endangered,,,2500,Ethnologue,10.3473,17.2485,,Afro-Asiatic,1,true,true
@@ -1590,7 +1590,7 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 604,Huilliche,huilliche,huilliche,Chile,CHL,huh,Critically endangered,Beliche. Veliche. Tsesugun.,,2000,,-40.4803,-73.5424,"Southern Chile, San Juan de la Costa (Osorno) and shores and islands of Lake Ranco (Valdivia). Some communities in the area of Quellón, in the southern part of the island of Chiloé, .",Araucanian,1,true,true
 107,Ik,ik,ik,Uganda,UGA,ikx,Severely endangered,Teuso,,2000,"Bernd Heine, Christa König",3.5024,34.1894,,Kuliak,1,true,true
 1183,Jangshung,jangshung,yansún,India,IND,"jna, scu, ssk",Definitely endangered,"Jangrami, Zangram, Zhang-Zhung, Jangiam, Thebor, Thebör Skad, Thebarskad, Central Kinnauri",,2000,,31.7748,78.4753,"Himachal Pradesh, Kinnaur District,",Sino-Tibetan,1,true,true
-1033,Jero,jero,yerún,Nepal,NPL,jee,Vulnerable,जेरो; Jerung; Zero; Zerum,,2000,"""Opgenort, Jean Robert. 2005. A Grammar of Jero. With a Historical Comparative Study of the Kiranti Languages (xxv + 404 = 429 pp.). Brill’s Tibetan Studies Library. Languages of the Greater Himalayan Region, 3. Leiden: Koninklijke Brill. ISBN 90 04 14505 2 – 2005. 
+1033,Jero,jero,yerún,Nepal,NPL,jee,Vulnerable,जेरो; Jerung; Zero; Zerum,,2000,"""Opgenort, Jean Robert. 2005. A Grammar of Jero. With a Historical Comparative Study of the Kiranti Languages (xxv + 404 = 429 pp.). Brill’s Tibetan Studies Library. Languages of the Greater Himalayan Region, 3. Leiden: Koninklijke Brill. ISBN 90 04 14505 2 – 2005.
 
 Driem, George van. 2001. Languages of the Himalayas. Volumes 1 and 2. Hand-book of Oriental Studies. Section Two: India. Leiden/Boston/Köln: Brill.
 
@@ -1653,7 +1653,7 @@ Communites are located throughout the Great Basin area in Idaho, Nevada, Utah, a
 1194,Tinan,tinan,tinan,"China, India","CHN, IND",lbf,Definitely endangered,"Tinani, Tinan Lahuli, Teenan",,2000,,32.519,77.6733,"Himachal Pradesh, Lahul and Spiti districts",Sino-Tibetan,1,true,true
 591,Tsafiki,tsa’fiki,tsafiki,Ecuador,ECU,cof,Definitely endangered,"Colorado (discriminatory name rejected by speakers). Tsa'fiki means ""true word/language"".",,2000,"""- Montaluisa,Luis. 2008. Lenguas indígenas vivas del Ecuador. International Expert Group Meeting on Indigenous Languages. NY, (Jan. 8-10) (unpublished)
 - National Directorate of Bilingual Intercultural Education (DINEIB) (www.dineib.org)
-- Google Earth, 2008 
+- Google Earth, 2008
 
 
 """,-0.25,-79.15,,Barbacoan,1,true,true
@@ -1665,7 +1665,7 @@ Communites are located throughout the Great Basin area in Idaho, Nevada, Utah, a
 Dr. George van Driem in 'Encyclopedia of the world's endangered languaged', ed. Christopher Moseley (2007).
 
 """,35.1895,71.1941,Vaigal valley in Nuristan Province and central Kunar Province of Afghanistan ,Indo-European,1,true,true
-758,Waotededo,huaotededo,huao terero,Ecuador,ECU,auc,Vulnerable,"Waotiriro, Huaotiriro, Waodani, Auca (From Quichua = ""sauvage""; this name is rejected by the speakers)",,2000,"""- Entrix 2007. “Identificación y evaluación de impactos socioeconómicos - región amazónica”.  Quito(unpublished). 
+758,Waotededo,huaotededo,huao terero,Ecuador,ECU,auc,Vulnerable,"Waotiriro, Huaotiriro, Waodani, Auca (From Quichua = ""sauvage""; this name is rejected by the speakers)",,2000,"""- Entrix 2007. “Identificación y evaluación de impactos socioeconómicos - región amazónica”.  Quito(unpublished).
 - Personal research""",-1.1864,-76.6296,"Provinces of Orellana, Pastaza and Napo along the Yasuní, Shiripungo, Conocaco, Villano and Curaray rivers. There are about 30 communities. Two groups Taromenani and Tagaeri live still in isolation",,1,true,true
 2482,Wotapuri-Katarqalai,wotapuri-katarqalai,votapurí,Afghanistan,AFG,wsv,Definitely endangered,,,2000,"Dr. George van Driem in Encyclopaedia of the World Endangered Languages, ed by Christopher Moseley. 2007",34.4166,70.3333,"the two towns of Wotapur and Katarqala, Nuristan",Indo-European,1,true,true
 1426,Wutun,wutun,wutunhua,China,CHN,wuh,Definitely endangered,,,2000,"Mei W. Lee-Smith and Stephen A. Wurm: The Wutun language. — Atlas of languages of intercultural communication in the Pacific, Asia, and the Americas. Edited by Stephen A. Wurm & Peter Mühlhäusler & Darrell T. Tryon. Volume II, 2. Trends in Linguistics, Documentation 13, 2; Berlin: Mouton de Gruyter, 1996. 883–897.",35.791,102.4365,"Wutun villages in Tongren County of Huangnan Tibetan Autonomous District, Qinghai",Sino-Tibetan,1,true,true
@@ -1703,7 +1703,7 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 ethnologue.com""",27.5935,87.3316,"Sańkhuvā Sabhā district, upper Arun valley",Sino-Tibetan,1,true,true
 2272,Andio,andio,andio,Indonesia,IDN,bzb,Vulnerable,Masama,,1700,Grimes 2000,-0.8514,123.1457,"Sulawesi, Indonesia",Austronesian,1,true,true
 765,Cheyenne (Montana),cheyenne (Montana),cheyén (Montana),United States of America,USA,chy,Definitely endangered,,,1700,Golla et al. ms.,45.5495,-106.5263,,Algic,1,true,true
-2178,Kumzari,kumzari,kumzari,Oman,OMN,zum,Severely endangered,Kumzai,,1700,"""No authoritative account can be found. 
+2178,Kumzari,kumzari,kumzari,Oman,OMN,zum,Severely endangered,Kumzai,,1700,"""No authoritative account can be found.
 Erik John Anonby, ""Update on Luri:  How Many Languages?"" J of the Royal Asiatic Society, 2003 (p. 176) cites the lack of evidence on Kumzari, which has been classified (cf. Ethnologue) as a member of the Iranian Luri subgroup.  Reports of Kumzari appear to have originated in an article by English civil servant and explorer Bertram Thomas, ""The Kumzari Dialect of the Shihuh Tribe (Musandam), Arabia, and a Vocabulary,""  J of the Royal Asiatic Society, October 1930.  """,26.1936,56.2431,"Musandam Peninsula, in the far north of Oman which is separated from the rest of the country by the UAE.",Indo-European,1,true,true
 1946,Quechua of Yauyos,quechua de Yauyos,quechua de Yauyos.,Peru,PER,qux,Critically endangered,,,1700,,-12.9081,-75.6958,Province of Yauyos (department of Lima); adjacent areas in the province of Castrovirreyna (department of Huancavelica) and in the province of Chincha (department of Ica).,Quechuan,1,true,true
 1467,Bainouk-Samik,bainouk-samik,bainuko-samik,Senegal,SEN,bcb,Severely endangered,,,1685,"Ethnologue, Adjaratou Sall",12.5733,-16.2652,,Bookkeeping,1,true,true
@@ -1721,7 +1721,7 @@ Said BENNIS  2006: ""Contact de langues et de populations au Maroc : entre idéa
 2348,Woleaian,woleai,woleayano,Micronesia (Federated States of),FSM,woe,Severely endangered,,,1631,Grimes 2000,7.3515,143.8769,Eastern Caroline Islands,Austronesian,1,true,true
 921,Huehuetla Tepehua,Tepehua de Huehuetla,tepehuano de Huehuetla,Mexico,MEX,tee,Definitely endangered,,,1603,Contributors: Carolyn MacKay and Frank Treschel; their sources: Census 2005 and INALI information,20.46,-98.0761,"Huehuetla, state of Hidalgo; Pantepec, state of Puebla",Totonacan,1,true,true
 1630,Kadiwéu,kadiwéu,kadiwéu,Brazil,BRA,kbc,Definitely endangered,"Ejiwajegi, Guaikurú, Mbayá",,1600,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 Sandalo, Filomena: UNESCO Survey: linguistic vitality and diversity - 2008""",-20.5222,-56.7237,"Brazil, western Mato Grosso do Sul, near to the border with Paraguay, between the Paraguai and Nabileque rivers in the west, the Serra da Bodoquena in the east, the Neutaka River in the north, and the Aquidavão River in the south, Municipality of Porto Murtinho, in the villages of Bodoquena, Campina, Tomázia, and São João. Guaycuruan Family. ",Guaicuruan,1,true,true
 1539,Southern Tiwa (Isleta Pueblo),tiwa méridional (Pueblo Isleta),tiwa meridional (Isleta),United States of America,USA,tix,Definitely endangered,,,1600,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",34.9057,-106.7066,"In Sandia and Isleta pueblos, on the Rio Grande near Albuquerque, NM, Isleta 15 miles south of Albuquerque, Sandia 15 miles north of Albuquerque.",Kiowa-Tanoan,1,true,true
@@ -1733,7 +1733,7 @@ Sandalo, Filomena: UNESCO Survey: linguistic vitality and diversity - 2008""",-2
 1017,Northern Cuicatec,cuicatèque septentrional,cuicateco septentrional,Mexico,MEX,,Vulnerable,duaku,,1503,Census 2000 and information provided by INALI,17.9511,-96.7384,"Municipalities of San AndrésTeotilalpan, San Francisco Chapulapa, and Santa María Tlalixtac in the state of Oaxaca",,1,true,true
 1284,Chiquihuitlán Mazatec,mazatèque de Chiquihuitlán,mazateco de San Juan Chiquihuillán,Mexico,MEX,maq,Definitely endangered,"nne nangui ngaxni, Mazateco del sur",,1502,Census 2000 and information provided by INALI,17.9953,-96.7449,"Municipality of Chiquihuitlán de Benito Juárez, state of Oaxaca",Otomanguean,1,true,true
 1955,Apinajé,apinajé,apinayé,Brazil,BRA,apn,Vulnerable,"Apinayé, Apinaié, Timbira Ocidentais",,1500,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-6.0317,-47.5604,"Brazil, extreme north of the Tocantins State, at the confluence of the Araguaia and Tocantins rivers, 8 villages in the Terra Indígena Apinajé.",Nuclear-Macro-Je,1,true,true
 1848,Bashkarik,bashkarik,bascarí,Pakistan,PAK,"gwc, xka",Severely endangered,Gawri; Kalami; Kalkoti (dialect),,1500,"Dr. George van Driem in Encyclopaedia of World Endangered Languages, ed. by Christopher Moseley. 2007",35.2893,72.6168,"Headwarters of Swat river and Panjkora valley, Swat district, Pakistan",Indo-European,1,true,true
@@ -1750,7 +1750,7 @@ ethnologue.com""",26.9367,87.1991,Chintāṅ and Ḍhāṁḍāgāũ villages in
 90,K'emant,k'emant,kemant,Ethiopia,ETH,ahg,Severely endangered,"Kimanteney, Qimant",,1500,Zelealem Leyew,12.9349,37.2326,,Afro-Asiatic,1,true,true
 1184,Kanashi,kanashi,kanashi,India,IND,xns,Definitely endangered,,,1500,,32.0406,77.1075,"Himachal Pradesh, Kullu District",Sino-Tibetan,1,true,true
 1869,Karajá,karajá,karajá,Brazil,BRA,kpj,Vulnerable,"Carajá, Caraiauna, Iny",,1500,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-11.0921,-50.3393,,Nuclear-Macro-Je,1,true,true
 1518,Karelian (Tikhvin),carélien (Tikhvin),carelio (Tijvin),Russian Federation,RUS,krl,Severely endangered,,,1500,"Eberhard Winkler: Karelisch. — Lexikon der Sprachen des europäischen Ostens. Herausgegeben von Miloš Okuka unter Mitwirkung von Gerald Krenn. Wieser Enzyklopädie des europäischen Ostens 10; Klagenfurt: Wieser, 2002. 667–672.",59.601,33.3544,Tikhvin region in Leningrad Province,Uralic,1,true,true
@@ -1779,14 +1779,14 @@ http://en.wikipedia.org/wiki/Portal:Contents""",68.643,-95.8863,Spread over 3 co
 635,Movima,movima,movima,Bolivia (Plurinational State of),BOL,mzp,Severely endangered,,,1452,"""Haude, 'A Grammar of Movima' (2006)
 Albó, 'Bolivia plurilingüe' (2005)""",-13.7954,-65.4345,"Area of Santa Ana del Yacuma, department of Beni",,1,true,true
 1661,Ngombe,ngombé,engombé,Central African Republic,CAF,nmj,Definitely endangered,,,1450,Ethnologue,3.9492,15.2352,,Bookkeeping,1,true,true
-589,Cinta Larga,cinta larga,cinta larga,Brazil,BRA,cin,Vulnerable,,,1440,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+589,Cinta Larga,cinta larga,cinta larga,Brazil,BRA,cin,Vulnerable,,,1440,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.socioambiental.org""",-11.4154,-59.7216,"The group lives in indigenous lands Roosevelt, indigenous Park Aripuanã, eastern Rondônia; in indigenous lands Aripuanã, western Mato Grosso - Brazil",Tupian,1,true,true
 2234,Dupaninan Agta,agta de Cagayan oriental,agta de Cagayán oriental,Philippines,PHL,duo,Vulnerable,,,1400,,17.9682,122.0361,,Austronesian,1,true,true
 1724,Tese,tese,tese,Sudan,SDN,keg,Critically endangered,"Keiga Jirru, Keiga Girru",,1400,"Welmers, Ethnologue",11.2161,29.8471,"Nuba Hills, Keiga Jirru west of Debri, and in 6 villages, northeast of Kadugli",Temeinic,1,true,true
 1805,Bororo,bororo,borôro,Brazil,BRA,bor,Definitely endangered,"Borôro, Eastern Bororo, Coxiponé, Araripoconé, Araés, Cuiabá, Coroados, Porrudos, Boe, Boe Wadaru",,1390,"""www.socioambiental.org
 FUNASA, 2006
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-15.5172,-53.1024,"""Brazil, Mato Grosso State, Terra Indígena Meruri, Terra Indígena Perigara, Terra Indígena Sangradouro-Volta Grande, Terra Indígena
 Tadarimana, Terra Indígena Jarudori, and Terra Indígena Teresa Cristina. Macro-Ge, Bororo.
@@ -1818,7 +1818,7 @@ ethnologue.com
 
 """,27.5449,86.2925,Ramechhap district,Sino-Tibetan,1,true,true
 628,Maxakali,maxakali,maxacalí,Brazil,BRA,mbl,Vulnerable,"Maxacalí, Monacó",,1271,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-16.5519,-40.3417,"The group lives in the indigenous land Maxakali, Municipality of Bertópolis, Minas Gerais State - Brazil.",Nuclear-Macro-Je,1,true,true
 2688,Murik,murik,múrico,Papua New Guinea,PNG,mtf,Vulnerable,"Nor, Nor-Murik Lakes",,1256,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-3.8368,144.2807,"Angoram District, coastal west of the mouth of Sepik River, East Sepik Province",Lower Sepik-Ramu,1,true,true
@@ -1907,7 +1907,7 @@ Driem, George van. 2001. Languages of the Himalayas. Volumes 1 and 2. Hand-book 
 
 Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.
 
-ethnologue.com""",27.3937,91.8965,"""Arunachal Pradesh state, Tawang district, straddling 
+ethnologue.com""",27.3937,91.8965,"""Arunachal Pradesh state, Tawang district, straddling
 the Bhutanese border""",Sino-Tibetan,1,true,true
 2616,Dampelas,dampelas,dampelasa,Indonesia,IDN,dms,Definitely endangered,,,1000,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",0.2005,119.8965,"Close to Sabang, Sulawesi",Austronesian,1,true,true
 521,Danaw,danaw,danáu,Myanmar,MMR,dnu,Critically endangered,Danau,,1000,,21.192,97.3937,,Austroasiatic,1,true,true
@@ -1948,7 +1948,7 @@ Studies in Languages of Tajikistan, (2005), ed. John M. Clifton  """,36.6915,71.
 2585,Kairui-Midiki,kairui-midiki,kairui-midiki,Timor-Leste,TLS,krd,Vulnerable,,,1000,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-8.7222,126.2878,,Austronesian,1,true,true
 112,Kari,kari,carí,Democratic Republic of the Congo,ZAI,kbj,Severely endangered,,,1000,Ethnologue,4.8392,25.5432,,Atlantic-Congo,1,true,true
 1235,Kayabi,kayabi,kayabí,Brazil,BRA,kyz,Vulnerable,"Kaiabi, Caiabi",,1000,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-11.1972,-53.2342,"The group lives in the indigenous lands Apiaká-Kayabi, Kayabi and Parque Indígena do Xingu - Mato Grosso and Pará states - Brazil.",Tupian,1,true,true
 1098,Khowa,khowa,bugun,India,IND,bgg,Definitely endangered,Bugun,,1000,,27.2546,92.5323,"Arunachal Pradesh, West Kameng Dt.",Sino-Tibetan,1,true,true
@@ -1969,7 +1969,7 @@ E.B. Carlin and J. Arends, 'Atlas of the Languages of Suriname'  (2002).""",5.64
 2262,Ormuri,ormuri,ormurí,"Pakistan, Afghanistan","PAK, AFG",oru,Definitely endangered,Ormuḷi; Ormuṛi,,1000,Charles Kieffer: The approaching end of the relict south-east Iranian languages Ormuṛi and Parači. International Journal of the Sociology of Language 12 (1977): 71–100.,32.518,69.783,,Indo-European,1,true,true
 1622,Paiter,suruí,suruí,Brazil,BRA,sru,Vulnerable,"Suruí de Rondônia, Paíte:r",,1000,"Moore, 2008.",-11.1245,-61.3476,"Not mutually intelligible with Gavião of Rondônia, most divergente language of the Mondé branch of the Tupi family",Tupian,1,true,true
 1814,Pareci,pareci,parecís,Brazil,BRA,pab,Definitely endangered,"Haliti, Paresí, Hariti, Paressi, Parecís",,1000,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 Romling, Glauber (2008, p.c.)
 """,-14.3525,-58.0174,"""Brazil, western Mato Grosso State, on the Jubá, Guaporé, Verde,
@@ -1995,7 +1995,7 @@ S.Meira, 'A Reconstruction of Proto-Taranoan' (2000).""",2.1528,-56.3818,"In Sur
 2258,Tum,tamang du nord-ouest,tum,Lao People's Democratic Republic,LAO,tmk,Definitely endangered,,,1000,Bradley 2007,18.7,105.05,,Bookkeeping,1,true,true
 1414,Tuotomb,tuotomb,tuotombo,Cameroon,CMR,ttf,Severely endangered,,,1000,Ethnologue,4.4449,10.371,,Atlantic-Congo,1,true,true
 596,Yatê,yathê,fulnió,Brazil,BRA,fun,Severely endangered,"Iaté, Fulniô, Fulni-ô, Carnijó",,1000,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-7.0136,-37.0458,"The group lives in indigenous lands Fulni-ô, município of Águas Belas and Itaíba in the state of Pernambuco - Brazil",,1,true,true
 2260,Zaiwa,zaiwa,zaiwa,"China, India","CHN, IND",zkr,Definitely endangered,"Meyor, Zakhring, Charumba, Zha",,1000,Bradley 2007,28.4735,96.4764,,Sino-Tibetan,1,true,true
@@ -2009,7 +2009,7 @@ Current usage refers to Zenaga as Tamazight""",,1000,Local reports,22.2687,-13.7
 114,Hadza,hadza,hadza,United Republic of Tanzania,TZA,hts,Vulnerable,,,975,"Frank Marlowe p.c., Kirk Miller p.c., Bonny Sands",-3.401,35.3897,Mang'ola is the northernmost and linguistically most isolated Hadza area.,,1,true,true
 186,Kunwinjku,kunwinjku,gunwinggu,Australia,AUS,gup,Vulnerable,"Gunwinggu, Gunawitji, Mayali, Kunwinjku, Gunwinjgu.  Dialects: Gumadir, Muralidban, Gunei, Gundjeipme, Naiali",,974,,-12.1333,133.4014,,Gunwinyguan,1,true,true
 1781,Bakairi,bakairi,bakairí,Brazil,BRA,bkq,Vulnerable,"Bacairi, Kurâ",,950,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-14.4213,-54.0305,"Brasil - Northern  Mato Grosso State, southwest to the Upper Xingu area; Terra Indígena Bakairi, Municipality of Nobres, and Terra Indígena Santana, Municipality of Paranatinga. ",Cariban,1,true,true
 2501,Drubea,nââ drubea,drubea,New Caledonia (France),NCL,duf,Vulnerable,Naa Drubea,,946,1996 Census,-22.0347,166.5527,"Païta, Dumbéa, Nouméa, Yaté",Austronesian,1,true,true
@@ -2035,7 +2035,7 @@ Trillos, 'Categorías gramaticales del ette taara'  (1996)""",10.0986,-73.894,"I
 1741,Njalgulgule,njalgulgule,nyalgulgule,Sudan,SDN,njl,Severely endangered,"Bege, Beko, Nyolge",,900,"Voegelin & Voegelin, Ethnologue",8.4452,25.3015,,Dajuic,1,true,true
 1865,Pech,pech,pechí,Honduras,HND,pay,Severely endangered,Paya seco,,900,Article by Constenla;  article by Danilo Salamanca,15.0819,-85.5552,Municipality of Dulce Nombre de Culmí; Olancho dept; la Laguna in Santa María del Carbón,Chibchan,1,true,true
 1819,Rikbaktsa,rikbaktsa,rikbaktsa,Brazil,BRA,rkb,Severely endangered,"Aripaktsa, Erikbatsa, Erikpatsa, Canoeiro",,900,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 (FUNASA, 2006)""",-10.6174,-58.2714,"The group livies in Indigenous Lands Erikbaktsa, Japuíra and Escondido, north-western Mato Grosso State, Juruena River Basin.- Brazil.",Nuclear-Macro-Je,1,true,true
 2490,Caac,caac,caac,New Caledonia (France),NCL,msq,Vulnerable,,,890,Grimes 2000,-20.3883,164.5614,Pouébo,Austronesian,1,true,true
@@ -2068,7 +2068,7 @@ http://en.wikipedia.org/wiki/Portal:Contents""",46.1519,-82.2243,Spread over 15 
 34,Isu,isu,isu,Cameroon,CMR,szv,Severely endangered,Isuwu,,800,Ethnologue,4.0094,9.5745,,Atlantic-Congo,1,true,true
 1772,Jamamadí,jamanadí,yamamadí,Brazil,BRA,jaa,Vulnerable,"Yamamadi, Kanamanti",,800,"Databank Moore, 2008.",-9.0424,-68.3789,,Arawan,1,true,true
 1941,Javaé,javaé,javaé,Brazil,BRA,kpj,Definitely endangered,Karajá,,800,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-11.1568,-50.4711,"Parque Indígena do Araguaia, States of Tocantins and Goiás, Brazil.",Nuclear-Macro-Je,1,true,true
 1416,Nubaca,nubaca,nubaca,Cameroon,CMR,baf,Severely endangered,,,800,Ethnologue,4.2971,10.7446,,Atlantic-Congo,1,true,true
@@ -2109,7 +2109,7 @@ UNESCO Atlas 2nd edition (Wurm (2001))
 Ethnologue: Languages of the World (Gordon, (2005))
 http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",55.355,-127.6828,Spread over 8 communities in Canada,Tsimshian,1,true,true
-1835,A'ingae / Cofan (Ecuador),a’ingae (Équateur),cofán (Ecuador),Ecuador,ECU,con,Definitely endangered,"Cofan, Kofan (see Colombia)",,700,"""- CODENPE - PRODEPINE, Diagnóstico Participativo y Plan de Desarrollo Local de la Nacionalidad Cofán, 2002-2205.  
+1835,A'ingae / Cofan (Ecuador),a’ingae (Équateur),cofán (Ecuador),Ecuador,ECU,con,Definitely endangered,"Cofan, Kofan (see Colombia)",,700,"""- CODENPE - PRODEPINE, Diagnóstico Participativo y Plan de Desarrollo Local de la Nacionalidad Cofán, 2002-2205.
 - Fischer, Rafael.  2005. “Documentación y descripción gramatical del A’ingae (Cofán)”. (Conferencia presentada en la Universidad Católica, Quito, octubre 07, 2005) (versión digital).
 - Juncosa, José. 1999.  Mapa lingüístico de la Amazonia ecuatoriana. Quito: Abya-Yala.
 """,0.0659,-76.7065,"In Ecuador: Province of Sucumbíos, Lago Agrio county,  Dureno and  Jambelí parishes; Cascales county,  El Dorado parish; Cuyabeno county, Cuyabeno parish;  Sucumbíos county, La Bonita parish. Major settlements are in Sinangue, Dovuno, Dureno and Zabalo,",,1,true,true
@@ -2156,7 +2156,7 @@ http://en.wikipedia.org/wiki/Portal:Contents""",44.8381,-80.1983,Spread over 23 
 1418,Bubia,bubia,bubia,Cameroon,CMR,bbx,Severely endangered,,,600,Voegelin & Voegelin 1977,4.0204,9.2037,,Bookkeeping,1,true,true
 897,Chickasaw,chickasaw,chicasa,United States of America,USA,cic,Severely endangered,,,600,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",34.6,-96.8161,"Chickasaw Nation in parts of 13 counties in south-central Oklahoma, from Byng or Happyland (near Ada) in the north, and from Davis or Ardmore in the west to Fillmore and Wapanucka in the east. ",Muskogean,1,true,true
 1628,Desano (Brazil),desano (Brésil),desano (Brasil),Brazil,BRA,des,Definitely endangered,"Desano, Dessano, Wira, Umùkomasá",,600,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,0.0878,-67.9394,,Tucanoan,1,true,true
 351,Faetar,faetar,faetar,Italy,ITA,frp,Definitely endangered,,,600,Naomi Nagy: Writing a sociolinguistics grammar of Faetar. Penn Working Papers in Linguistics 7.3: Selected Papers from NWAV 29 (2001): 225–246.,41.3265,15.1721,Faeto and Celle San Vito in Foggia Province in Apulia; an outlying dialect of Francoprovençal not listed separately by the SIL,Indo-European,1,true,true
@@ -2182,7 +2182,7 @@ Other speakers live in other Upper Xingu villages (Kalapalo, Matipu, Nahukwá, W
 757,Siona / Secoya (Ecuador),paicoca /secoya (Équateur),siona / secoya (Ecuador),Ecuador,ECU,"sey, snn",Severely endangered,"Baikoka, Siona, Secoya, Paikoka",,600,"""- Montaluisa, Luis. 2008. “Lenguas indígenas vivas del Ecuador”. International Expert Group Meeting on Indigenous Languages. UNITED NATIONS. Department of Economic and Social Affairs. Division for Social Policy and Development. Secretariat of the Permanent Forum on Indigenous Issues (8-10 January, 2008, New York) Consulta: mayo 11, 2008
 - Álvarez, Catalina (Asesora). 2000. Sucumbíos intercultural. Nueva Loja: DIPEIB-S/ FOISE/ CRS.
 - Vickers, William.1989. Los Sionas y Secoyas. Su adaptación al ambiente amazónico. Colección 500 años. Vol. 9. Quito: Abya-Yala, Movimientos Laicos para América Latina.
-- SIISE (Sistema Integrado de Indicadores Sociales del Ecuador). 2002.http://200.24.215.221/siise/ayudas/glos910u.htm. Downloaded:  June, 2008. 
+- SIISE (Sistema Integrado de Indicadores Sociales del Ecuador). 2002.http://200.24.215.221/siise/ayudas/glos910u.htm. Downloaded:  June, 2008.
 - www.dineib.edu.ec/siona.htm""",-0.0659,-76.3989,"Ecuador:  Sucumbíos province, Putumayo county, Puerto Bolívar parish; some people are also in the counties of Shushufindi and San Roque. In spite of their bilingualism, Sionas and Secoyas still maintain their ancestral traditions and ceremonies. ",Tucanoan,1,true,true
 716,Sonsorol,sonsorol,sonsorol,Palau,PLW,sov,Severely endangered,Sonsorolese,,600,Grimes 2000,7.4278,134.5495,Palau Islands,Austronesian,1,true,true
 2627,Teanu,teanu,teanu,Solomon Islands,SLB,tkw,Definitely endangered,"Buma, Puma",,600,"Tryon & Hackman 1983, Alexandre François 2006 - http://alex.francois.free.fr/AF-terrain.htm",-11.6219,166.9633,Vanikoro,Austronesian,1,true,true
@@ -2208,7 +2208,7 @@ http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",51.7886,-122.2286,Spread over 28 communities in Canada,Salishan,1,true,true
 2500,Xaragure,xârâgurè,xaragure,New Caledonia (France),NCL,axx,Vulnerable,,,566,"1996 Census, LACITO",-21.8054,166.4964,Thio,Austronesian,1,true,true
 1872,Tapirapé,tapirapé,tapirapé,Brazil,BRA,taf,Vulnerable,Tapi'irape,,564,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-10.6606,-50.4602,,Tupian,1,true,true
 1355,Lacandón,lacandon,lacandón,Mexico,MEX,lac,Critically endangered,jach-t'aan,,563,"""Census 2000, information provided by INALI
@@ -2290,7 +2290,7 @@ http://www.sil.org/sociolx/pubs/32840_SSNP02.pdf
 2682,Laxudumau,laxudumau,laxudumau,Papua New Guinea,PNG,,Vulnerable,,,500,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-2.8922,151.2467,"Village of Lakudumau (or Lakuramau), central east coast of New Ireland Province",,1,true,true
 1394,Majera,majera,mayera,Cameroon,CMR,xmj,Critically endangered,,,500,Ethnologue,11.3231,14.9839,,Afro-Asiatic,1,true,true
 772,Maliseet-Passamaquoddy,maliseet-passamaquoddy,malesí-openango,United States of America,USA,pqm,Severely endangered,"Maliseet, Malicite, Passamaquoddy",,500,Golla et al ms.,44.9572,-67.0496,"Communities in the United States are in Pleasant Point and Indian Township, Maine; a few speakers live in Old Town, Maine and Bridgeport, Connecticut.",Algic,1,true,true
-1543,Mikasuki,mikasuki,mikasuki,United States of America,USA,mik,Vulnerable,"Hitchiti-Miikasuki, Hitchiti, Seminole, Miccosukee",,500,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",26.3202,-80.9877,"""Spoken in Florida by members of the Miccosukee Tribe (with four  small reservations in Southwest Miami-Dade County, including Tamiami Trail, Alligator Alley and two on Krome Avenue) and  the Seminole Tribe (with five  reservation, with Mikasuki spoken at four: the  Big Cypress, Immokalee, Hollywood, and Tampa reservations. (Creek [the Florida Seminole dialect] is dominant at the 
+1543,Mikasuki,mikasuki,mikasuki,United States of America,USA,mik,Vulnerable,"Hitchiti-Miikasuki, Hitchiti, Seminole, Miccosukee",,500,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",26.3202,-80.9877,"""Spoken in Florida by members of the Miccosukee Tribe (with four  small reservations in Southwest Miami-Dade County, including Tamiami Trail, Alligator Alley and two on Krome Avenue) and  the Seminole Tribe (with five  reservation, with Mikasuki spoken at four: the  Big Cypress, Immokalee, Hollywood, and Tampa reservations. (Creek [the Florida Seminole dialect] is dominant at the
 Brighton Reservation.)""",Muskogean,1,true,true
 1299,Mlomp,mlomp,mlomp,Senegal,SEN,mlo,Critically endangered,,,500,"Tucker Childs, Adjaratou Sall",12.7421,-16.4904,,Atlantic-Congo,1,true,true
 2560,Onin,onin,onin,Indonesia,IDN,oni,Vulnerable,,,500,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-2.9745,132.2383,Irian Jaya,Austronesian,1,true,true
@@ -2308,7 +2308,7 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 
 ethnologue.com""",28.9282,83.8249,Kālī Gaṇḍakī river valley,Sino-Tibetan,1,true,true
 2056,Siona / Secoya (Colombia),siona / secoya (Colombie),siona / secoya (Colombia),Colombia,COL,"sey, snn",Critically endangered,"Sioni, Pioje, Pioche-Sioni, zeona, kokakañu, quenquejoyo, paikoka",,500,"""Alain Fabre 2005- Diccionario etnolingüístico y guía bibliográfica de los pueblos indígenas sudamericanos. TUKANO
-2003 Plan de Vida del Pueblo Siona Ga'ntëya bain 
+2003 Plan de Vida del Pueblo Siona Ga'ntëya bain
 Wheeler, Alva. 2000. La Lengua Siona. En Las languas indígenas de Colombia, una visión descriptiva. Instituto Caro y Cuervo.""",0.493,-76.2464,"Departamento del Putumayo. Municipios de Puerto Asis y Puerto Leguizamo, orilla izquierda del río Putumayo. En Ecuador en la Provincia de Sucumbíos y en Perú en el Departamento de Loreto.",Tucanoan,1,true,true
 414,South Saami,saami méridional,saamí meridional,"Norway, Sweden","NOR, SWE",sma,Severely endangered,,åarjelsaemien gïele,500,,64.2063,13.4802,"Vilhelmina County and parts of neigbouring counties in Västerbotten Province (Åsele Lappmark), Strömsund, Krokom, Åre, Berg and Härjedalen counties in Jämtland Province, and Idre region in Älvdalen County in Dalarna Province, Sweden; southern parts (up till Rana) in Nordland Province, many parts of Nord-Trøndelag and Sør-Trøndelag provinces and Engerdal region in Hedmark Province, Norway",Uralic,1,true,true
 2567,Taikat,taikat,taikat,Indonesia,IDN,aos,Definitely endangered,Arso,,500,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-2.8429,140.846,Irian Jaya,Border,1,true,true
@@ -2357,11 +2357,11 @@ Pozzi-Escot (1998), 'El multilingüismo en el Perú'. CBC. Cusco.
 """,-0.5712,-74.8828,"According to Wilson López the Secoya people in Peru are actually located by the Yaricaya, Angusillas and Yibineto rivers (towards the Putumayo river). A smaller group lives towards the Napo river on the Huajoya river. ",Tucanoan,1,true,true
 2653,Tolomako,tolomako,tolomako,Vanuatu,VUT,tlm,Definitely endangered,,,450,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-15.1834,166.8438,"Big Bay, Santo Island",Austronesian,1,true,true
 1820,Enawenê-Nawê,enawenê-nawê,salumá,Brazil,BRA,unk,Vulnerable,"Eneuene-Mare, Salumã (not to be confused with what SIL calls Salumá, a Carib language in NW Pará)",,445,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-12.5223,-59.7656,"The group lives in Indigenous Lands Enawê-Nawê , north-western Mato Grosso State, 1 big village near the Iquê River, a tributary of the Juruena River - Brazil.",Arawakan,1,true,true
 1029,Valle Nacional Chinantec,chinantèque de Valle Nacional,chinanteco de Valle Nacional,Mexico,MEX,cvn,Definitely endangered,Chinanteco de San Juan Bautista Valle Nacional,,442,"Contibutor: Judi Lynn Anderson, Census 2000, INALI information",17.7747,-96.3034,"Locality of San Mateo Yetla (and others with fewer speakers) in the municipality of Valle Nacional, state of Oaxaca",Otomanguean,1,true,true
-598,Gavião de Rondônia,gavião du Rondônia,gavião de Rondônia,Brazil,BRA,gvo,Vulnerable,"Ikõlej, Ikõleey, Ikõro",,436,"""Moore, 2008, IBGE databank 
+598,Gavião de Rondônia,gavião du Rondônia,gavião de Rondônia,Brazil,BRA,gvo,Vulnerable,"Ikõlej, Ikõleey, Ikõro",,436,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil) """,-10.4445,-61.6992,"one of the four dialects of one language, Gavião, Zoró, Cinta-Larga, Aruá",Tupian,1,true,true
 1500,Tabasco Náhuatl,náhuatl de Tabasco,nahua de Tabasco,Mexico,MEX,nhk,Critically endangered,"Pipil, Mexicano del oriente",,434,"Census 2000, information provided by INALI for percentages of child speakers; Lastra (1986)",18.0026,-93.3722,Municipalities of Cárdenas and Comalcalco in the state of Tabasco,Uto-Aztecan,1,true,true
 2703,Sera,sera,sera,Papua New Guinea,PNG,sry,Severely endangered,,,432,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-3.0033,141.9158,"Coastal, Sandaun (West Sepik) Province",Austronesian,1,true,true
@@ -2377,7 +2377,7 @@ http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",52.2827,-81.6276,Spread over 6 communities in Canada,Algic,1,true,true
 937,Tlahuica,tlahuica,tlahuica,Mexico,MEX,ocu,Severely endangered,"Ocuilteco, pjiekakjo",,405,Census 2000 and information provided by INALI,18.9664,-99.4137,"San Juan Atzingo in the municipality of Ocuilan, state of Mexico",Otomanguean,1,true,true
 616,Katukina do Acre,katukina de l'Acre,catuquina del Acre,Brazil,BRA,knt,Severely endangered,"Katukina Pano, Panoana Katukina, Katukina",,404,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-6.4899,-69.2578,"""The group lives in the indigenous lands Rio Gregório, Tarauacá Municipality;  in the indigenous lands Rio Campinas, Tarauacá and Ipixuna municipalities, Upper Juruá River region, Acre State - Brazil.
 Pano linguistic family""",Pano-Tacanan,1,true,true
@@ -2435,11 +2435,11 @@ Ethnologue: Languages of the World (Gordon, (2005))
 http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",48.7715,-123.6678,Spread over 52 communities in Canada,Salishan,1,true,true
 1237,Yudja,yudja,yudja,Brazil,BRA,jur,Vulnerable,"Juruna, Yuruna",,362,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-10.956,-53.3235,"The group lives in the indigenous lands Paquiçamba, Parque Indígena do Xingu, Lower and Middle Xingu region, Mato Grosso and Pará State - Brazil.",Tupian,1,true,true
 1238,Kisêdjê,kisêdjê,kisêdjê,Brazil,BRA,suy,Vulnerable,"Suyá, Suiá",,351,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-11.5795,-53.031,"The group lives in the indigenous lands Parque Indígena do Xingu and Wawi, on the Suyá-Missu River, in the villages of Ngôsokô, Roptôtxi and Beira Rio - Mato Grosso state - Brazil.",Nuclear-Macro-Je,1,true,true
 2488,Auye,auye,auye,Indonesia,IDN,auu,Vulnerable,,,350,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-3.5627,135.9915,Irian Jaya,Nuclear Trans New Guinea,1,true,true
@@ -2461,8 +2461,8 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 ethnologue.com
 """,28.041,84.629,Enclave in Gorkhā district in central Nepal,Sino-Tibetan,1,true,true
 1239,Ikpeng,ikpeng,Ikpeng,Brazil,BRA,txi,Vulnerable,"Txicão, Txikão",,342,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-11.7376,-53.616,"The group lives in indigenous Park of the Xingu, left bank of the Upper Xingu in the Uaví River mouth area, to the north of the Kayabí settlements - Mato Grosso - Brazil",Cariban,1,true,true
 357,Gardiol,gardiol,gardiol,Italy,ITA,,Severely endangered,,,340,,39.4658,15.9933,Guardia Piedmontese in Calabria; an outlying dialect of Alpine Provençal,,1,true,true
 1760,Araweté,araweté,araweté,Brazil,BRA,awt,Vulnerable,Araueté,,339,"Databank Moore, 2008.",-5.1347,-52.3388,,Tupian,1,true,true
@@ -2476,16 +2476,16 @@ http://en.wikipedia.org/wiki/Portal:Contents""",50.1909,-120.8431,Spread over 32
 2676,Kaningara,kaningara,kaningra,Papua New Guinea,PNG,knr,Vulnerable,Kaningra,,327,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-4.5784,143.3612,"West of Amboin, near the Kvanmas Lake, East Sepik Province",Sepik,1,true,true
 914,Misantla Totonac,totonaque de Misantla,totonaco de Misantla,Mexico,MEX,tlc,Critically endangered,"Yecuatla Totonac, Totonaco del sureste",,325,"Contributors: Carolyn MacKay and Frank Treschel,  2005 Census and information given by INALI",19.865,-96.7755,"Chiconquiaco, Jilotepec, Landero y Coss, Misantla, Yecuatla",Totonacan,1,true,true
 2492,Nemi,nemi,nemi,New Caledonia (France),NCL,nem,Definitely endangered,,,325,Rivierre et al. 2003,-20.6494,164.6878,Hienghène,Austronesian,1,true,true
-1621,Nambiquara do Norte,nambikwara du nord,nambikuára septentrional,Brazil,BRA,"lkd, ltn, xtw, wmd",Vulnerable,"""Lakondê, Latundê, Tawandê. Two tribes : 
+1621,Nambiquara do Norte,nambikwara du nord,nambikuára septentrional,Brazil,BRA,"lkd, ltn, xtw, wmd",Vulnerable,"""Lakondê, Latundê, Tawandê. Two tribes :
 Negarotê and Mamaindê. """,,323,"Databank Moore, 2008.",-11.8028,-59.8095,,Nambiquaran,1,true,true
 1810,Matís,matis,matis,Brazil,BRA,mpq,Vulnerable,,,322,"Databank Moore, 2008.",-6.1405,-70.664,,Pano-Tacanan,1,true,true
-1240,Wauja,wauja,wauja,Brazil,BRA,wau,Vulnerable,"Uaurá, Waurá",,321,"""Moore, 2008, IBGE databank 
+1240,Wauja,wauja,wauja,Brazil,BRA,wau,Vulnerable,"Uaurá, Waurá",,321,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-12.2554,-53.5899,"The group lives in the Xingu Indigenous Park, Mato Grosso state - Brazil",Arawakan,1,true,true
 2330,Benggoi,benggoi,benggoi,Indonesia,IDN,bgy,Definitely endangered,,,320,Grimes 2000,-3.0748,130.0918,Maluku,Austronesian,1,true,true
 614,Karitiana,karitiána,caritiana,Brazil,BRA,ktn,Vulnerable,"Caritiana, Yjxa",,320,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-9.7307,-64.0942,"The group lives in indigenous lands Karitiana and Karipuna, north-western Rondônia - Brazil.  All speak the language-- Moore visited the reserve twice.",Tupian,1,true,true
 761,Apalai,apalai,aparaí,Brazil,BRA,apy,Vulnerable,,,317,"Moore, 2008.",1.2084,-55.1074,,Cariban,1,true,true
 141,Kwak'wala,kwak'wala,kwakwala,"Canada, United States of America","CAN, USA",kwk,Critically endangered,Kwakiutl,,315,"""1996 and 2001 Censuses, Statistics Canada; based on the Department of Canadian Heritage customized census retrievals
@@ -2502,7 +2502,7 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 1682,Opuuo,opuo,opúo,Ethiopia,ETH,lgn,Critically endangered,Opo-Shita,,307,"census, Yvonne Treis",8.3202,33.8873,,Koman,1,true,true
 642,Panará,panará,panará,Brazil,BRA,kre,Vulnerable,"Krenhakarore, Krenakore, Krenakarore, Índios Gigantes, Kreen-akarore",,306,"""FUNASA
 www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-9.449,-54.5965,"The group lives in the indigenous lands Panará, Parque Indígena do Xingu, on the Iriri River, south-western Pará State - Brazil.",Nuclear-Macro-Je,1,true,true
 1690,Aka,aka,aka,India,IND,soh,Critically endangered,Jebel Sillok,,300,"Bender, Ethnologue",11.0112,34.2333,,Eastern Jebel,1,true,true
@@ -2528,7 +2528,7 @@ ethnologue.com
 2674,Kandas,kandas,kandas,Papua New Guinea,PNG,kqw,Vulnerable,,,300,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-4.4121,152.7868,"Southwest coast, New Ireland Province",Austronesian,1,true,true
 1421,Kangjia,kangjia,kangjia,China,CHN,kxs,Severely endangered,,,300,"Stephen S. Kim: Santa. — The Mongolic languages. Edited by Juha Janhunen. London and New York: Routledge, 2003. 346–363.",36.0757,102.2991,"gCan.tsha (Jianzha), north of Tongren in Tongren County of Huangnan Tibetan Autonomous District, Qinghai",Mongolic-Khitan,1,true,true
 1618,Kaxarari,kaxarari,kaxararí,Brazil,BRA,ktx,Critically endangered,"Caxarari, Kaxariri",,300,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-9.5682,-66.1596,The group lives in the indigenous lands Kaxararí on the border between the federal states of Rondônia and Amazonas - Brazil.,Pano-Tacanan,1,true,true
 2546,Kwansu,Kwansu,kuansu,Indonesia,IDN,kja,Vulnerable,Mlap,,300,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-2.5383,140.2061,Irian Jaya,Nimboranic,1,true,true
@@ -2642,8 +2642,8 @@ Census 2000 and information provided by INALI""",17.5333,-97.35,"Municipality of
 949,"Zapotec of the Valleys, west","zapotèque des vallées, ouest",zapoteco del valle occidental,Mexico,MEX,,Definitely endangered,dizë,,211,"""Census 2000
 Contributor: Thomas C. Smith-Stark""",16.2666,-96.8833,Locality of San Pablo Cuatro Venados. state of Oaxaca,,1,true,true
 1617,Karo,káro,karo,Brazil,BRA,arr,Vulnerable,"Arara, Arara Karo, Arara de Rondônia, Arara Tupi, Ntogapíd, Itogapúk, Ramarama, Uruku, Urumi, Ytangá",,208,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-10.5749,-61.5893,"The group lives in the southern part of the indigenous lands Igarapé de Lourdes, in the villages Iterap and Paygap, eastern Rondônia - Brazil.  Almost all speak the language.",Tupian,1,true,true
 723,Cocopa (Mexico),cucapá (Mexique),cocopa (México),Mexico,MEX,coc,Definitely endangered,,,206,Data provided by contributor: Steven Marlett,32.25,-115.25,"Mexicali, BC, San Luis Rio Colorado, Sonora",Cochimi-Yuman,1,true,true
 1793,Korúbo,korúbo,korubo,Brazil,BRA,xor,Vulnerable,Caceteiros,,205,"Databank Moore, 2008.",-5.8346,-70.9277,,Pano-Tacanan,1,true,true
@@ -2715,11 +2715,11 @@ Playas del Rosarito, Tecate""",Cochimi-Yuman,1,true,true
 2273,Bahonsuai,bahonsuai,bahonsuái,Indonesia,IDN,bsu,Definitely endangered,,,180,Grimes 2000,-2.2186,121.6845,"Sulawesi, Indonesia",Austronesian,1,true,true
 2520,Bedoanas,bedoanas,bedoanas,Indonesia,IDN,bed,Vulnerable,,,180,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-2.7263,132.5582,Irian Jaya,Austronesian,1,true,true
 1774,Jarawára,jarawára,yarawara,Brazil,BRA,jap,Vulnerable,,,180,"""Databank Moore, 2008.
-Online Dictionaries available from http://www.ethnologue.com/show_work.asp?id=47449  and http://www.ethnologue.com/show_work.asp?id=47288 
+Online Dictionaries available from http://www.ethnologue.com/show_work.asp?id=47449  and http://www.ethnologue.com/show_work.asp?id=47288
 
-Vogel, Alan, compiler. 2006. Dicionário Jarawara-Português.‭  rev. online ed. Cuiabá, MT: Sociedade Internacional de Lingüística. rev. ed. 267 p. http://www.sil.org/americas/brasil/langpage/PortJAPg.htm 
+Vogel, Alan, compiler. 2006. Dicionário Jarawara-Português.‭  rev. online ed. Cuiabá, MT: Sociedade Internacional de Lingüística. rev. ed. 267 p. http://www.sil.org/americas/brasil/langpage/PortJAPg.htm
 
-Vogel, Alan, compiler. 2006. Jarawara - English dictionary.‭  Online edition SIL. 262 p. http://www.sil.org/americas/brasil/PUBLCNS/DICTGRAM/JADictEN.pdf 
+Vogel, Alan, compiler. 2006. Jarawara - English dictionary.‭  Online edition SIL. 262 p. http://www.sil.org/americas/brasil/PUBLCNS/DICTGRAM/JADictEN.pdf
 
 Dixon - Vogel’s Grammar of Jarawara (2004)
 """,-7.2153,-65.0115,,Bookkeeping,1,true,true
@@ -2760,7 +2760,7 @@ UNESCO Atlas 2nd edition (Wurm (2001))
 Ethnologue: Languages of the World (Gordon, (2005))
 http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",61.9751,-132.4544,Spread over 8 communities in Canada,Athabaskan-Eyak-Tlingit,1,true,true
-2023,Aikana,aikaná,aikaná,Brazil,BRA,tba,Definitely endangered,"Aikaná, Masaká, Kasupá, Huarí, Corumbiara, Mondé, Tubarão",,150,"""Moore, 2008, IBGE databank 
+2023,Aikana,aikaná,aikaná,Brazil,BRA,tba,Definitely endangered,"Aikaná, Masaká, Kasupá, Huarí, Corumbiara, Mondé, Tubarão",,150,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil) """,-12.651,-60.3918,"The group lives in indigenous lands Tubarão/Latundê, Posto Indígena Rio Guaporé, indigenous lands Kwazá do São Pedro, southeastern Rondônia  - Brazil",,1,true,true
 1452,Aleut (Eastern),aleut (oriental),aleutiano (oriental),United States of America,USA,ale,Critically endangered,"Unangany, Unangan, Unanghan",,150,"""Krauss 2007
 Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.""",54.7212,-164.4433,"""Atka
@@ -2832,7 +2832,7 @@ Ethnologue 1992. Pag. 58.
 1457,Nahukwa,nahukwa,nahukwa,Brazil,BRA,mzo,Definitely endangered,"Nahuqua, Nahukua",,124,"""Franchetto, Santos; Mutua Mehinaku;
 FUNASA;
 www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-12.1043,-53.2944,"The group lives in the indigenous lands Parque Indígena do Xingu, Municipality of Querência, Mato Grosso State - Brazil.",Cariban,1,true,true
 2329,Aputai,aputai,aputai,Indonesia,IDN,apx,Critically endangered,,,120,Grimes 2000,-7.6511,126.4086,Maluku,Austronesian,1,true,true
@@ -2910,10 +2910,10 @@ reports that it is not extinct; and that it is spoken in at least the douar of o
 274,Seneca (United States of America),seneca (États-Unis d'Amérique),seneca (Estados Unidos),United States of America,USA,see,Severely endangered,,,100,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",42.3291,-78.868,"In three communities, in Cattatraugus, on Lake Erie; Allegany, in Salamanca; and Tonawanda, near Buffalo. ",Iroquoian,1,true,true
 2565,Senggi,senggi,senggi,Indonesia,IDN,snu,Vulnerable,,,100,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-3.4339,140.7685,Irian Jaya,Border,1,true,true
 770,Shawnee,shawnee,chavanés,United States of America,USA,sjw,Severely endangered,,,100,Golla et al ms.,35.359,-96.9298,"There are three Shawnee groups in Oklahoma: Absentee Shawnee Tribe, Shawnee; Eastern Shawnee Tribe in Ottawa County; and the Loyal (Cherokee) Shawnee in northeastern Oklahoma.",Algic,1,true,true
-1988,Shiwiar,shiwiar chicham,shiwiar chicham,Ecuador,ECU,acu,Severely endangered,Shiwiar chicham,,100,"""- SIISE, Primera encuesta nacional a comunidades de las Nacionalidades y Pueblos. 
+1988,Shiwiar,shiwiar chicham,shiwiar chicham,Ecuador,ECU,acu,Severely endangered,Shiwiar chicham,,100,"""- SIISE, Primera encuesta nacional a comunidades de las Nacionalidades y Pueblos.
 Medida: Porcentaje. Año: 2002. Elaboración: SIISE - SIDENPE
 - www.shiwiar-ecuador.org
-- NASHIE (Nacionalidad Shiwiar del Ecuador) 2007""",-2.2186,-76.8164,"""Southern Provincia de Pastaza (between the Andoa and Zaparo territories).  There are 10 
+- NASHIE (Nacionalidad Shiwiar del Ecuador) 2007""",-2.2186,-76.8164,"""Southern Provincia de Pastaza (between the Andoa and Zaparo territories).  There are 10
 Shiwiar communities: Bufeo, Chuinentsa, Juyuintsa, Kambantsa, Kawao, Kurintsa, Panintsa, Tanguntsa, Tunguintsa y Yandanaentsa.""",Chicham,1,true,true
 1199,Shompen,shompen,shom peng,India,IND,sil,Critically endangered,Shom Peng,,100,Prof. Udaya Narayana Singh (personal communication),7.0245,93.8232,living inside forests on Great Nicobar Island,Atlantic-Congo,1,true,true
 106,Soo,soo,tepes,Uganda,UGA,teu,Critically endangered,"So, Tepeth, Tepes",,100,"Eithne Carlin, 1993 The So language. (AMO2) University of Cologne.",2.161,34.5986,,Kuliak,1,true,true
@@ -2926,7 +2926,7 @@ Shiwiar communities: Bufeo, Chuinentsa, Juyuintsa, Kambantsa, Kawao, Kurintsa, P
 2131,Vehes,vehes,vehes,Papua New Guinea,PNG,val,Severely endangered,,,100,Grimes 2000,-6.9427,146.9311,Morobe Province,Austronesian,1,true,true
 245,Wik Ngathan,wik-ngathana,wik ngathan,Australia,AUS,wig,Definitely endangered,Wik Ngathana,,100,,-14.9561,141.8884,,Pama-Nyungan,1,true,true
 1874,Xokleng,xokleng,xokleng,Brazil,BRA,xok,Critically endangered,"Bugres, Botocudos, Aweikoma, Xokrén, Kaingang de Santa Catarina, Aweikoma-Kaingang; Shokleng, Laklanô",,100,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-26.5522,-49.0779,,Nuclear-Macro-Je,1,true,true
 20,Yangkam,yangkam,bachirí,Nigeria,NGA,bsx,Critically endangered,Bashar,,100,"Roger Blench, Ethnologue",9.1048,9.8904,,Atlantic-Congo,1,true,true
@@ -3002,7 +3002,7 @@ Complementary information provided by contributor H. Antonio García Zúñiga"""
 Complementary information provided by contributor H. Antonio García Zúñiga""",19.508,-89.3188,Localities of Los Laureles and Quetzal-Edzná in the municipality of Campeche; locality of Maya Balam in the municipality of Othón P. Blanco in the state of Quintana Roo,,1,true,true
 493,Orok,orok,oroki,Russian Federation,RUS,oaa,Critically endangered,Uilta; ульта,,64,"Л. В. Озолиня: Орокский язык. — Языки народов России: Красная книга. Москва: Academia, 2002. 143–148. | К. А. Новикова, Л. И. Сем: Орокский язык. — Языки мира: Монгольские языки; Тунгусо-маньчжурские языки; Японский язык; Корейский язык. Москва: Индрик, 1997.",52.3437,143.0557,"Nogliki, Poronaysk and Aleksandrovsk counties in Sakhalin Province, now mainly in the village of Val in Nogliki County; Orok speakers from the southern part of the island were evacuated to Hokkaido, Japan, after 1945, where the language is now extinct",Tungusic,1,true,true
 612,Carapana (Brazil),carapana (Brésil),carapana (Brasil),Brazil,BRA,cbc,Severely endangered,"Karapanã, Carapanã, Muteamasa, Ukopinõpõna",,63,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-3.0966,-65.061,"The group lives in indigenous lands Alto Rio Negro, São Gabriel and Pari-Cachoeira, north-western Amazonas State - Brazil.",Tucanoan,1,true,true
 2085,Yan-nhangu,yan-nhangu,yarnango,Australia,AUS,jay,Definitely endangered,"Jarnango, Nangu, Yanangu.",,61,"James, Bentley 2009 Time and Tide in the Crocodile Islands: Yan-nhangu marine identity, economy & history. PhD thesis, Australian National University.",-12.094,134.89,,Pama-Nyungan,1,true,true
@@ -3024,7 +3024,7 @@ http://en.wikipedia.org/wiki/Portal:Contents""",57.8451,-129.9745,Spread over 4 
 1696,Tembé,tembé,tembé,Brazil,BRA,tqb,Severely endangered,"Timbé, Tenetehara, Tenetehar",,60,"Moore, 2008.",-2.6467,-46.7248,"Tembé and Guajajara are dialects of the same language, according to the Tembé, who see little difference",Tupian,1,true,true
 2118,Mosimo,mosimo,mosimo,Papua New Guinea,PNG,mqv,Severely endangered,,,58,Grimes 2000,-4.9473,145.5551,Madang Province,Nuclear Trans New Guinea,1,true,true
 656,Tapayuna,tapayuna,tapayuna,Brazil,BRA,suy,Severely endangered,"Tapaiuna, Beiço-de-Pau",,58,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-10.5559,-53.0639,The group lives in the Mato Grosso state and south-western Pará State - Brazil.,Nuclear-Macro-Je,1,true,true
 2107,Bepour,bepour,bepour,Papua New Guinea,PNG,bie,Severely endangered,,,57,Grimes 2000,-4.586,145.4184,Madang,Nuclear Trans New Guinea,1,true,true
@@ -3067,7 +3067,7 @@ http://en.wikipedia.org/wiki/Portal:Contents""",52.3823,-126.7255,Spread over 1 
 2311,Lolak,lolak,lolak,Indonesia,IDN,llq,Critically endangered,,,50,Grimes 2000,0.8569,124.0081,Sulawesi,Austronesian,1,true,true
 2583,Maku'a,maku'a,maku'a,Timor-Leste,TLS,lva,Critically endangered,"Lovaea, Lovaya",,50,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-8.4017,127.2271,,Austronesian,1,true,true
 625,Makurap,makurap,makuráp,Brazil,BRA,mpu,Severely endangered,Macurap,,50,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-12.1682,-63.0285,"The group lives in the indigenous lands Rio Branco, south-western Rondônia State - Brazil.",Tupian,1,true,true
 212,Miriwoong,miriwung,miriwung,Australia,AUS,mep,Critically endangered,"Mirung, Merong, Miriwun, Miriwung.",,50,,-16.7631,128.9025,,Jarrakan,1,true,true
@@ -3128,8 +3128,8 @@ Complementary information provided by contributor H. Antonio García Zúñiga"""
 """,44.9356,-88.6144,,Algic,1,true,true
 1945,Quechua of Pacaraos,quechua de Pacaraos,quechua de Pacaraos,Peru,PER,qvp,Critically endangered,Paqraw kichwa.,,35,,-11.2538,-76.8054,"Pacaraos, in the upper Chancay valley, province of Huaral, department of Lima",Quechuan,1,true,true
 2129,Turaka,turaka,turaka,Papua New Guinea,PNG,trh,Critically endangered,,,35,Grimes 2000,-9.796,149.447,Milne Bay Province,Dagan,1,true,true
-576,Barasana (Brazil),barasana (Brésil),barasana (Brasil),Brazil,BRA,bsn,Severely endangered,"Barasano, Pãnerã, Hanera, Panenoá",,34,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+576,Barasana (Brazil),barasana (Brésil),barasana (Brasil),Brazil,BRA,bsn,Severely endangered,"Barasano, Pãnerã, Hanera, Panenoá",,34,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.socioambiental.org""",0.7909,-68.6425,"Indigenous lands Alto Rio Negro, north-western Amazonas State - Brazil",Tucanoan,1,true,true
 2097,Bilakura,bilakura,bilakura,Papua New Guinea,PNG,bql,Critically endangered,,,34,Grimes 2000,-4.9404,145.5303,Madang Province,Nuclear Trans New Guinea,1,true,true
 1808,Macuna (Brazil),macuna (Brésil),macuna (Brasil),Brazil,BRA,myy,Vulnerable,"Macuna, Yeba-masã",,32,"Databank Moore, 200/8.",1.1395,-67.7636,,Tucanoan,1,true,true
@@ -3150,7 +3150,7 @@ UNESCO Atlas 2nd edition (Wurm (2001))
 Ethnologue: Languages of the World (Gordon, (2005))
 http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",49.6795,-124.9542,Spread over 3 communities in Canada,Salishan,1,true,true
-1616,Djeoromitxi,djeoromitxi,jabutí,Brazil,BRA,jbt,Severely endangered,"Jeoromitxi, Jabuti",,30,"""Moore, 2008, IBGE databank 
+1616,Djeoromitxi,djeoromitxi,jabutí,Brazil,BRA,jbt,Severely endangered,"Jeoromitxi, Jabuti",,30,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)""",-12.05,-64.6655,,Nuclear-Macro-Je,1,true,true
 2530,Duriankere,duriankere,duriankere,Indonesia,IDN,dbn,Critically endangered,"Esaro, Sailen",,30,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-1.3896,130.9247,Irian Jaya,Inanwatan,1,true,true
 1635,Goundo,goundo,gundo,Chad,TCD,goy,Critically endangered,,,30,Ethnologue,9.4761,16.2652,,Atlantic-Congo,1,true,true
@@ -3162,7 +3162,7 @@ Moore, 2008, Scientific American (Brasil)""",-12.05,-64.6655,,Nuclear-Macro-Je,1
 1892,Rama,rama,rama,Nicaragua,NIC,,Critically endangered,,,30,Recent article by Danilo Salamanca,11.8847,-83.7995,Rama Cay Isle and other localities south of Río Escondido,,1,true,true
 1260,Sia Pedee,sia pedee,sia pedee,Ecuador,ECU,sja,Critically endangered,"""Epera pedede, Sia, Tachi Pedee [""our language""].
 """,,30,"""- Gordon, Raymond (Editor) 2005. Ethnologue. Languages of the World. Dallas, Texas: SIL International
-- Gómez, Jorge. (2005) Santa Rosa de los Epera (unpublished survey) 
+- Gómez, Jorge. (2005) Santa Rosa de los Epera (unpublished survey)
 - www.inec.gov.ec (Download: December, 2007)
 - www.ethnologue.com (ISO code for Embera language in Colombia)
 
@@ -3178,7 +3178,7 @@ Moore, 2008, Scientific American (Brasil)""",-12.05,-64.6655,,Nuclear-Macro-Je,1
 894,Caddo,caddo,cado,United States of America,USA,cad,Critically endangered,,,25,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",35.0985,-98.2603,"In Caddo County, Oklahoma, in the vicinity of Anadarko and Binger.",Caddoan,1,true,true
 803,Columbian,columbian,columbiano,United States of America,USA,col,Critically endangered,,,25,"2008 North America. Atlas of the world's languages, ed. by Chris Morsely and Ron Asher. London: Routledge. [Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, Mauricio Mixco].",48.1764,-119.0523,Speakers live on or near the Colville Reservation in Washington.,Salishan,1,true,true
 727,Iquito,iquito,iquito,Peru,PER,iqu,Critically endangered,,,25,,-3.6449,-74.1577,"Departamento de  Loreto,  Provincia de  Maynas, distrito de  Alto Nanay, aldea de  San Antonio de Pintoyaco",Zaparoan,1,true,true
-619,Kwazá,kwaza,kwaza,Brazil,BRA,xwa,Critically endangered,"Coaiá, Koaiá, Kwazá",,25,"""Moore, 2008, IBGE databank 
+619,Kwazá,kwaza,kwaza,Brazil,BRA,xwa,Critically endangered,"Coaiá, Koaiá, Kwazá",,25,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-12.651,-60.4138,,,1,true,true
 208,Marrithiyel,marithiel,marithiel,Australia,AUS,mfr,Critically endangered,"Marithiel, Maridhiyel, Marithiyel, Marrithiyel, Maridhiel, ""Brinken"", ""Bringen"", Berringen.",,25,,-13.806,130.0451,,Western Daly,1,true,true
@@ -3261,7 +3261,7 @@ SIL Ethnologue.""",3.9957,-63.5888,"State of Bolívar, Venezuela. State of Rorai
 1953,Pacahuara,pacawara,acahuara,Bolivia (Plurinational State of),BOL,pcp,Critically endangered,,,18,"Crevels et alii (2002), 'Current Studies on South American Languages'",-11.4369,-65.6762,,Pano-Tacanan,1,true,true
 2133,Ririo,ririo,ririo,Solomon Islands,SLB,rri,Critically endangered,,,18,Tryon & Hackman 1983,-6.91,156.9671,Choiseul,Austronesian,1,true,true
 1957,Ava-Canoeiro,avá-canoeiro,avá-canoeiro,Brazil,BRA,avv,Critically endangered,"Canoeiro, Carijó, Índios Negros, Cara Preta",,16,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-14.0847,-48.0418,"Brazil, States of Goiás and Tocantins",Tupian,1,true,true
 1876,Chorotega,chorotega,chorotega,Costa Rica,CRI,,Critically endangered,,,16,Census 2000 and Ethnologue,9.8991,-83.6855,Near Turrialba according to Ethnologue,,1,true,true
@@ -3274,16 +3274,16 @@ UNESCO Atlas 2nd edition (Wurm (2001))
 Ethnologue: Languages of the World (Gordon, (2005))
 http://www.aboriginalcanada.gc.ca/acp/community/site.nsf/index_en.html
 http://en.wikipedia.org/wiki/Portal:Contents""",50.0846,-123.7437,Spread over 1 communities in Canada,Salishan,1,true,true
-161,Tanana,tanana,tanana,United States of America,USA,taa,Critically endangered,Lower Tanana,,15,"""Krauss 2007, 
+161,Tanana,tanana,tanana,United States of America,USA,taa,Critically endangered,Lower Tanana,,15,"""Krauss 2007,
 Golla et al. ms.""",64.605,-149.0625,"villages of Minto and Nenana, was also spoken in a number of villages on the Tanana River",Athabaskan-Eyak-Tlingit,1,true,true
 153,Ingalik,ingalik,ingalik,United States of America,USA,ing,Critically endangered,"Deg Xinag, Deg Hit'an",,14,Krauss 2007,62.1655,-156.3134,,Athabaskan-Eyak-Tlingit,1,true,true
 176,Jingulu,jingulu,chunguloo,Australia,AUS,jig,Severely endangered,"Djingili, Djingulu, Jingali, Tjingilu, Chingalee, Djingila, Lee, Chunguloo, Tchingalee, Jingulu",,14,,-17.3716,134.187,,Mirndi,1,true,true
 942,Zapotec of Mixtepe,zapotèque de Mixtepe,zapoteco mixtepeco,Mexico,MEX,zpm,Critically endangered,dizde,,14,Contributor Thomas C. Smith-Stark who used the Census 2000 as well as the information provided by INALI,16.2666,-96.3666,"Locality of San Agustín Mixtepec, state of Oaxaca",Otomanguean,1,true,true
 2578,Woria,woria,woria,Indonesia,IDN,wor,Critically endangered,,,13,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-2.4011,136.4886,Irian Jaya,Geelvink Bay,1,true,true
-572,Aruá,aruá,aruá,Brazil,BRA,arx,Severely endangered,,,12,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+572,Aruá,aruá,aruá,Brazil,BRA,arx,Severely endangered,,,12,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.socioambiental.org""",-12.0285,-64.7094,"The group lives in indigenous lands of Rio Branco, Posto Indígena Rio Guaporé, southern Rondônia ",Tupian,1,true,true
-1459,Han (United States of America),han (États-Unis d'Amérique),han (Estados Unidos),United States of America,USA,haa,Critically endangered,Han-Kutchin,,12,"""Krauss 2007 
+1459,Han (United States of America),han (États-Unis d'Amérique),han (Estados Unidos),United States of America,USA,haa,Critically endangered,Han-Kutchin,,12,"""Krauss 2007
 Golla et al. ms.""",64.7837,-141.2172,"Eagle, Alaska and Dawson in Canada",Athabaskan-Eyak-Tlingit,1,true,true
 780,Hupa,hupa,hupa,United States of America,USA,hup,Critically endangered,,,12,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",41.7624,-123.7028,Hoopa Valley Reservation in northwest California,Athabaskan-Eyak-Tlingit,1,true,true
 826,Karuk,karuk,karuk,United States of America,USA,kyh,Severely endangered,Karok,,12,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",41.7929,-123.3763,Karuk Tribe of the Klamath River in northwestern California,,1,true,true
@@ -3291,13 +3291,13 @@ Golla et al. ms.""",64.7837,-141.2172,"Eagle, Alaska and Dawson in Canada",Athab
 2079,Ngaatjatjara,ngaatjatjara,engaachachara,Australia,AUS,,Severely endangered,,,12,,-25.1651,127.3535,,,1,true,true
 219,Ngaliwuru,ngaliwuru,engaliwuru,Australia,AUS,djd,Critically endangered,,,12,,-15.5595,131.0614,,Mirndi,1,true,true
 637,Ofayé,ofayé,opayé,Brazil,BRA,opy,Critically endangered,"Ofaié, Opayé, Ofayé-Xavante",,12,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-21.361,-52.0532,"The group lives in the indigenous lands Ofaié-Xavante, Brasilândia Municipality, Mato Grosso do Sul State - Brazil.  ",Nuclear-Macro-Je,1,true,true
 234,Umpila,umpila,umpila,Australia,AUS,ump,Severely endangered,,,12,,-13.0366,143.3386,,Pama-Nyungan,1,true,true
 775,Yurok,yurok,yurok,United States of America,USA,yur,Critically endangered,,,12,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",41.0607,-124.1413,"Yurok Tribe of northwestern California and of three nearby independent rancherias of Yurok heritage, Reseghini, Big Lagoon, and Trinidad (Cher-Ae). ",Algic,1,true,true
 1794,Kinikinau,kinikinau,kinikinau,Brazil,BRA,gqn,Critically endangered,"Kinikinao, Guaná",,11,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 Souza, Ilda. 2007. Koenukunoe Emo'u. Ph.D Dissertation, UNICAMP-IEL.
 """,-21.0685,-56.2765,"Aldeia São Joâo, RI Kadiwéu, Municipality of Porto Murtinho, West of the Mato Grosso do Sul State (MS). Some Kinikinau live in Terena villages, in MS.",Arawakan,1,true,true
@@ -3320,16 +3320,16 @@ http://fr.wikipedia.org/wiki/Langues_kanak""",-21.274,165.0503,Poya region,Austr
 2595,Kamarian,kamarian,kamarian,Indonesia,IDN,kzx,Critically endangered,Seruawan,,10,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-3.4366,128.5345,"West Seram Island, Maluku",Austronesian,1,true,true
 194,Karajarri,karadjeri,karacheri,Australia,AUS,gbd,Critically endangered,"Karadjeri, Karajarri, Karrajarri, Garadjiri, Garadyari, Guradjara, Gard'are",,10,,-19.0205,122.3437,,Pama-Nyungan,1,true,true
 613,Karipuna,karipuna,karipuna,Brazil,BRA,kuq,Definitely endangered,"Kawahíb, Caripuna",,10,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-10.2284,-64.5556,"Indigenous lands Karipuna, north-western Rondônia, Upper Madeira River - Brazil.",Tupian,1,true,true
-615,Katawixi,katawixí,catahuichí,Brazil,BRA,xat,Critically endangered,"Catawixi, Catauixi, Catawishi",,10,"""Moore, 2008, IBGE databank 
+615,Katawixi,katawixí,catahuichí,Brazil,BRA,xat,Critically endangered,"Catawixi, Catauixi, Catawishi",,10,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 www.ethnologue.com""",-8.8416,-66.0937,"The group lives in the indigenous lands Jacareúba/Katawixi, Jacareúba River, a right-bank tributary of the Purus River, Municipality of Canutama, Amazonas State - Brazil.",Katukinan,1,true,true
 863,Kawaiisu,kawaiisu,kawaiisu,United States of America,USA,xaw,Critically endangered,,,10,Golla et al. ms.,35.0589,-118.4026,,Uto-Aztecan,1,true,true
 1450,Khövsgöl Uryangkhay,ouïghour uryangkhai,urianjai de Khövsgöl,Mongolia,MNG,,Critically endangered,Khövsgöl Uryangkhai; Khövsgöl Uryankhay; Khövsgöl Uryankhai; Uyghur Uryangkhay; Uighur Uryangkhai,,10,,50.9722,101.3159,to the east of Lake Khövsgöl in Khövsgöl League in the northernmost region of Mongolia,,1,true,true
 1880,Krenak,krenák,botokudo,Brazil,BRA,kqq,Critically endangered,"Crenaque, Nakrehé, Krenak-Nakrehé, Borun, Crenac, Krenac, Botocudos, Aimorés",,10,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-19.1937,-41.1527,,Nuclear-Macro-Je,1,true,true
 199,Kurrama,kurrama,kurrama,Australia,AUS,vku,Critically endangered," Kurama, Gurama, Karama, Korama.",,10,,-21.6383,117.9711,,Pama-Nyungan,1,true,true
@@ -3345,9 +3345,9 @@ Tryon (2008 fieldnotes)""",-15.1967,167.0498,Central East Coast of Santo Island,
 206,Marrisyefin,maridjabin,maridjabin,Australia,AUS,zmj,Critically endangered,"Maridjabin, Marridan, Maretyabin, Maridyerbin, Maredyerbin.",,10,,-13.934,129.8254,,Western Daly,1,true,true
 1655,Massalat,massalat,massalat,Chad,TCD,mdg,Critically endangered,,,10,"Roger Blench, Ethnologue",12.7635,20.5993,,Maban,1,true,true
 2144,Matanvat,matanvat,matanvat,Vanuatu,VUT,,Critically endangered,,,10,Lynch & Crowley 2001,-15.8972,167.1947,Malekula,,1,true,true
-627,Matipu,matipu,matipuhy,Brazil,BRA,mzo,Critically endangered,Uagihütü,,10,"""Franchetto & Santos; Mutua Mehinaku; 
+627,Matipu,matipu,matipuhy,Brazil,BRA,mzo,Critically endangered,Uagihütü,,10,"""Franchetto & Santos; Mutua Mehinaku;
 www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-12.2366,-53.1875,"The group lives in the indigenous lands Parque Indígena do Xingu, in the villages Magijapei, Jagamü, Künga-Hünga, Municipality of Gaúcha do Norte and Querência, Mato Grosso State - Brazil.",Cariban,1,true,true
 1674,Mawayana (Brazil),mawayana (Brésil),mawayana (Brasil),"Brazil, Suriname","BRA, SUR","mpw, mzx",Critically endangered,Mapidian,,10,"Moore, 2008.",-0.9447,-58.2495,,Bookkeeping,1,true,true
@@ -3379,7 +3379,7 @@ http://en.wikipedia.org/wiki/Portal:Contents""",42.57,-81.879,Spread over 4 comm
 502,Tundra Enets,enets de la toundra,éncico de la tundra,Russian Federation,RUS,enh,Critically endangered,Madu; Somatu; маду; сомату,,10,В. Ю. Гусев: Энецкий язык http://lingsib.unesco.ru/ru/languages/enets.shtml.htm,71.6973,83.5839,the village of Vorontsovo in Ust’-Yeniseysk County in the former Taymyr (Dolgan and Nenets) Autonomous District,Uralic,1,true,true
 893,Wichita,wichita,quivira,United States of America,USA,wic,Critically endangered,,,10,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",35.0647,-98.2788,"Today Wichita live in Caddo County in central Oklahoma,  in and around the town of Anadarko.",Caddoan,1,true,true
 1942,Xambioá,kaparajá,chamboa,Brazil,BRA,kpj,Critically endangered,Karajá,,10,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-7.1717,-49.1583,"""Parque Indígena do Araguaia, States of Tocantins and Goiás, Brazil
 Karajá, Javaé, and Xambioá are dialects on one language, all having the self-designation iny [i'nã].  Javaé is the most divergent according to Ribeiro.""",Nuclear-Macro-Je,1,true,true
@@ -3391,8 +3391,8 @@ Karajá, Javaé, and Xambioá are dialects on one language, all having the self-
 217,Ngarluma,ngarluma,engarluma,Australia,AUS,nrl,Critically endangered,"Narluma,  Ngaluma, Gnalouma, Gnalluma, Ngallooma.",,9,,-21.1664,117.3339,,Pama-Nyungan,1,true,true
 668,Zaparo,zaparo,záparo,"Ecuador, Peru","ECU, PER",zro,Critically endangered,Kayapi (According to the Zapara Organization in Ecuador),,9,"Consejo de Desarrollo de las Nacionalidades y Pueblos del Ecuador (CODENPE), 2008. www.codenpe.org.ec",-2.2186,-76.5087,Ecuador: Province of Pastaza.,Zaparoan,1,true,true
 78,Ongota,ongota,birale,Ethiopia,ETH,bxe,Critically endangered,Birale,,8,"Graziano Savà, Mauro Tosco, Aklilu Yilma, Harold Fleming",5.3207,37.2244,,,1,true,true
-575,Ajuru,ayuru,huayoró,Brazil,BRA,wyr,Severely endangered,"Ajurú or Wayurú, Wayoró",,8,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+575,Ajuru,ayuru,huayoró,Brazil,BRA,wyr,Severely endangered,"Ajurú or Wayurú, Wayoró",,8,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.sociambiental.org""",-12.0178,-64.7534,"The group living in indigenous lands Rio Guaporé, south-western Rondônia  - Brazil",Tupian,1,true,true
 2515,Araki,araki,araki,Vanuatu,VUT,akr,Critically endangered,,,8,"""Alexandre François 2008
 http://alex.francois.free.fr/AF-terrain.htm""",-15.6322,166.9413,"Araki Island, Santo",Austronesian,1,true,true
@@ -3406,13 +3406,13 @@ Driem, George van. 2007. 'South Asia and the Middle East', pp. 283-347 in Christ
 636,Munichi,munichi,muniche,Peru,PER,myr,Critically endangered,,,8,,-5.8182,-76.1846,"En el poblado de  Muniches, cerca de  Yurimaguas, en el departamento de  Loreto",,1,true,true
 132,N|uu,n|uu,engukí,South Africa,ZAF,ngh,Critically endangered,"Ŋǀuu, ǂKhomani",,8,"Alena Witzlack-Makarevich (p.c.), Mats Exter (p.c.)",-28.5169,21.4453,"4 speakers in the Upington area (pointer), 1 in Oifantshoek area, 3 in Andriesvale-Witdraai area. Rumors about two possible speakers in Khwa.",Tuu,1,true,true
 664,Xetá,xetá,xetá,Brazil,BRA,xet,Critically endangered,"héta, chetá, setá",,8,"""www.sociombiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-23.2867,-53.3935,"Brazil, Paraná State",Tupian,1,true,true
 805,Kiksht,kiksht,kiksht,United States of America,USA,chh,Critically endangered,"Upper Chinook, Wasco-Wishram",,7,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",44.2708,-121.2871,The Wasco variety is represented by five elderly speakers on the Warm Springs Reservation in north-central Oregon.  The Wishram variety is spoken by two elders on the Yakama Reservation in eastern Washington,Chinookan,1,true,true
 2114,Makolkol,makolkol,makolkol,Papua New Guinea,PNG,zmh,Critically endangered,,,7,Grimes 2000,-4.8994,151.6827,East New Britain,Baining,1,true,true
-567,Akuntsu,akuntsu,akuntsu,Brazil,BRA,,Critically endangered,"Akunt'su, Akuntsú",,6,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+567,Akuntsu,akuntsu,akuntsu,Brazil,BRA,,Critically endangered,"Akunt'su, Akuntsú",,6,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.socioambiental.org""",-13.1169,-61.018,"The group lives in indigenous lands Rio Omoréré, south-eastern Rondônia  - Brazil",,1,true,true
 1663,Anambé,anambé,anambé,Brazil,BRA,aan,Critically endangered,,,6,"Moore,2008.",-2.7674,-49.2297,,Tupian,1,true,true
 2071,Arabana,arabana,arabana,Australia,AUS,ard,Critically endangered,,,6,,-28.6134,135.8349,,Pama-Nyungan,1,true,true
@@ -3432,8 +3432,8 @@ www.socioambiental.org""",-13.1169,-61.018,"The group lives in indigenous lands 
 2077,Gamilaraay,kamilaroi,kamilaroi,Australia,AUS,kld,Critically endangered," Camileroi, Gamilaroi, Kamilaroi",,5,,-29.7929,149.7106,,Pama-Nyungan,1,true,true
 2722,Great andamanese,grand andamanais,andamanés,India,IND,akj,Critically endangered,Aka-Jeru; Jeru,,5,"Prof. Anvita Abbi, Bidisha Som, and Aloka Das ""Where have all the Speakers gone? A sociolinguistic study of the Great Andamanese"" Indian Linguistics, 2007, 68-3-4:325-343",12.2326,92.9031,Middle and North Adaman,Great Andamanese,1,true,true
 600,Guató,guató,guató,Brazil,BRA,gta,Critically endangered,,,5,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-17.644,-57.6562,"Indigenous lands Guató, extreme north-western Mato Grosso do Sul State, on the border between Bolivia and Mato Grosso and Mato Grosso do Sul states, north of Corumbá - Mato Grosso do Sul - Brazil.",,1,true,true
 152,Holikachuk,holikachuk,holikachuk,United States of America,USA,hoi,Critically endangered,,,5,Krauss 2007.,64.2254,-155.3027,,Athabaskan-Eyak-Tlingit,1,true,true
 527,Iduh (Viet Nam),iduh (Viet Nam),odu (Vitenam),Viet Nam,VNM,,Critically endangered,,,5,,19.4162,104.487,,,1,true,true
@@ -3442,13 +3442,13 @@ Moore, 2008, Scientific American (Brasil)
 Crevels, Mily , ""Itonama o Sihnipadara, Lengua no clasificada de la Amazonía Boliviana"". Estudios de Lingüística 16 (2002)
 Albó, 'Bolivia plurilingüe' (1995)""",-13.6246,-63.5668,"Magdalena and Huacaraje, province of Iténez, department of Beni",,1,true,true
 609,Juma,juma,yuma,Brazil,BRA,jua,Critically endangered,Yuma,,5,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-7.4496,-63.8195,"The group lives in indigenous lands Juma, upper courses of the Ipixuna, Mucuim, Tabocal, and Jacaré rivers (tributaries of the Purus), on the Igarapé Tapiu (right tributary of the Içuã), Municipality of Canutama between the cities of Humaita and Lábrea - Amazonas State - Brazil",Tupian,1,true,true
 960,Kalispel,kalispel,kalispel,United States of America,USA,fla,Critically endangered,"Spokane-Kalispel. Kalispel is a dialect of Spokane-Kalispe, which includes also Flathead (Salish).",,5,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",48.2549,-117.2174,"Kalispel Reservation in northeastern Washington, Spokane Reservation, and Chewelah.",Salishan,1,true,true
 611,Kanoê,kanoê,kanoé,Brazil,BRA,kxo,Critically endangered,"Canoê, Kapixanã, Kanoê",,5,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-13.1222,-61.051,The group lives in indigenous lands Rio Guaporé and Rio Branco Municipalities of  Guajará-Mirim and Alta Floresta d’Oeste- Rondônia state  - Brazil.,,1,true,true
 2549,Liki,liki,sobei,Indonesia,IDN,lio,Critically endangered,,,5,"Wurm, Stephen A. 2007. 'Australia and the Pacific', pp. 424-557 in Christopher Moseley (ed.) Encyclopedia of the World's Endangered Languages. London/New York: Routledge.",-1.6202,138.738,"Like Island, Irian Jaya",Austronesian,1,true,true
 869,Luiseño,luiseño,luiseño,United States of America,USA,lui,Critically endangered,,,5,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",33.4622,-117.1269,"Descendants live at the La Jolla, Rincon, Pauma, Pechanga, and Pala Reservations, and in the town of San Juan Capistrano.  ",Uto-Aztecan,1,true,true
@@ -3514,22 +3514,22 @@ Crevels et alii, 'Current Studies on South American languages' (2002)""",-14.583
 279,Tuscarora (United States of America),tuscarora (États-Unis d'Amérique),tuscarora (Estados Unidos),United States of America,USA,tus,Critically endangered,,,3,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",43.0877,-79.0627,"Tuscarora Reservation near Niagara Falls, New York, in the US; Six Nations Reserve, Ontario, in Canada.",Iroquoian,1,true,true
 2157,Ura,ura,ura,Vanuatu,VUT,,Critically endangered,,,3,Lynch & Crowley 2001,-18.654,169.074,Erromango,,1,true,true
 729,Andoa (Peru),andoa (Pérou),andoa (Perú),Peru,PER,anb,Critically endangered,"Gae, Semigae, Shimigae",,2,,-2.6796,-76.2011,"Cabeceras del río Pastaza, en Loreto. Localidad de  Andoas en el río Tigre",Zaparoan,1,true,true
-571,Arikapu,arikapu,arikapú,Brazil,BRA,ark,Critically endangered,"Aricapu, Arikapu",,2,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+571,Arikapu,arikapu,arikapú,Brazil,BRA,ark,Critically endangered,"Aricapu, Arikapu",,2,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.socioambiental.org""",-12.0527,-64.7259,the group lives in indigenous lands of Rio Branco - Município of Alta Floresta in the state of Rondônia - Brazil,Nuclear-Macro-Je,1,true,true
 1708,Aurê-Aurá,aurê-aurá,aurá,Brazil,BRA,aux,Critically endangered,,,2,"Databank Moore, 2008.",-2.9649,-46.2084,,Tupian,1,true,true
-287,Baré (Brazil),baré (Brésil),baré (Brasil),Brazil,BRA,"bae, mht",Critically endangered,Hanera,,2,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+287,Baré (Brazil),baré (Brésil),baré (Brasil),Brazil,BRA,"bae, mht",Critically endangered,Hanera,,2,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.socioambiental.org""",0.4394,-68.2031,"Indigenous lands Alto Rio Negro, Marabitanas/Cue Cue,  Médio Rio Negro I, Médio Rio Negro II, Rio Téa north-western Amazonas State, Xié river area - Brazil",Arawakan,1,true,true
 582,Cayuvava,cayuvava,cayubaba,Bolivia (Plurinational State of),BOL,cyb,Critically endangered,,,2,"""Fieldwork M. Crevels
 Crevels et alii, 'Current Studies on South American Languages' (2002)""",-12.7903,-65.3247,"north of Yacuma province, department of Beni",,1,true,true
 179,Gajerrong,kadjerong,gadjerawang,Australia,AUS,gdh,Critically endangered,"Gadjerawang, Gadjerong, Kajirrawung",,2,,-15.222,128.6059,,Jarrakan,1,true,true
 181,Ganggalidda,ganggalida,ganggalida,Australia,AUS,gcd,Critically endangered,"Ganggalida, Kangkalita, Ganggalita, Jugula, Jakula, Yukala, Yukulta, Yugulda, Yokula.  Dialects: Kangkalita, Nguburindi",,2,,-17.1001,138.3618,,Tangkic,1,true,true
-1615,Guarasu,guarasu,guarasú,Brazil,BRA,,Critically endangered,Guarasú,,2,"""Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+1615,Guarasu,guarasu,guarasú,Brazil,BRA,,Critically endangered,Guarasú,,2,"""Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 """,-13.4724,-61.0427,,,1,true,true
 792,Klallam,klallam,clallam,United States of America,USA,clm,Critically endangered,"Clallam, Straits Salish",,2,"2008 North America. Atlas of the world's languages, ed. by Chris Morsely and Ron Asher. London: Routledge. [Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, Mauricio Mixco].",47.8475,-122.585,"The principal Klallam communities are at three small reservations, Port Gamble, Lower Elwha, and Jamestown.  There is also a Klallam community on the Becher Bay Reserve on Vancouver Island.  ",Salishan,1,true,true
-1619,Kujubim,kujubim,kuyubí,Brazil,BRA,,Critically endangered,"Kujubim, Cojubím, Kaw Ta Yo, not to be confused with Puruborá (PUR), a Tupian language which sometimes has a similar alternate name listed.",,2,"""Moore, 2008, IBGE databank 
+1619,Kujubim,kujubim,kuyubí,Brazil,BRA,,Critically endangered,"Kujubim, Cojubím, Kaw Ta Yo, not to be confused with Puruborá (PUR), a Tupian language which sometimes has a similar alternate name listed.",,2,"""Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-11.9963,-64.7534,The group lives in the south-western Rondônia - Brazil,,1,true,true
 198,Kunjen,kunjen,kunjen,Australia,AUS,kjn,Critically endangered,"Guguminjen, Kukumindjen.  Dialects: Ulkulu, Oykangand (Olgol, Olgolo, Olgel, Ogondyan).",,2,,-16.1316,142.207,,Pama-Nyungan,1,true,true
@@ -3548,16 +3548,16 @@ http://alex.francois.free.fr/AF-terrain.htm""",-13.7473,167.4096,"Vanua Lava, Ba
 728,Vacacocha,auishiri (tekiraka),abishira,Peru,PER,ash,Critically endangered,Abishira. Tequiraca.,,2,Simon Overall (2008),-2.0869,-74.5092,"Departamento de  Loreto, Comunidad de  Puerto Elvira, arriba  del encuentro del río Napo con el río Curaray",,1,true,true
 239,Wangaaybuwan,Wangaaybuwan,vangaybuván,Australia,AUS,wyb,Critically endangered,"Wangaaybuwan-Nyiya, Wangaaybuwan (Wongaibon, Wombungee, Wongagibun, Wonghibon, Wonghi, Wonjhibon), Ngiyambaa (Giamba, Narran, Noongaburrah, Ngeumba, Ngiamba, Ngiumba, Ngjamba, Ngumbarr), Wayilwan (Waljwan).",,2,,-31.1093,144.9975,,Pama-Nyungan,1,true,true
 1704,Xipáya,xipaya,xipaya,Brazil,BRA,xiy,Critically endangered,Shipaya,,2,"Databank Moore, 2008.",-4.3902,-53.9648,,Tupian,1,true,true
-1507,Apiaká,apiaká,apiaká,Brazil,BRA,api,Critically endangered,Apiacá,,1,"""Franchetto 2008; 
-Moore, 2008, IBGE databank 
-Moore, 2008, Scientific American (Brasil) 
+1507,Apiaká,apiaká,apiaká,Brazil,BRA,api,Critically endangered,Apiacá,,1,"""Franchetto 2008;
+Moore, 2008, IBGE databank
+Moore, 2008, Scientific American (Brasil)
 www.socioambiental.org""",-11.1519,-57.3113,The group lives in the northern state of Mato Grosso - Brasil,Tupian,1,true,true
 1398,Bikya,bikya,bikya,Cameroon,CMR,byb,Critically endangered,,,1,"R. Breton, Bruce Connell 2007",6.8309,10.0277,,Atlantic-Congo,1,true,true
 1399,Bishuo,bishuo,bishuo,Cameroon,CMR,bwh,Critically endangered,,,1,"R. Breton, Bruce Connell 2007",6.9032,10.0991,,Atlantic-Congo,1,true,true
 2060,Chaná,chaná,chaná,Argentina,ARG,,Critically endangered,,,1,P. Viegas Barros,-31.8402,-60.5786,"Paraná, Entre Ríos (Argentina).",,1,true,true
 2280,Dampel,dampal,dampal,Indonesia,IDN,,Critically endangered,,,1,"Grimes 2000, Moseley 2007",0.7923,120.2494,"Near Bangkir, on the northern corst of the northern part of the narrow neck connecting the central bulk of Sulawesi",,1,true,true
 595,Diahói,diahói,diahói,Brazil,BRA,pah,Critically endangered,"Jiahui, Jahói, Djahui, Diahkoi, Diarroi",,1,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-7.9939,-62.1936,"The group lives in indigenous lands Diahui, Middle Madeira River, southern Amazonas State, Municipality of Humaitá - Brazil.",Tupian,1,true,true
 1776,Kaixána,kaixana,kaixana,Brazil,BRA,,Critically endangered,Caixana,,1,"Databank Moore, 2008.",-2.0649,-67.4121,,,1,true,true
@@ -3602,7 +3602,7 @@ http://alex.francois.free.fr/AF-terrain.htm""",-13.6433,167.7159,Motalava Island
 2170,Arta,arta,arta,Philippines,PHL,atz,Extinct,,,0,,16.4225,121.7042,,Austronesian,1,true,true
 573,Atacameño,acatameño,kunza,"Argentina, Bolivia (Plurinational State of), Chile","ARG, BOL, CHL",kuz,Extinct,"Kunza, Likan Antai",,0,"""Adelaar with Muysken, 'The Languages of the Andes' (2004)
 - http://www.indec.gov.ar/webcenso/ECPI/ (Download: January 2008)
-- http://www.ine.cl (Download: December 2007)""",-22.7559,-68.247,"""Two areas: (1) San Pedro de Atacama, Toconao, Socaire, Peine; (2) Chiu-chiu, Caspana. Province of Antofagasta, between Calama and the Bolivian border. 
+- http://www.ine.cl (Download: December 2007)""",-22.7559,-68.247,"""Two areas: (1) San Pedro de Atacama, Toconao, Socaire, Peine; (2) Chiu-chiu, Caspana. Province of Antofagasta, between Calama and the Bolivian border.
 """,,1,true,true
 830,Atsugewi,atsugewi,atsugewi,United States of America,USA,atw,Extinct,,,0,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",40.8824,-122.6661,,Palaihnihan,1,true,true
 2042,Babuza,babuza,babuza,China,CHN,bzg,Extinct,"Favorlang, Poavosa",,0,,24.01,120.623,Taiwan Province,Austronesian,1,true,true
@@ -3765,7 +3765,7 @@ ethnologue.com""",28.82,83.7721,Mustang district,,1,true,true
 839,Migueleño,migueleño,migueleño,United States of America,USA,sln,Extinct,Migueleño Salinan,,0,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World's Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge.",35.7587,-120.6951,"Mission San Miguel, in northern San Luis Obispo County, CA.",,1,true,true
 1813,Miraña (Brazil),miraña (Brésil),miraña (Brasil),Brazil,BRA,boa,Critically endangered,"Miránha, Mirãnha, Miraña",,0,"Databank Moore, 2008.",-2.021,-65.6982,,Boran,1,true,true
 630,Mirití Tapuia,mirití-tapuia,miriti tapuya,Brazil,BRA,mmv,Critically endangered,"Miriti-Tapuia, Buia-Tapuya",,0,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,0.3076,-69.1699,"The group lives in the indigenous lands Alto Rio Negro and Médio Rio Negro I and II, Municipalities of São Gabriel da Cachoeira and Santa Isabel do Rio Negro, north-western Amazonas State - Brazil.",Tucanoan,1,true,true
 2351,Mlahso (Syria),mlahso (République arabe syrienne),melasó (Siria),Syrian Arab Republic,SYR,lhs,Extinct,Mlaḥsô; “Mlahsö” (incorrect),,0,"Otto Jastrow: Der neuaramäische Dialekt von Mlahsô. Semitica viva 14; Wiesbaden: Harrassowitz, 1994. | Die syrischen Christen in Nordost-Syrien http://www.margabrielverein.de/mitteilung99/mitteilung92.htm",37.0542,41.2363,the émigré community in the town of Qamishli; cf. Mlahso (Turkey),Afro-Asiatic,1,true,true
@@ -3830,7 +3830,7 @@ Ethnologue
 Mena Lafkioui, 2007. Atlas linguistique des variétés berbères du Rif.
 Renisio, 1932""",34.8318,-4.9658," Northern Morocco, west of Tarifit area",Afro-Asiatic,1,true,true
 1314,Sei,sei,sei,Sierra Leone,SLE,,Extinct,,,0,Tucker Childs,7.5857,-12.5354,,,1,true,true
-1291,Sened,sened,sened,Tunisia,TUN,sds,Extinct,"Tmagourt / Tmagurt, Zenati",,0,"""Ethnologue 
+1291,Sened,sened,sened,Tunisia,TUN,sds,Extinct,"Tmagourt / Tmagurt, Zenati",,0,"""Ethnologue
 Ethnologue reports that in 1999, a few older adults still remembered a few words.""",35.5858,10.8984,"The language used to be spoken in Sened and Tmagourt villages, northwest of Gabès, Southern of Tunisai.",Afro-Asiatic,1,true,true
 558,Sengmai,sengmai,sengmai,India,IND,,Extinct,Sekmai,,0,,24.6445,94.0567,,,1,true,true
 866,Serrano,serrano,serrano,United States of America,USA,ser,Extinct,,,0,Golla et al. ms.,34.1212,-117.2221,"San Manuel Reservation near San Bernardino, CA.",Uto-Aztecan,1,true,true
@@ -3869,7 +3869,7 @@ http://en.wikipedia.org/wiki/Portal:Contents""",55.936,-129.9911,,Athabaskan-Eya
 644,Ubykh (Caucasus),oubykh (Causase),ubijé (Cáucaso),Russian Federation,RUS,uby,Extinct,,,0,,43.5585,39.8597,originally the Black Sea coast north from Khosta in what is now the southernmost part of Krasnodar Region,Abkhaz-Adyge,1,true,true
 1062,Ubykh (Turkey),oubykh (Turquie),ubijé  (Turquía),Turkey,TUR,uby,Extinct,,,0,"М. А. Кумахов: Убыхский язык. — Языки мира: Кавказские языки. Москва: Academia, 2001. 146–156.",40.0402,28.0096,émigré communities since 1864; the last speaker was from the village of Hacı Osman Köyü near the Sea of Marmara,Abkhaz-Adyge,1,true,true
 1811,Umutina,umutina,umutina,Brazil,BRA,umo,Extinct,"Barbados, Omotina",,0,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)""",-15.0425,-57.1026,"""Brazil, western Mato Grosso State, on the Bugres River (a
 tributary of the Paraguay), about 130 kms. to the northeast of Cuiabá, Alto Paraguai and Barra do Bugres municipalities, Terra Indígena Umutina.""",Bororoan,1,true,true
 797,Upper Chehalis,haut-chehalis,chehalí alto,United States of America,USA,cjh,Extinct,,,0,"Victor Golla, Ives Goddard, Lyle Campbell, Marianne Mithun, and Mauricio Mixco. 2007. North America. Atlas of the World’s Languages (2nd. edition), ed. by R.E. Asher and C.J. Moseley, 7-44.  London: Routledge. ",46.4111,-122.9949,,Salishan,1,true,true
@@ -3886,7 +3886,7 @@ M.C. Matthéi-Muller.""",7.1117,-66.7199,"Municipality of La Urbana (in the west
 722,Western Mansi,mansi occidental,mansi occidental,Russian Federation,RUS,mns,Extinct,,,0,"Laszlo Keresztes: Mansi. — The Uralic languages. Edited by Daniel Abondolo. London & New York: Routledge, 1998. 387–427.",61.1432,62.4023,"the region of the source rivers of the Tavda, a tributary to the lower Tobol’-Irtysh, within Ivdel’ and Gari counties in Yekaterinburg Province",Uralic,1,true,true
 774,Wiyot,wiyot,wiyot,United States of America,USA,wiy,Extinct,,,0,,40.5984,-124.2519,,Algic,1,true,true
 1881,Xakriabá,xakriabá,sakiriabá,Brazil,BRA,xkr,Extinct,"Xacriabá, Xikriabá",,0,"""www.socioambiental.org
-Moore, 2008, IBGE databank 
+Moore, 2008, IBGE databank
 Moore, 2008, Scientific American (Brasil)
 """,-14.5306,-44.0438,,Nuclear-Macro-Je,1,true,true
 94,Yaaku,yaaku,yaaku,Kenya,KEN,muu,Extinct,Mukogodo,,0,"Bernd Heine, Matthias Brenzinger ",0.4394,37.1777,,Afro-Asiatic,1,true,true

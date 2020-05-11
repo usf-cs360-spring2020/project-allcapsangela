@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TODO: Change title -->
+    <title>CS 560 Final Project</title>
+
+    <!-- Load Bulma from CDN (consider saving it to repository instead) -->
+    <!-- https://bulma.io/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <!-- Load Font Awesome 5 (free) icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+
+  <body>
+
+  <!-- Page header -->
+  <!-- https://bulma.io/documentation/layout/hero/ -->
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <!-- TODO: Change title -->
+        <h1 class="title">A World of Languages</h1>
+        <!-- TODO: Change subtitle -->
+        <h2 class="subtitle">Visualizing Languages</h2>
+      </div>
+    </div>
+  </section>
+  <!-- End page header -->
+
+  <!-- Page navigation -->
+  <!-- https://bulma.io/documentation/components/navbar/ -->
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <!-- TODO: Change link to repository homepage if needed -->
+        <!-- TODO: Change which navbar-item is-active if needed -->
+        <a class="navbar-item is-active" href="index.html">
+          <span class="icon"><i class="fas fa-home"></i></span>
+          <span>Home</span>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="main-menu" class="navbar-menu has-text-weight-medium">
+        <!-- Left navbar items -->
+        <div class="navbar-start">
+          <a class="navbar-item" href="dataset.html" title="Data">
+            <span class="icon"><i class="fas fa-table"></i></span>
+            <span>Data</span>
+          </a>
+
+          <!-- TODO: Modify or remove dropdown -->
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Visualizations
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="barprototype.html">
+                <span class="icon"><i class="fas fa-chart-bar"></i></span>
+                <span>Bar Chart Prototype</span>
+              </a>
+              <a class="navbar-item" href="betaprototype.html">
+                <span class="icon"><i class="fas fa-chart-bar"></i></span>
+                <span>Beta Prototype</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right navbar items -->
+        <div class="navbar-end">
+          <!-- TODO: Update as needed -->
+          <a class="navbar-item" href="about.html" title="About">
+            <span class="icon"><i class="fas fa-info-circle"></i></span>
+            <span>About</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End page navigation -->
+
+  <section class="section">
+    <div class="container">
+      <!-- Begin page content -->
+      <div class="content">
+        <h1 class="title">
+          <!-- TODO: Change page title -->
+          Final Prototype
+        </h1>
+        <p class="subtitle">
+          <!-- TODO: Change page subtitle -->
+          Latitude, Longitude, and Langitude
+        </p>
+        <style type = text/css>
+          path {
+            stroke:white;
+            stroke-width: 0.5px;
+            fill:#EBEBE0;
+          }
+
+          #float-button-group {
+            position:fixed;
+            left:10;
+            opacity:0.5;
+          }
+
+          #float-button-group:hover {
+            opacity:1;
+          }
+
+          #bigsvg {
+            width: 1000px;
+            height: 505px;
+          }
+
+          #svgmap {
+            width: 1000px;
+            height: 505px;
+          }
+
+          #map {
+            background: #edfafc;
+            width: 1000px;
+            height: 505px;
+            border: 3px solid steelblue;
+          }
+
+          #map-zoomer {
+            position:absolute;
+            writing-mode: bt-lr;
+            -webkit-appearance: slider-vertical;
+            width: 8px;
+            height: 100px;
+            padding: 0 5px;
+            position: absolute;
+            top:110px;
+            left:22px;
+          }
+
+          #label {
+            font-size:8
+          }
+
+          #legendlayer {
+            position:fixed;
+          }
+
+
+          .tooltip {
+
+            width: 450px;
+            height: auto;
+            padding: 5px;
+            background: #ddd;
+            pointer-events: none;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            opacity:1
+            position:static
+          }
+
+          #infobar {
+            width: 450px;
+            height: auto;
+            padding: 5px;
+            background: #ddd;
+            pointer-events: none;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            opacity:1
+            position:static
+          }
+
+        .tooltip {
+                       font-family: sans-serif;
+                       font-size: 10pt;
+                     }
+
+
+
+          </style>
+          <table><tr><td><div id="bigsvg">
+            <div id="map">
+
+            <div class="btn-group-vertical" role="group" aria-label="..." id="float-button-group">
+              <button type="button" class="btn btn-default" id="zoom-in" name="in"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span></button>
+              <button type="button" class="btn btn-default" id="zoom-out" name="out"><span class="glyphicon glyphicon-zoom-out" aria-hidden="true"></span></button>
+              <button type="button" class="btn btn-default" id="reset" name="reset"><span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
+            </div><svg id="svgmap"><g id="legendlayer"></g></svg></div>
+            <!--input type="range" value="1" min="1" max="8" orient="vertical" id="map-zoomer"/-->
+          </div></td><td><div ></div></td></tr></table>
+          <div class="btn-group-horizontal" role="group"><table><tr>
+          <td><input type="checkbox" class="checkbox" value="Vulnerable" checked id="checkV"><label><font color="#8ad08a">Vulnerable</font></label></td>
+            <td><input type="checkbox" class="checkbox" value="Definitely endangered" checked id="checkDE"><label><font color="#c5b7d9">Definitely endangered</font></label></td>
+            <td><input type="checkbox" class="checkbox" value="Severely endangered" checked id="checkCE"><label><font color="#eaf202">Severely endangered</font></label></td>
+            <td><input type="checkbox" class="checkbox" value="Critically endangered" checked id="checkCE"><label><font color="#f2020e">Critically endangered</font></label></td>
+            <td><input type="checkbox" class="checkbox" value="Extinct" checked id="checkE"><label><font color="#000000">Extinct</font></label></td>
+            <td>  <label for="nVel">
+              Max # Speakers = <span id="goal-value">8000000</span></td><td>
+              <input style="width: 180px;" type="range" min="0" max="8000000" id="goal" value="8000000" step='100'>
+            </label></td>
+          </tr></table>
+          </div>
+
+          <script src="https://d3js.org/d3.v5.min.js"></script>
+          <script src="https://unpkg.com/topojson@3"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js" integrity="sha256-qo76Vs9B6JAALbrTn+PcN1r09hbNLd2M78V19glOMeU=" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+          <script src="finalmap.js"></script>
+      </div>
+      <!-- End page content -->
+    </div>
+  </section>
+
+  <!-- Page footer -->
+  <!-- https://bulma.io/documentation/layout/footer/ -->
+  <footer class="footer">
+    <div class="content has-text-centered is-size-7">
+      <p>
+        <a href="#top">
+          <span class="fas fa-arrow-up"></span>
+          <span class="has-text-weight-medium">Back to Top</span>
+        </a>
+      </p>
+
+      <p>
+        <!-- TODO: Change to link to your Github repository -->
+        <a href="https://github.com/usf-cs360-spring2020/template-bulma" class="button is-small" style="padding-left: 1em; padding-right: 1em;">
+          <i class="fab fa-github-alt"></i>&nbsp;<strong>Github</strong>
+        </a>
+
+        <a href="https://fontawesome.com/" class="button is-small" style="padding-left: 1em; padding-right: 1em;">
+          <i class="fab fa-font-awesome"></i>&nbsp;<strong>FontAwesome</strong>
+        </a>
+
+        <a href="https://bulma.io" class="button is-small">
+          <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128" height="24">
+        </a>
+      </p>
+    </div>
+  </footer>
+  <!-- End page footer -->
+
+  <!-- Mobile menu responsiveness -->
+  <!-- https://bulma.io/documentation/components/navbar/ -->
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    }
+  });
+  </script>
+  <!-- End mobile menu responsiveness -->
+  </body>
+
+</html>
