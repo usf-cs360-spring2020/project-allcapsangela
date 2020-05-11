@@ -208,29 +208,28 @@
           }
 
           </style>
-          <table><tr><td><div id="bigsvg">
+          <table width="1000"><tr><td><div id="bigsvg">
             <div id="map">
               <div id="buttongroup">
                            <button class="button is-small" id="zoom-in" name="in"><span class="icon is-small"><i class="search-plus"></i></span>+</button>
                            <button class="button is-small" id="zoom-out" name="out"><span class="icon is-small"><i class="search-minus"></i></span>-</button>
                            <button class="button is-small" id="reset" name="reset"><span class="icon is-small"><i class="star-of-life"></i></span>F5</button>
+                           <label for="nVel">
+                             Max # Speakers = <span id="goal-value">8000000</span>
+                             <input style="width: 180px;" type="range" min="0" max="8000000" id="goal" value="8000000" step='100'>
+                           </label>
              </div>
             <svg id="svgmap"><g id="legendlayer"></g></svg>             </div>
             <!--input type="range" value="1" min="1" max="8" orient="vertical" id="map-zoomer"/-->
-          </div></td><td><div ></div></td></tr></table>
-          <div class="btn-group-horizontal" role="group"><table border="0" cellspacing="0" cellpadding="2"><tr>
-          <td><input type="checkbox" class="checkbox" value="Vulnerable" checked id="checkV"><label><font color="#8ad08a">Vulnerable</font></label></td>
-            <td><input type="checkbox" class="checkbox" value="Definitely endangered" checked id="checkDE"><label><font color="#c5b7d9">Definitely endangered</font></label></td>
-            <td><input type="checkbox" class="checkbox" value="Severely endangered" checked id="checkCE"><label><font color="#eaf202">Severely endangered</font></label></td>
-            <td><input type="checkbox" class="checkbox" value="Critically endangered" checked id="checkCE"><label><font color="#f2020e">Critically endangered</font></label></td>
-            <td><input type="checkbox" class="checkbox" value="Extinct" checked id="checkE"><label><font color="#000000">Extinct</font></label></td>
-            <td>  <label for="nVel">
-              Max # Speakers = <span id="goal-value">8000000</span>
-              <input style="width: 180px;" type="range" min="0" max="8000000" id="goal" value="8000000" step='100'>
-            </label></td>
-          </tr></table>
-          </div>
-
+          </div></td></tr><tr><td>
+            <table style="width:1000px" table border="0" cellspacing="0" cellpadding="2"><tr>
+              <td ><input type="checkbox" class="checkbox" value="Vulnerable" checked id="checkV"><label><font color="#8ad08a">Vulnerable</font></label></td>
+              <td ><input type="checkbox" class="checkbox" value="Definitely endangered" checked id="checkDE"><label><font color="#c5b7d9">Definitely endangered</font></label></td>
+              <td ><input type="checkbox" class="checkbox" value="Severely endangered" checked id="checkCE"><label><font color="#eaf202">Severely endangered</font></label></td>
+              <td ><input type="checkbox" class="checkbox" value="Critically endangered" checked id="checkCE"><label><font color="#f2020e">Critically endangered</font></label></td>
+              <td ><input type="checkbox" class="checkbox" value="Extinct" checked id="checkE"><label><font color="#000000">Extinct</font></label></td>
+              </tr></table>
+            </td></tr></table>
           <script src="https://d3js.org/d3.v5.min.js"></script>
           <script src="https://unpkg.com/topojson@3"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js" integrity="sha256-qo76Vs9B6JAALbrTn+PcN1r09hbNLd2M78V19glOMeU=" crossorigin="anonymous"></script>

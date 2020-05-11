@@ -29,7 +29,7 @@ var sizescale = d3.scaleSqrt().domain([0,8000000]).range([1,100]);
 var color = d3.scaleOrdinal().domain(["Vulnerable", "Definitely endangered", "Severely endangered", "Critically endangered", "Extinct"])
 .range(["#8ad08a", "#c5b7d9", "#eaf202", "#f2020e","#000000"]);
 
-drawLegend();
+
 
 d3.json("world-110m2.json").then(function(topology) {
 
@@ -154,7 +154,7 @@ circles.on("mouseup.level", function(d) {
 
     });
 
-
+drawLegend();
 
     var zoom = d3.zoom()
     .scaleExtent([1, 8])
