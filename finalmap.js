@@ -274,7 +274,9 @@ const legendSize = d3.legendSize()
 .shapePadding(50)
 .labelOffset(10)
 .labelFormat("d")
+//.labelFormat(d3.format("s"))
 .labelAlign("middle")
+
 .title('Number of Speakers')
 .orient('horizontal');
 
