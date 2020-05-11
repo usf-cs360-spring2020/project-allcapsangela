@@ -273,7 +273,7 @@ const legendSize = d3.legendSize()
 .ascending(false)
 .shapePadding(50)
 .labelOffset(10)
-.labelFormat("d")
+.labelFormat(".1s")
 //.labelFormat(d3.format("s"))
 .labelAlign("middle")
 
