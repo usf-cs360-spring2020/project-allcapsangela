@@ -37,7 +37,11 @@ d3.json("world-110m2.json").then(function(topology) {
   .data(topojson.feature(topology, topology.objects.countries)
   .features)
   .enter().append("path")
-  .attr("d", path);
+  .attr("d", path)
+  .attr("stroke", "white")
+  .attr("stroke-width", "0.5px")
+  .attr("fill", "#EBEBE0");
+
 
 });
 
@@ -265,9 +269,9 @@ group.attr('transform', translate(650, 400))
 const legendSize = d3.legendSize()
 .scale(sizescale)
 .shape('circle')
-.cells([0,100,1000,10000,100000,1000000])
+.cells([0,1000,10000,100000,1000000])
 .ascending(false)
-.shapePadding(30)
+.shapePadding(50)
 .labelOffset(10)
 .labelFormat("d")
 .labelAlign("middle")
