@@ -22,9 +22,14 @@
     height: 505px;
   }
 
+  #svgmap {
+    width: 1000px;
+    height: 505px;
+  }
+
   #map {
     background: #edfafc;
-    width: 900px;
+    width: 1000px;
     height: 505px;
     border: 3px solid steelblue;
   }
@@ -44,16 +49,46 @@
   #label {
     font-size:8
   }
+
+  #legendlayer {
+    position:fixed;
+  }
+
+
+  .tooltip {
+
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    background: #ddd;
+    pointer-events: none;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    opacity:1
+  }
+
+  text, .tooltip {
+               font-family: sans-serif;
+               font-size: 10pt;
+             }
+
+
+
   </style>
 </head>
 <body>
+  <h3>text</h3>
+  <h3>text</h3>
+  <h3>text</h3>
+  <h3>text</h3>
   <div id="bigsvg">
     <div id="map">
+
     <div class="btn-group-vertical" role="group" aria-label="..." id="float-button-group">
       <button type="button" class="btn btn-default" id="zoom-in" name="in"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span></button>
       <button type="button" class="btn btn-default" id="zoom-out" name="out"><span class="glyphicon glyphicon-zoom-out" aria-hidden="true"></span></button>
       <button type="button" class="btn btn-default" id="reset" name="reset"><span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
-    </div></div>
+    </div><svg id="svgmap"><g id="legendlayer"></g></svg></div>
     <!--input type="range" value="1" min="1" max="8" orient="vertical" id="map-zoomer"/-->
   </div>
   <div class="btn-group-horizontal" role="group"><table><tr>
@@ -88,15 +123,15 @@
   var projection = d3.geoMercator()
   .center([0, 10]);
 
-  var bigsvg = d3.select("#bigsvg")
-  .append("map")
+  var svg = d3.select("svg#svgmap")
+  //.append("svg")
+  //.attr("id", "svgmap")
   .attr("width", width)
   .attr("height", height);
 
-  var svg = d3.select("#map")
-  .append("svg")
-  .attr("width", width)
-  .attr("height", height);
+  const legendlayer = d3.select("g#legendlayer")
+   .attr("width", width)
+     .attr("height", height);
 
   var path = d3.geoPath()
   .projection(projection);
@@ -108,7 +143,7 @@
   var color = d3.scaleOrdinal().domain(["Vulnerable", "Definitely endangered", "Severely endangered", "Critically endangered", "Extinct"])
   .range(["#8ad08a", "#c5b7d9", "#eaf202", "#f2020e","#000000"]);
 
-  console.log(color);
+  drawLegend();
 
   d3.json("world-110m2.json").then(function(topology) {
 
@@ -157,6 +192,63 @@
       //d3.select(status).text("highlight: none");
     });
 
+    circles.on("mouseover.hover2", function(d) {
+    console.log("CIRCLES ON");
+    let me = d3.select(this);
+    //let div = svg.append("div");
+    //let div = d3.select("div#details");
+    //let div = d3.select("svg").append("div").attr("id", "details");
+    //let div = d3.select("svg").insert("div",":first-child").attr("id", "details");
+    let div = d3.select("body").append("div").attr("id", "details");
+    div.attr("class", "tooltip");
+
+    //body.html(html);
+    div.style("visibility", "visible");
+    div.html(generateTooltip(d));
+
+    // copied over
+
+  });
+
+  circles.on("mousemove.hover2", function(d) {
+
+    let div = d3.select("div#details");
+    // get height of tooltip
+    let bbox = div.node().getBoundingClientRect();
+
+    //div.style("left", (d3.event.pageX + "px"));
+    //div.style("bottom",  (d3.event.pageY + "px"));
+
+    div.style("left", d3.event.clientX + "px");
+    div.style("top",  (d3.event.clientY - bbox.height) + "px");
+    div.style("opacity", 1);
+
+    console.log("pageX: " + d3.event.pageX + "pageY: " + d3.event.pageY)
+    console.log("clientX: " + d3.event.clientX + "clientY: " + d3.event.clientY)
+    console.log(bbox.height);
+    //console.log("left: " + (d3.event.clientX - margin.left - margin.right));
+    //console.log("top: " + (d3.event.clientY - margin.top - margin.top));
+
+  });
+
+  circles.on("mouseout.hover2", function(d) {
+    //  d3.selectAll("div#details").style("visibility", "hidden");
+//TODO
+    //d3.selectAll("div#details").remove();
+  });
+
+  circles.on("mousedown.level", function(d) {
+    d3.select(this).lower().style("stroke", null);
+    circles.transition().style("fill", d => color(d.DegreeEndangerment));
+  })
+
+  circles.on("mouseup.level", function(d) {
+    let div = d3.select("div#details");
+
+    //body.html(html);
+    //div.style("visibility", "visible");
+        div.html(generateTooltip(d));
+  })
 
       });
 
@@ -166,7 +258,7 @@
       .scaleExtent([1, 8])
       .on('zoom', function() {
         g.selectAll('path').attr('transform', d3.event.transform);
-        svg.selectAll('circle').attr('transform', d3.event.transform);
+        svg.select("g#bubbles").selectAll('circle').attr('transform', d3.event.transform);
       });
 
       svg.call(zoom);
@@ -254,33 +346,37 @@ console.log("BOX UNCHECKED")
         })
       }
 
-      const legendWidth = 200;
-const legendHeight = 20;
+      function drawLegend() {
+        const legendWidth = 200;
+  const legendHeight = 20;
 
-// place legend into its own group
-const group = svg.append('g').attr('id', 'circle-legend');
+  // place legend into its own group
+  const group = legendlayer.append('g').attr('id', 'circle-legend');
 
-// position legend
-//group.attr('transform', translate(width - margin.right - legendWidth, margin.top + 75))
-group.attr('transform', translate(650, 400))
+  // position legend
+  //group.attr('transform', translate(width - margin.right - legendWidth, margin.top + 75))
+  group.attr('transform', translate(650, 400))
 
-// https://d3-legend.susielu.com/#size-linear
-const legendSize = d3.legendSize()
-.scale(sizescale)
-.shape('circle')
-.cells([0,100,1000,10000,100000,1000000])
-.ascending(false)
-.shapePadding(30)
-.labelOffset(10)
-.labelFormat("d")
-.labelAlign("middle")
-.title('Number of Speakers')
-.orient('horizontal');
+  // https://d3-legend.susielu.com/#size-linear
+  const legendSize = d3.legendSize()
+  .scale(sizescale)
+  .shape('circle')
+  .cells([0,100,1000,10000,100000,1000000])
+  .ascending(false)
+  .shapePadding(30)
+  .labelOffset(10)
+  .labelFormat("d")
+  .labelAlign("middle")
+  .title('Number of Speakers')
+  .orient('horizontal');
 
-group.call(legendSize);
+  group.call(legendSize);
 
-// fix the title spacing
-group.select('text.legendTitle').attr('dy', -8);
+  // fix the title spacing
+  group.select('text.legendTitle').attr('dy', -8);
+      }
+
+
 
 /*
 * returns a translate string for the transform attribute
@@ -289,8 +385,67 @@ function translate(x, y) {
   return 'translate(' + String(x) + ',' + String(y) + ')';
 }
 
+/*
+* generates the HTML tooltip string from a given data
+*/
+function generateTooltip(d) {
+  const html = `
+  <table border="0" cellspacing="0" cellpadding="2">
+  <tbody>
+  <tr>
+  <th>Name: </th>
+  <td>${d.EngName}</td>
+  </tr>
+  <tr>
+  <th>Name in French: </th>
+  <td>${d.FrenchName}</td>
+  </tr>
+  <tr>
+  <th>Name in Spanish: </th>
+  <td>${d.SpanishName}</td>
+  </tr>
+  <tr>
+  <th>Countries: </th>
+  <td>${d.Countries} min</td>
+  </tr>
+  <tr>
+  <th>Degree of Endangerment: </th>
+  <td>${d.DegreeEndangerment}</td>
+  </tr>
+  <tr>
+  <th>Alternate Names: </th>
+  <td>${d.AlternateNames}</td>
+  </tr>
+  <tr>
+  <th>Name In Language: </th>
+  <td>${d.NameInLanguage}</td>
+  </tr>
+  <tr>
+  <th>Number of Speakers: </th>
+  <td>${d.NumSpeakers}</td>
+  </tr>
+  <tr>
+  <th>Sources: </th>
+  <td>${d.Sources}</td>
+  </tr>
+  <tr>
+  <th>Location Description: </th>
+  <td>${d.LocationDescription}</td>
+  </tr>
+  <tr>
+  <th>Top-Level Family: </th>
+  <td>${d.TopLevelFamily}</td>
+  </tr>
+  </tbody>
+  </table>
+  `;
 
+  return html;
+
+}
         </script>
+        <h1>text</h1>
+        <h1>text</h1><h1>text</h1>
         </body>
 
         </html>
