@@ -155,7 +155,7 @@
 
   });
 
-  d3.csv("Extinct-Languages-Processed-LineBreaks.csv").then(function(cities) {
+  d3.csv("Extinct-Languages-Processed-Final.csv").then(function(cities) {
     cities.sort((a, b) => b.NumSpeakers - a.NumSpeakers);
 
     const group = svg.append('g').attr('id', 'bubbles');
@@ -167,6 +167,7 @@
     bubbles
     .attr("cx", function(d) {
       d.IsUnderMax = (d.IsUnderMax =="true");
+      d.Opacity = 1;
       return projection([parseFloat(d.Longitude), parseFloat(d.Latitude)])[0];})
     .attr("cy", function(d) {
       return projection([parseFloat(d.Longitude), parseFloat(d.Latitude)])[1];})
@@ -191,6 +192,18 @@
       d3.select(this).lower().style("stroke", null);
       //d3.select(status).text("highlight: none");
     });
+
+    circles.on("mouseover.brush1", function(d) {
+    circles.filter(e => (e.TopLevelFamily !== d.TopLevelFamily)).transition().style("opacity", "0");
+
+    // show what we interacted with
+    //d3.select(status).text("brush: " + d.type);
+  });
+
+  circles.on("mouseout.brush1", function(d) {
+    circles.filter(d=>(d.Opacity=1)).transition().style("opacity", d.Opacity);
+    //circles.transition().style("fill", d.transition().style("opacity", d.Opacity));
+  });
 
     circles.on("mouseover.hover2", function(d) {
     console.log("CIRCLES ON");
@@ -234,7 +247,7 @@
   circles.on("mouseout.hover2", function(d) {
     //  d3.selectAll("div#details").style("visibility", "hidden");
 //TODO
-    //d3.selectAll("div#details").remove();
+    d3.selectAll("div#details").remove();
   });
 
   circles.on("mousedown.level", function(d) {
@@ -288,6 +301,7 @@
           //this.style.opacity = d.NumSpeakers < goal ? 1 : 0;
           if (d.IsChecked) {
             this.style.opacity = d.NumSpeakers < goal ? 1 : 0;
+            d.Opacity = this.style.opacity;
           }
           d.IsUnderMax = d.NumSpeakers < goal ? 1 : 0;
         });
@@ -318,6 +332,7 @@
               e.IsChecked = true;
               if (e.IsUnderMax && e.DegreeEndangerment == grp) {
                 this.style.opacity = 1;
+                e.Opacity = 1;
                 console.log(e.DegreeEndangerment);
                 console.log(color(e.DegreeEndangerment));
               }
@@ -337,6 +352,7 @@ console.log("BOX UNCHECKED")
               e.IsChecked=false;
               if (e.IsUnderMax && e.DegreeEndangerment == grp) {
                 this.style.opacity = 0;
+                e.Opacity = 0;
                 console.log(e.DegreeEndangerment);
                 console.log(color(e.DegreeEndangerment));
               }
