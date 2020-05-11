@@ -24,7 +24,7 @@ var path = d3.geoPath()
 
 var g = svg.append("g");
 
-var sizescale = d3.scaleSqrt().domain([0,8000000]).range([1,100]);
+var sizescale = d3.scaleSqrt().domain([0,8000000]).range([1,50]);
 
 var color = d3.scaleOrdinal().domain(["Vulnerable", "Definitely endangered", "Severely endangered", "Critically endangered", "Extinct"])
 .range(["#8ad08a", "#c5b7d9", "#eaf202", "#f2020e","#000000"]);
@@ -71,8 +71,8 @@ d3.csv("Extinct-Languages-Processed-Final.csv").then(function(cities) {
   circles.on("mouseover.highlight", function(d) {
     d3.select(this)
     .raise() // bring to front
-    .style("stroke", "red")
-    .style("stroke-width", 2);
+    .style("stroke", "#eb34e8")
+    .style("stroke-width", 1);
     console.log("MOUSEOVER");
 
     // show what we interacted with
