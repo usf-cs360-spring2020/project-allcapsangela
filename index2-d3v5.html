@@ -95,7 +95,7 @@
 
   var svg = d3.select("#map")
   .append("svg")
-  .attr("width", 900)
+  .attr("width", width)
   .attr("height", height);
 
   var path = d3.geoPath()
@@ -262,7 +262,7 @@ const group = svg.append('g').attr('id', 'circle-legend');
 
 // position legend
 //group.attr('transform', translate(width - margin.right - legendWidth, margin.top + 75))
-group.attr('transform', translate(800, 50))
+group.attr('transform', translate(650, 400))
 
 // https://d3-legend.susielu.com/#size-linear
 const legendSize = d3.legendSize()
@@ -270,11 +270,12 @@ const legendSize = d3.legendSize()
 .shape('circle')
 .cells([0,100,1000,10000,100000,1000000])
 .ascending(false)
-.shapePadding(4)
+.shapePadding(30)
 .labelOffset(10)
 .labelFormat("d")
+.labelAlign("middle")
 .title('Number of Speakers')
-.orient('vertical');
+.orient('horizontal');
 
 group.call(legendSize);
 
