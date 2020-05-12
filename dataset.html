@@ -61,7 +61,8 @@
           <!-- TODO: Modify or remove dropdown -->
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
-              Visualizations
+              <span class="icon"><i class="fas fa-project-diagram"></i></span>
+              <span>Visualizations</span>
             </a>
 
             <div class="navbar-dropdown">
@@ -70,12 +71,20 @@
                 <span>Bar Chart Prototype</span>
               </a>
               <a class="navbar-item" href="betaprototype.html">
-                <span class="icon"><i class="fas fa-chart-bar"></i></span>
+                <span class="icon"><i class="fab fa-quinscape"></i></span>
                 <span>Beta Prototype</span>
               </a>
+              <a class="navbar-item" href="feedback.html">
+                <span class="icon"><i class="far fa-comment"></i></span>
+                <span>Feedback</span>
+              </a>
+              <a class="navbar-item" href="finalmap.html">
+                <span class="icon"><i class="fas fa-globe"></i></span>
+                <span>Final Visualization</span>
+              </a>
             </div>
-          </div>
-        </div>
+            </div>
+            </div>
         <!-- Right navbar items -->
         <div class="navbar-end">
           <!-- TODO: Update as needed -->
@@ -110,13 +119,16 @@
         <li><strong>Language Names:</strong> In English, French, Spanish, etc</li>
         <li><strong>Countr(ies) Spoken:</strong> A list. </li>
         <li><strong>Location Description:</strong> More information about where in those countries the language is spoken </li>
-        <li><strong>Degree of Vitality:</strong> Vulnerable, Definitely endangered, Severely Endangered, Critically Endangered, Extinct (I would like further information about the distinctions between these categories)</li>
-        <li><strong>Number of Speakers:</strong> from 0 to 7500000 (South Italian, which I personally would not have included).</li>
-        <li><strong>Sources:</strong> Where the information was comipled from</strong></li>
-        <li><strong>Latitude & Longitude</strong>: Unfortunately a point, not a region, which woul dbe more accurate</li>
+        <li><strong>Degree of Vitality:</strong> Vulnerable (not spoken by children outside the home), Definitely endangered (children not speaking), Severely Endangered (only spoken by the oldest generations), Critically Endangered (spoken by few members of the oldest generation, often semi-speakers), Extinct (no living speakers) (<a href="https://en.wikipedia.org/wiki/Endangered_language">from Wikipedia</a>)</li>
+        <li><strong>Number of Speakers:</strong> from 0 to 7.5million (South Italian, which I personally would not have included).</li>
+        <li><strong>Sources:</strong> Where the information was compiled from</strong></li>
+        <li><strong>Latitude & Longitude</strong>: Unfortunately a point, not a region, which would be more accurate</li>
       </ul>
         <p>If necessary, I may also supplement this dataset with information from <a href="https://glottolog.org/glottolog/language">Glottolog</a>, which includes information about the world's language, language family/child dialects in hierarchical structure, and macro-area (available under Creative Commons License) and <a href="https://wals.info/download">The World Atlas of Language Structures Online</a>, which provides information about internal language features (also availble under Creative Commons License). Unlike the UNESCO dataset, neither of these are limited to endangered languages, so I didn't want to use them as my main dataset since there's just too much information (Glottolog has 8,500 entries!), but they may be useful for cross-referencing or adding hierarchical features.</p>
-
+<hr />
+<h2>Final Dataset</h2>
+      <p>When creating the final visualization, I pre-processed the data in Excel (removing spaces from column names, and removing rows with no population data or lat/long data). I was left with around 2500 rows representing 2500 languages, which I then fed into a <a href="https://github.com/usf-cs360-spring2020/project-allcapsangela/blob/gh-pages/lang.py">Python script</a>. This script then cleaned up the data further (ensuring quotations around multiline values) and performed a HTTP GET request, passing the <a href="https://glottolog.org/glottolog?iso=#12/3.9297/292.3114">Glottolog search API</a> for the ISO 639-3 code as a parameter. I used <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> to scrape the HTML response to get the top-level language family (I did investigate using <a href="https://pypi.org/project/pyglottolog/">pyglottolog</a> on a local copy of the data, but was unable to find a way to efficiently go from ISO code to top-language family.) Glottolog does have information about hierarchical language structure, which I didn't explore in this project, but would certainly be a good future visualization topic.</p>
+      <p>Glottolog is available under the Creative Commons license (see the site footer); in particular it's the free alternative to Ethnologue, a similar linguistic database charges.</p>
       </div>
       <!-- End page content -->
     </div>

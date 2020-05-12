@@ -61,7 +61,8 @@
           <!-- TODO: Modify or remove dropdown -->
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
-              Visualizations
+              <span class="icon"><i class="fas fa-project-diagram"></i></span>
+              <span>Visualizations</span>
             </a>
 
             <div class="navbar-dropdown">
@@ -70,8 +71,16 @@
                 <span>Bar Chart Prototype</span>
               </a>
               <a class="navbar-item" href="betaprototype.html">
-                <span class="icon"><i class="fas fa-chart-bar"></i></span>
+                <span class="icon"><i class="fab fa-quinscape"></i></span>
                 <span>Beta Prototype</span>
+              </a>
+              <a class="navbar-item" href="feedback.html">
+                <span class="icon"><i class="far fa-comment"></i></span>
+                <span>Feedback</span>
+              </a>
+              <a class="navbar-item" href="finalmap.html">
+                <span class="icon"><i class="fas fa-globe"></i></span>
+                <span>Final Visualization</span>
               </a>
             </div>
           </div>
@@ -102,6 +111,22 @@
           <!-- TODO: Change page subtitle -->
           Latitude, Longitude, and Langitude
         </p>
+
+        <h3>Encoding</h3>
+        <p>This is a proportional symbol map, where each bubble shows an endangered language from around the world. Language color encodes Degree of Endangerment, and bubble area encodes number of speakers. Unfortunately, as there's considerable variation on the total number of speakers, it can be difficult to distinguish individual bubbles and appreciate the distinctions towards the smaller end of the scale, but that is partially addressed through the interactivity functions.</p>
+
+        <h3>Interactivity Instructions</h3>
+        <p><ul>
+          <li><strong>Zoom & Panning</strong>: You can scroll on the map (mousewheel) and drag the map around to focus on a different area. Additionally, there are Zoom In, Zoom Out, and Reset Zoom buttons in the upper right corner.</li>
+          <li><strong>Filtering</strong>: a) You can use the slider at the top of the map to set the maximum number of speakers; languages with a greater number of speakers will not be shown. b) The checkboxes at the bottom (also serving as the color legend) filter on different categories, so you can hide the larger bubbles and focus on the smaller ones only. Both of these filters should work together.</li>
+          <li><strong>Brushing</strong>: When a bubble is highlighted, all other languages with the same top-level language family (ie Indo-European, Austronesian, Sino-Tibetan) wil remain colored; every other language fades out. Note that not all languages have top-level families encoded.</li>
+          <li><strong>Details On Demand</strong>: When a bubble is moused over, a tooltip appears showing the full details (name of language, number of speaker, location, source, etc) of that language.</li>
+          <li><strong>Other:</strong> a) A bubble moused over will be raised and highlighted with a pink stroke. b) If you click on a bubble, you'll send it to the back and any smaller overlapping bubbles will be shown instead. (This doesn't fully alleviate the overdraw problem, particularly in Europe and India, but it helps.)</li>
+
+        </ul></p>
+
+        <br />
+
         <!-- the style for the map's country lines is in the js-->
         <style type = text/css>
 
@@ -202,12 +227,17 @@
           }
 
           #buttongroup {
-            position:absolute;
-            top:100px;
-            left:22px;
+            position: absolute;
+            top:670px;
+            left:50px;
+}
+            #figure, #figcaption {
+              width:1000px;
+            }
           }
 
-          </style>
+          </style><figure style="width:1000px">
+          <h4>UNESCO Endangered Languages (2011)</h4>
           <table width="1000"><tr><td><div id="bigsvg">
             <div id="map">
               <div id="buttongroup">
@@ -222,7 +252,7 @@
             <svg id="svgmap"><g id="legendlayer"></g></svg>             </div>
             <!--input type="range" value="1" min="1" max="8" orient="vertical" id="map-zoomer"/-->
           </div></td></tr><tr><td>
-            <table style="width:1000px" table border="0" cellspacing="0" cellpadding="2"><tr>
+            <table style="width:1000px" table border="0" cellspacing="0" cellpadding="4"><tr>
               <td ><input type="checkbox" class="checkbox" value="Vulnerable" checked id="checkV"><label><font color="#8ad08a">Vulnerable</font></label></td>
               <td ><input type="checkbox" class="checkbox" value="Definitely endangered" checked id="checkDE"><label><font color="#c5b7d9">Definitely endangered</font></label></td>
               <td ><input type="checkbox" class="checkbox" value="Severely endangered" checked id="checkCE"><label><font color="#eaf202">Severely endangered</font></label></td>
@@ -235,7 +265,24 @@
           <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js" integrity="sha256-qo76Vs9B6JAALbrTn+PcN1r09hbNLd2M78V19glOMeU=" crossorigin="anonymous"></script>
           <script src="https://d3js.org/d3-format.v1.min.js"></script>
           <script src="finalmap.js"></script>
+          <figcaption style="width:1000px">Language data from UNESCO (2011) via the Guardian, supplemented by Glottolog.</figcaption>
+          </figure>
+          <h3>Findings</h3>
+          <p>Europe has a massive quantity of comparatively healthy languages, the largest of which is "Southern Italian" with 7.5 million speakers. See the below discussion about what makes a separate language.</p>
+          <p>Generally, the healthier the language, the more speakers it has. Therefore, extinct languages have 0 speakers, as one would expect. However, there are some irregularities. How the Tobada language in Indonesia has 12000 speakers while still being extinct I'm not sure -- I suspect issues in data collection (see below). Most of the extinct languages are in areas where European colonization occurred -- the Americas, Indonesia, Africa -- reflecting a sad historical truth. Action should be taken to preserve the remaining linguistic diversity in those areas. </p>
+          <p>Other areas that have relatively few extinct languages -- for example, Russia, the interior of Australia, and China -- may reflect geographic obstacles to human population (such as Australia) or historical realities over centuries of state centralization and language policy. For example, China is really pushing Modern Standard Mandarin over all the other regional varities of language.</p>                  
+          <h4>Caveats</h4>
+          <p>A visualization is only as good as its underlying data. A few thoughts that came up:</p>
+          <ul>
+            <li>What is a language, exactly? When is a dialect a language? When do two dialects count as separate languages? This is as much a political question as it is a linguistic question (see <a href="https://en.wikipedia.org/wiki/Mutual_intelligibility">mutual intelligibility</a>, <a href="https://en.wikipedia.org/wiki/A_language_is_a_dialect_with_an_army_and_navy">"A language is a dialect with an army and a navy"</a>, and <a href="https://en.wikipedia.org/wiki/Comparison_of_standard_Bosnian,_Croatian,_Montenegrin_and_Serbian">Bosnian, Croatian, Montenegrin, and Serbian</a>.)</li>
+              <li>This data is from 2011, 9 years ago at time of this website's publication. Unfortunately, the situation of many languages could have changed for the worse in the time that's passed.</li>
+            <li>Language location was encoded as a single lat/long point, instead of the area that languages are naturally spoken in. There may not be an easy answer to this problem, since coloring by area would also raise overlap issues (as well as being more technically demanding), as would coloring by country.</li>
+            <li>This dataset reflects the available research in language documentation, and therefore also reflects biases in funding. Regions that are better-documented may be overreprsented in this dataset, or there may be missing data from certain regions.</li>
+            <li>It is possible for languages to be brought back to happen! For obvious reasons they wouldn't be included in this dataset. The most famous example is <a href="https://en.wikipedia.org/wiki/Revival_of_the_Hebrew_language">modern Hebrew</a>, but <a href="https://en.wikipedia.org/wiki/Language_revitalization">language revitalization</a> is a field closely linked to language documentation.</li>
+          </ul>
+          <h3>Acknowledgements</h3>
       </div>
+
       <!-- End page content -->
     </div>
   </section>

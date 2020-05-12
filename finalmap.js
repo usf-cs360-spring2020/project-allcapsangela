@@ -103,12 +103,17 @@ circles.on("mouseout.brush1", function(d) {
   //let div = d3.select("div#details");
   //let div = d3.select("svg").append("div").attr("id", "details");
   //let div = d3.select("svg").insert("div",":first-child").attr("id", "details");
+if (d.Opacity == 1) {
   let div = d3.select("body").append("div").attr("id", "details");
   div.attr("class", "tooltip");
 
   //body.html(html);
   div.style("visibility", "visible");
   div.html(generateTooltip(d));
+}
+
+
+
 
 });
 
@@ -119,11 +124,15 @@ circles.on("mousemove.hover2", function(d) {
   let bbox = div.node().getBoundingClientRect();
 
 
-  div.style("left", d3.event.clientX + "px");
-  div.style("top",  (d3.event.pageY - bbox.height) + "px");
+
   //div.style("left", "0px");
   //div.style("top",  "0px");
-  div.style("opacity", 1);
+  if (d.Opacity ==1) {
+    div.style("left", d3.event.clientX + "px");
+    div.style("top",  (d3.event.pageY - bbox.height) + "px");
+      div.style("opacity", 1);
+  }
+
 
   console.log("pageX: " + d3.event.pageX + "pageY: " + d3.event.pageY)
   console.log("clientX: " + d3.event.clientX + "clientY: " + d3.event.clientY)
@@ -149,7 +158,9 @@ circles.on("mouseup.level", function(d) {
 
   //body.html(html);
   //div.style("visibility", "visible");
-      div.html(generateTooltip(d));
+      if (d.Opacity == 1) {
+        div.html(generateTooltip(d));
+      }
 })
 
     });

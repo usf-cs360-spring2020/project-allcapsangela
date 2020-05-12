@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TODO: Change title -->
+    <title>CS 560 Final Project</title>
+
+    <!-- Load Bulma from CDN (consider saving it to repository instead) -->
+    <!-- https://bulma.io/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <!-- Load Font Awesome 5 (free) icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+
+  <body>
+
+  <!-- Page header -->
+  <!-- https://bulma.io/documentation/layout/hero/ -->
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <!-- TODO: Change title -->
+        <h1 class="title">A World of Languages</h1>
+        <!-- TODO: Change subtitle -->
+        <h2 class="subtitle">Visualizing Languages</h2>
+      </div>
+    </div>
+  </section>
+  <!-- End page header -->
+
+  <!-- Page navigation -->
+  <!-- https://bulma.io/documentation/components/navbar/ -->
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <!-- TODO: Change link to repository homepage if needed -->
+        <!-- TODO: Change which navbar-item is-active if needed -->
+        <a class="navbar-item is-active" href="index.html">
+          <span class="icon"><i class="fas fa-home"></i></span>
+          <span>Home</span>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="main-menu" class="navbar-menu has-text-weight-medium">
+        <!-- Left navbar items -->
+        <div class="navbar-start">
+          <a class="navbar-item" href="dataset.html" title="Data">
+            <span class="icon"><i class="fas fa-table"></i></span>
+            <span>Data</span>
+          </a>
+
+          <!-- TODO: Modify or remove dropdown -->
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              <span class="icon"><i class="fas fa-project-diagram"></i></span>
+              <span>Visualizations</span>
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="barprototype.html">
+                <span class="icon"><i class="fas fa-chart-bar"></i></span>
+                <span>Bar Chart Prototype</span>
+              </a>
+              <a class="navbar-item" href="betaprototype.html">
+                <span class="icon"><i class="fab fa-quinscape"></i></span>
+                <span>Beta Prototype</span>
+              </a>
+              <a class="navbar-item" href="feedback.html">
+                <span class="icon"><i class="far fa-comment"></i></span>
+                <span>Feedback</span>
+              </a>
+              <a class="navbar-item" href="finalmap.html">
+                <span class="icon"><i class="fas fa-globe"></i></span>
+                <span>Final Visualization</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right navbar items -->
+        <div class="navbar-end">
+          <!-- TODO: Update as needed -->
+          <a class="navbar-item" href="about.html" title="About">
+            <span class="icon"><i class="fas fa-info-circle"></i></span>
+            <span>About</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End page navigation -->
+
+  <section class="section">
+    <div class="container">
+      <!-- Begin page content -->
+      <div class="content">
+        <h1 class="title">
+          <!-- TODO: Change page title -->
+          Feedback
+        </h1>
+        <p class="subtitle">
+          <!-- TODO: Change page subtitle -->
+          What Did the Pears Say?
+        </p>
+      <p>Generally I received positive feedback. Yay!</p>
+      <p>I received some comments about the overlapping data (data density) and some issues with how large the range of the scale is. I had anticipated most of these concerns in the planned interactivity, which my reviewers appreciated. There was a specific suggestion to switch my categorical divergent color scheme to a sequential color scheme, and requests for more categorization about cause of language decline (definitely interesting, but sadly not present in any datasets that I could find).</p>
+      <p>I did consider changing my color scale to represent the number of speakers, but I was concerned that the huge range of speaker populations would mean that it would be difficult to see distinctions (as it's difficult to see size distinctions now.)</p>
+      <p>My proposal to add brushing by <em>language family</em> (as opposed to degree of endangerment or size bucket) was well-received, and I'm very pleased I was able to implement it. I think it really does add more information to the map.</p>
+      <p>My final visualization still has some issues with overlapping data bubbles -- either the largest bubbles (languages with millions of speakers) are massive and cover up whole continents, or the entire scale is shifted smaller, introducing some lie factor as there's less distinction between smaller bubbles. I hope that the zoom and filtering capabilities will help alleviate this issue.</p>
+      <p>In the original feedback session, Prof. Engle brought up the idea of presenting actual text samples from each language, potentially as a wordcloud. There were a number of other directions I could have gone with for this dataset -- another obvious idea is a hierarchical visualization to show the relationships between families, languages, and dialects. Those would be interesting avenues to pursue in the future.</p>
+      <p><small>I have done my best to replicate the feedback I received -- I should have taken better notes during the live synchronous feedback session!</small></p>
+      </div>
+      <!-- End page content -->
+    </div>
+  </section>
+
+  <!-- Page footer -->
+  <!-- https://bulma.io/documentation/layout/footer/ -->
+  <footer class="footer">
+    <div class="content has-text-centered is-size-7">
+      <p>
+        <a href="#top">
+          <span class="fas fa-arrow-up"></span>
+          <span class="has-text-weight-medium">Back to Top</span>
+        </a>
+      </p>
+
+      <p>
+        <!-- TODO: Change to link to your Github repository -->
+        <a href="https://github.com/usf-cs360-spring2020/template-bulma" class="button is-small" style="padding-left: 1em; padding-right: 1em;">
+          <i class="fab fa-github-alt"></i>&nbsp;<strong>Github</strong>
+        </a>
+
+        <a href="https://fontawesome.com/" class="button is-small" style="padding-left: 1em; padding-right: 1em;">
+          <i class="fab fa-font-awesome"></i>&nbsp;<strong>FontAwesome</strong>
+        </a>
+
+        <a href="https://bulma.io" class="button is-small">
+          <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128" height="24">
+        </a>
+      </p>
+    </div>
+  </footer>
+  <!-- End page footer -->
+
+  <!-- Mobile menu responsiveness -->
+  <!-- https://bulma.io/documentation/components/navbar/ -->
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    }
+  });
+  </script>
+  <!-- End mobile menu responsiveness -->
+  </body>
+
+</html>
